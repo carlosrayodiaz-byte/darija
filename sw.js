@@ -1,6 +1,6 @@
 // Service worker: la app funciona sin conexión.
 // Cuando cambies algún archivo, sube el número de versión para que el iPhone lo actualice.
-const VERSION = 'darija-v2';
+const VERSION = 'darija-v4';
 const SHELL = [
   './',
   './index.html',
@@ -8,13 +8,16 @@ const SHELL = [
   './darija.json',
   './dialogos.json',
   './manifest.webmanifest',
-  './icons/apple-touch-icon.png',
-  './icons/icon-192.png',
-  './icons/icon-512.png'
+  './unbounded.woff2',
+  './manrope.woff2',
+  './apple-touch-icon.png',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  // si algún archivo falla, se instala igualmente con los que sí estén
+  e.waitUntil(caches.open(VERSION).then(c => Promise.allSettled(SHELL.map(u => c.add(u)))).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', e => {
@@ -25,19 +28,18 @@ self.addEventListener('activate', e => {
   );
 });
 
-// Solo se guardan en caché los archivos de la app y las fuentes.
+// Solo se guardan en caché los archivos de la propia app.
 // Las llamadas a Google Apps Script (copias en Drive) van siempre directas a la red.
 self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
-  const isFont = url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com';
-  if (url.origin !== self.location.origin && !isFont) return;
+  if (url.origin !== self.location.origin) return;
   e.respondWith(
     caches.open(VERSION).then(async cache => {
       const cached = await cache.match(req, { ignoreSearch: true });
       const network = fetch(req).then(res => {
-        if (res && (res.ok || res.type === 'opaque')) cache.put(req, res.clone());
+        if (res && res.ok) cache.put(req, res.clone());
         return res;
       }).catch(() => cached);
       return cached || network;

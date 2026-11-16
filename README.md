@@ -12,12 +12,14 @@ App para aprender darija marroquí con repaso espaciado (FSRS). Es una web está
 | `fsrs.js` | El algoritmo de repaso espaciado (librería ts-fsrs 4.7.1, licencia MIT) |
 | `sw.js` | Permite usar la app sin conexión |
 | `manifest.webmanifest` | Nombre e icono al añadirla a la pantalla de inicio |
-| `icons/` | Iconos de la app |
+| `apple-touch-icon.png`, `icon-192.png`, `icon-512.png` | Iconos de la app |
+| `splash-*.png` | Pantallas de arranque de iOS (12 tamaños de iPhone) |
+| `unbounded.woff2`, `manrope.woff2` | Fuentes, incluidas para que todo funcione sin conexión (licencia SIL OFL) |
 | `apps-script/Code.gs` | Script para las copias en Drive. **No hace falta subirlo a GitHub** (si lo subes no pasa nada) |
 
 ## Publicarla (o actualizarla)
 
-1. Sube todos los archivos a la raíz del repositorio, con la carpeta `icons` incluida. Si ya tenías la versión 1, sustituye los archivos.
+1. Sube todos los archivos a la raíz del repositorio, todos al mismo nivel y sin carpetas (la carpeta `apps-script` no hace falta). Si ya tenías una versión anterior, sustituye los archivos.
 2. Settings → Pages → Source: "Deploy from a branch", rama `main`, carpeta `/ (root)`.
 3. En el iPhone, abre la URL con Safari → Compartir → "Añadir a pantalla de inicio".
 
@@ -41,4 +43,4 @@ Si algún día cambias el código del script, ve a Implementar → Gestionar imp
 ## Actualizar la base
 
 - Para añadir frases a la base, ponlas al final de `darija.json` sin cambiar los `id` que ya existen, porque tu progreso va ligado a ellos. Las frases que añades desde la app se guardan en tu progreso y no hace falta tocar nada.
-- Cada vez que cambies cualquier archivo, sube el número de `VERSION` en `sw.js` (ahora es `darija-v2`).
+- Cada vez que cambies cualquier archivo, sube el número de `VERSION` en `sw.js` (ahora es `darija-v4`).
