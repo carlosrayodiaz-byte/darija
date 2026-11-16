@@ -212,7 +212,7 @@ h3{font-family:Unbounded;font-weight:700;font-size:17px;letter-spacing:-.2px}
 @keyframes barx{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 @keyframes sheetUp{from{transform:translateY(100%)}to{transform:none}}
 @keyframes sheetDown{to{transform:translateY(100%)}}
-@keyframes fall{0%{transform:translateY(-40px) rotate(0)}100%{transform:translateY(110vh) rotate(720deg)}}
+@keyframes fall{0%{transform:translateY(-40px) rotate(45deg)}100%{transform:translateY(110vh) rotate(405deg)}}
 @keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
 @keyframes skel{from{background-position:200% 0}to{background-position:-200% 0}}
 @keyframes outL{to{opacity:0;transform:translateX(-40px) rotate(-2deg)}}
@@ -329,6 +329,10 @@ html[data-dir=down]::view-transition-new(root){animation-name:vtFadeIn}
 .hmonths{display:grid;grid-auto-flow:column;gap:3px;font-size:10.5px;color:var(--muted);font-weight:700;margin-top:12px}
 .hleg{display:flex;align-items:center;gap:4px;justify-content:flex-end;font-size:11px;color:var(--muted);font-weight:700;margin-top:10px}
 .hleg i{width:11px;height:11px;border-radius:3px;display:block}
+/* v6 */
+.pr .d,.p .d,.bpr .d,.m.r .d{color:var(--saffron);font-weight:700}
+.chip.zero{background:rgba(142,142,152,.14);color:#8E8E98}
+.conf{clip-path:polygon(50% 0%,61% 22%,85% 15%,78% 39%,100% 50%,78% 61%,85% 85%,61% 78%,50% 100%,39% 78%,15% 85%,22% 61%,0% 50%,22% 39%,15% 15%,39% 22%);border-radius:0}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -358,7 +362,7 @@ html[data-dir=down]::view-transition-new(root){animation-name:vtFadeIn}
   <nav class="tabbar" id="tabbar">
     <button class="tab on" data-v="home"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Hoy</button>
     <button class="tab" data-v="ex"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg>Ejercicios</button>
-    <button class="fab" id="fab" aria-label="Estudiar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg><span class="cnt" id="fab-n" hidden></span></button>
+    <button class="fab" id="fab" aria-label="Estudiar"><svg viewBox="0 0 24 24"><polygon points="12.00,1.00 15.10,4.52 19.78,4.22 19.48,8.90 23.00,12.00 19.48,15.10 19.78,19.78 15.10,19.48 12.00,23.00 8.90,19.48 4.22,19.78 4.52,15.10 1.00,12.00 4.52,8.90 4.22,4.22 8.90,4.52" fill="#fff" stroke="#fff" stroke-width="1" stroke-linejoin="round"/><circle cx="12" cy="12" r="3.4" fill="#F5B53D"/></svg><span class="cnt" id="fab-n" hidden></span></button>
     <button class="tab" data-v="list"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>Listado</button>
     <button class="tab" data-v="prog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Progreso</button>
   </nav>
@@ -390,6 +394,9 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;
 const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[¿?¡!.,()/]/g,' ').replace(/\s+/g,' ').trim();
 const shuffle = a => { a=[...a]; for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
 const pad = n => String(n).padStart(2,'0');
+const pl = (n, uno, varios) => `${n} ${n===1?uno:varios}`;
+// pronunciación: 3, 7, kh, gh y q en azafrán (los mismos sonidos de la tabla de trucos)
+const prH = s => String(s ?? '').split(/(kh|gh|3|7|q)/g).map((t,i)=> i%2 ? `<span class="d">${esc(t)}</span>` : esc(t)).join('');
 const dayKey = (d=new Date()) => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
 const endOfToday = () => { const d=new Date(); d.setHours(23,59,59,999); return d; };
 const hash = s => { let h=2166136261; for(const c of s){h^=c.charCodeAt(0);h=Math.imul(h,16777619);} return Math.abs(h); };
@@ -426,8 +433,8 @@ function knobs(root){
 function stagger(root, from=0){ [...root.children].forEach((c,i)=>{ if(i<from) return; c.classList.add('up'); c.style.animationDelay=(Math.min(i,10)*0.045)+'s'; }); }
 function confetti(n=70){
   if(reduceMotion) return '';
-  const cols=['#7B6CFF','#9C91FF','#F5B53D','#3DD68C','#FF5C6C','#F4F2EC']; let h='';
-  for(let i=0;i<n;i++) h+=`<span class="conf" style="left:${(Math.random()*100).toFixed(1)}%;width:${6+Math.random()*6|0}px;height:${10+Math.random()*10|0}px;background:${cols[i%cols.length]};animation-duration:${(1.8+Math.random()*1.8).toFixed(2)}s;animation-delay:${(Math.random()*.5).toFixed(2)}s"></span>`;
+  const cols=['#F5B53D','#7B6CFF','#F5B53D','#9C91FF']; let h='';
+  for(let i=0;i<n;i++){ const z=10+Math.random()*8|0; h+=`<span class="conf" style="left:${(Math.random()*100).toFixed(1)}%;width:${z}px;height:${z}px;background:${cols[i%cols.length]};animation-duration:${(1.8+Math.random()*1.8).toFixed(2)}s;animation-delay:${(Math.random()*.5).toFixed(2)}s"></span>`; }
   return h;
 }
 function celebrate({title, sub, stats=[], btn='Seguir', onClose, party=true, alt}){
@@ -518,6 +525,16 @@ const introToday = () => Object.entries(S.intro).filter(([id,d])=>d===dayKey() &
 const newQuota = () => Math.max(0, S.settings.newPerDay + (S.extra[dayKey()]||0) - introToday());
 const nextNew = n => ORDER.filter(it=>!S.intro[it.id]).slice(0,n);
 const pendingMine = () => ITEMS.filter(it=>it.custom && !S.intro[it.id]);
+// frases ya presentadas a las que les falta su primera pregunta (p. ej. si cerraste la app justo después)
+function orphanKeys(){
+  const out=[]; for(const id in S.intro){ if(!BY[id]) continue; for(const d of dirs()){ const k=id+'|'+d; if(!S.cards[k]) out.push(k); } } return out;
+}
+const BLOCK=30, BLOCK_FROM=35;
+function todayPlan(){
+  const due=dueKeys(), orph=orphanKeys(), fresh=[...pendingMine(), ...nextNew(newQuota())];
+  const cards=due.length+orph.length+fresh.length*dirs().length;
+  return { due, orph, fresh, cards, mins: Math.max(1, Math.round((cards*9 + fresh.length*6)/60)) };
+}
 function streak(){
   let n=0; const d=new Date();
   if(!(S.days[dayKey(d)]?.rev>0)) d.setDate(d.getDate()-1);
@@ -580,14 +597,13 @@ function go(v, o={}){
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{ if(current!==t.dataset.v) haptic(); go(t.dataset.v); }));
 function updateFab(){
   const f=$('#fab'), n=$('#fab-n'); if(!f||!ITEMS.length) return;
-  const nNew=Math.min(newQuota(), ORDER.filter(it=>!S.intro[it.id]).length)+pendingMine().length;
-  const tot=dueKeys().length + nNew*dirs().length;
+  const tot=todayPlan().cards;
   n.hidden=!tot; n.textContent=tot>99?'99+':tot; f.classList.toggle('live', tot>0);
 }
 $('#fab').onclick=()=>{
   haptic(); prevTab = current==='study' ? prevTab : current;
-  const nNew=Math.min(newQuota(), ORDER.filter(it=>!S.intro[it.id]).length)+pendingMine().length;
-  if(dueKeys().length || nNew) return startSession();
+  const tot=todayPlan().cards;
+  if(tot) return startSession({block: tot>BLOCK_FROM});
   const t=dlgToday(); if(t) return startDialog(t.d.id);
   startTest();
 };
@@ -600,9 +616,7 @@ document.addEventListener('click', e=>{
 
 /* ============ HOY ============ */
 function renderHome(){
-  const due = dueKeys().length;
-  const nNew = Math.min(newQuota(), ORDER.filter(it=>!S.intro[it.id]).length) + pendingMine().length;
-  const mins = Math.max(1, Math.round((due + nNew*dirs().length)*9/60));
+  const P = todayPlan(); const cards = P.cards, nNew = P.fresh.length, mins = P.mins;
   const st = streak();
   const d = new Date();
   let fecha = d.toLocaleDateString('es-ES',{weekday:'long',day:'numeric',month:'short'}).replace('.','');
@@ -610,7 +624,7 @@ function renderHome(){
   const seen = ITEMS.filter(it=>S.intro[it.id]);
   const fpool = (seen.length ? seen : ORDER.filter(it=>it.lvl===1)).filter(it=>it.cat!=='gramatica');
   const f = fpool[hash(dayKey())%fpool.length];
-  const nothing = !due && !nNew;
+  const nothing = !cards;
   const goal=S.settings.goal||30, doneToday=dayStat().rev, pct=Math.min(1,doneToday/goal), C=2*Math.PI*34;
   const ring=`<div class="ring ${pct>=1?'done':''}"><svg viewBox="0 0 80 80"><circle class="tr" cx="40" cy="40" r="34" fill="none" stroke-width="7"/><circle class="pg" cx="40" cy="40" r="34" fill="none" stroke-width="7" stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${(C*(1-pct)).toFixed(1)}" style="--c:${C.toFixed(1)}"/></svg><div class="ct">${pct>=1?`<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--mint)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>objetivo</span>`:`<b data-cu="${doneToday}">${doneToday}</b><span>de ${goal}</span>`}</div></div>`;
   const nf=failsToday().length;
@@ -618,19 +632,22 @@ function renderHome(){
   <div class="row">
     <div><div class="sub">${esc(fecha)}</div><h2>Salam, Carlos</h2></div>
     <div class="row" style="gap:8px">
-      <span class="chip saffron ${st?'lit':''}"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2s5 5 5 10a5 5 0 0 1-10 0c0-2 1-3.5 1-3.5S9 11 11 11c0-4 1-9 1-9z"/></svg>${st} ${st===1?'día':'días'}</span>
+      <span class="chip ${st?'saffron lit':'zero'}"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2s5 5 5 10a5 5 0 0 1-10 0c0-2 1-3.5 1-3.5S9 11 11 11c0-4 1-9 1-9z"/></svg>${st} ${st===1?'día':'días'}</span>
       <button class="iconbtn" id="b-settings" aria-label="Ajustes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
     </div>
   </div>
   <div class="hero"><span class="glow g1"></span><span class="glow g2"></span>${ring}
     <div class="sub" style="color:#B9B2FF">${nothing?'Por hoy, hecho':'Sesión de hoy'}</div>
-    <div style="display:flex;gap:24px;margin:14px 0 18px">
-      <div><div class="big" data-cu="${due}">${due}</div><div class="sub" style="margin-top:6px">repasos</div></div>
-      <div><div class="big" style="color:var(--saffron)" data-cu="${nNew}">${nNew}</div><div class="sub" style="margin-top:6px">nuevas</div></div>
+    <div style="display:flex;gap:24px;margin:14px 0 ${nothing?18:6}px">
+      <div><div class="big" data-cu="${cards}">${cards}</div><div class="sub" style="margin-top:6px">${cards===1?'tarjeta':'tarjetas'}</div></div>
+      <div><div class="big" style="color:var(--saffron)" data-cu="${nNew}">${nNew}</div><div class="sub" style="margin-top:6px">${nNew===1?'frase nueva':'frases nuevas'}</div></div>
     </div>
+    ${nothing ? '' : `<div class="sub" style="margin-bottom:16px;color:#B9B2FF">unos ${mins} min</div>`}
     ${nothing
-      ? `<button class="btn ghost" id="b-more">Añadir 5 nuevas más</button>`
-      : `<button class="btn" id="b-start">Empezar · unos ${mins} min</button>`}
+      ? `<button class="btn ghost" id="b-more">Añadir 5 frases nuevas</button>`
+      : cards>BLOCK_FROM
+        ? `<button class="btn" id="b-block">5 min · ${BLOCK} tarjetas</button><button class="btn ghost" id="b-start" style="margin-top:10px;min-height:48px">Todo · ${cards}</button>`
+        : `<button class="btn" id="b-start">Empezar</button>`}
   </div>
   ${dlgCard()}
   ${nf?`<button class="card row" id="b-fails" style="width:100%;text-align:left;justify-content:flex-start;gap:14px"><div style="width:44px;height:44px;border-radius:14px;background:var(--red-soft);display:grid;place-items:center;flex:none"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FF5C6C" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg></div><div style="flex:1"><div class="sub">Fallos de hoy</div><div style="font-weight:800;margin-top:2px;font-size:15.5px">Repásalos otra vez</div></div><span class="chip" style="background:var(--red-soft);color:var(--red)">${nf}</span></button>`:''}
@@ -640,7 +657,7 @@ function renderHome(){
   </div>
   <div class="card">
     <div class="row"><span class="sub">Frase del día</span><span class="chip ghost">${esc(CATNAME[f.cat])}</span></div>
-    <div class="pr" style="font-size:20px;margin-top:12px;color:var(--accent-2)">${esc(f.pr)}</div>
+    <div class="pr" style="font-size:20px;margin-top:12px;color:var(--accent-2)">${prH(f.pr)}</div>
     <div class="ar" style="font-size:23px;margin-top:4px;color:var(--muted)">${esc(f.ar)}</div>
     <div style="font-weight:700;margin-top:8px;font-size:14.5px">${esc(f.es)}</div>
     ${f.nota?`<div class="sub" style="margin-top:6px;line-height:1.45">${esc(f.nota)}</div>`:''}
@@ -649,6 +666,7 @@ function renderHome(){
   $('#b-test').onclick = ()=>{ prevTab='home'; startTest(); };
   $('#b-match').onclick = ()=>{ prevTab='home'; startMatch(); };
   if($('#b-start')) $('#b-start').onclick = ()=>{ prevTab='home'; startSession(); };
+  if($('#b-block')) $('#b-block').onclick = ()=>{ prevTab='home'; startSession({block:true}); };
   if($('#b-dlg')) $('#b-dlg').onclick = ()=>{ prevTab='home'; startDialog($('#b-dlg').dataset.id); };
   if($('#b-dlgs')) $('#b-dlgs').onclick = ()=>go('ex');
   if($('#b-fails')) $('#b-fails').onclick = ()=>{ prevTab='home'; startFails(); };
@@ -657,14 +675,72 @@ function renderHome(){
 
 /* ============ SESIÓN (repaso espaciado) ============ */
 let SES=null;
-function startSession(){
-  const q = dueKeys().map(k=>({key:k}));
-  const fresh = [...pendingMine(), ...nextNew(newQuota())];
-  if(dirs().includes('r')) fresh.forEach(it=>q.push({key:it.id+'|r', nuevo:true}));
-  fresh.forEach(it=>q.push({key:it.id+'|p', nuevo:true}));
+function startSession(opt={}){
+  const P=todayPlan(); let {due, orph, fresh}=P;
+  if(opt.block){
+    // bloque de 5 minutos: las más atrasadas primero y 2 o 3 frases nuevas
+    fresh=fresh.slice(0, Math.min(3, fresh.length));
+    orph=orph.slice(0, BLOCK);
+    due=due.slice(0, Math.max(0, BLOCK - orph.length - fresh.length*dirs().length));
+  }
+  // las presentaciones se reparten entre los repasos, para que su pregunta pueda salir 3 o 4 tarjetas después
+  const q=[...orph.map(k=>({key:k})), ...due.map(k=>({key:k}))];
+  const L=q.length;
+  fresh.forEach((it,i)=>{ const at = L>=5 ? Math.floor((i+1)*L/(fresh.length+1)) + i : q.length; q.splice(Math.min(at,q.length),0,{key:it.id+'|n', pres:true}); });
   if(!q.length){ toast('No hay nada pendiente'); return; }
-  SES = { q, done:0, ok:0, again:0, shown:false, mode:'srs' };
-  go('study'); drawCard();
+  SES = { q, done:0, ok:0, again:0, rated:0, shown:false, mode:'srs', block:!!opt.block };
+  if(current!=='study') go('study'); drawCard('in');
+}
+function sesLeft(){
+  let n=0; const seen=new Set();
+  for(const x of SES.q){ if(x.pres) n+=dirs().length; else if(!seen.has(x.key)){ seen.add(x.key); n++; } }
+  return n;
+}
+function quitSession(){
+  if(SES && SES.mode==='srs' && SES.rated>0){ toast(`${pl(SES.rated,'hecha','hechas')}, ya guardadas`); backupNow(false); }
+  exitStudy();
+}
+function snap(keys, id){
+  const cards={}; keys.forEach(k=>cards[k]=S.cards[k]?{...S.cards[k]}:null);
+  return { q:SES.q.map(x=>({...x})), done:SES.done, ok:SES.ok, again:SES.again, rated:SES.rated,
+    cards, id, intro:S.intro[id]||null, ds:{...dayStat()}, fails:[...((S.fails||{})[dayKey()]||[])] };
+}
+// tarjeta de presentación: la primera vez que sale una frase
+function drawPres(anim){
+  const el=$('#study'); const id=SES.q[0].key.split('|')[0]; const it=BY[id];
+  if(!it){ SES.q.shift(); return drawCard(anim); }
+  const tip=tipFor(it), flagged=!!S.flags[id];
+  const left=sesLeft();
+  el.innerHTML = `${studyTop(`Quedan ${left}`, SES.done/(SES.done+left), SES.hist&&SES.hist.length)}
+  <div class="face ${anim==='in'&&!reduceMotion?'in':''}">
+    <span class="chip saffron">Nueva</span>
+    <div class="qes">${esc(it.es)}</div>
+    <div class="pr qpr">${prH(it.pr)}</div><div class="ar qar">${esc(it.ar)}</div>
+    ${it.nota?`<div class="card tip"><div class="t">Nota</div><p>${esc(it.nota)}</p></div>`:''}
+    ${tip?`<div class="card tip"><div class="t">Truco</div><p>${tip}</p></div>`:''}
+    <div class="row" style="justify-content:center;gap:8px;flex-wrap:wrap"><button class="flag ${flagged?'on':''}" id="b-flag">${flagged?IC.flag+' Dudosa':IC.flag+' Marcar como dudosa'}</button><button class="flag" id="b-edit">${IC.edit} Corregir</button></div>
+  </div>
+  <div><div class="sub" style="text-align:center;margin-bottom:10px">Léela en voz alta. Te la pregunto dentro de un momento.</div>
+  <div class="tiles"><button class="btn ghost" id="p-know">Ya la conocía</button><button class="btn" id="p-next">Siguiente</button></div></div>`;
+  $('#b-x').onclick = quitSession;
+  if($('#b-undo')) $('#b-undo').onclick = undoRate;
+  $('#b-flag').onclick = ()=>{ if(S.flags[id]) delete S.flags[id]; else S.flags[id]=dayKey(); save(); drawPres(); };
+  $('#b-edit').onclick = ()=>openForm(id, ()=>{ if(SES) drawCard(); });
+  const presented = ()=>{ if(!S.intro[id]){ S.intro[id]=dayKey(); dayStat().nw++; } };
+  $('#p-next').onclick = ()=>{
+    SES.hist=SES.hist||[]; SES.hist.push(snap([], id)); SES.q.shift(); presented();
+    // sus preguntas entran 3 o 4 tarjetas después (y la del otro sentido, más tarde)
+    let pos=3+Math.round(Math.random());
+    dirs().forEach(d=>{ SES.q.splice(Math.min(SES.q.length,pos),0,{key:id+'|'+d}); pos+=3; });
+    save(); haptic(); slideOut(()=>drawCard('in'));
+  };
+  $('#p-know').onclick = ()=>{
+    const keys=dirs().map(d=>id+'|'+d);
+    SES.hist=SES.hist||[]; SES.hist.push(snap(keys, id)); SES.q.shift(); presented();
+    const now=new Date();
+    keys.forEach(k=>{ putCard(k, F.repeat(FSRS.createEmptyCard(now),now)[4].card); bump(true); SES.done++; SES.ok++; SES.rated++; });
+    save(); haptic(); slideOut(()=>drawCard('in'));
+  };
 }
 function startFree(cat){
   const its = shuffle(ITEMS.filter(it=>cat==='_flags' ? S.flags[it.id] : it.cat===cat));
@@ -712,7 +788,7 @@ function attachSwipe(el, onL, onR){
   };
   el.addEventListener('pointerup',end); el.addEventListener('pointercancel',end);
 }
-function exitStudy(){ SES=null; TEST=null; MATCH=null; DS=null; clearInterval(MATCH_T); go(prevTab||'home'); }
+function exitStudy(){ SES=null; TEST=null; MATCH=null; DS=null; clearInterval(MATCH_T); if(reloadPending){ location.reload(); return; } go(prevTab||'home'); }
 let prevTab='home';
 function studyTop(label, frac, undo){
   return `<div class="row" style="margin-bottom:10px"><button class="close" id="b-x" aria-label="Salir">${IC.x}</button><span class="sub" style="flex:1;text-align:center">${label}</span>${undo?`<button class="close" id="b-undo" aria-label="Deshacer" style="margin:0 -8px 0 0;color:var(--accent-2)"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></svg></button>`:'<span style="width:28px"></span>'}</div>
@@ -721,25 +797,27 @@ function studyTop(label, frac, undo){
 function drawCard(anim){
   const el=$('#study');
   if(!SES.q.length) return drawEnd();
-  const {key, nuevo} = SES.q[0]; const [id, d] = key.split('|'); const it = BY[id];
-  const left = new Set(SES.q.map(x=>x.key)).size;
+  if(SES.q[0].pres) return drawPres(anim);
+  const {key} = SES.q[0]; const [id, d] = key.split('|'); const it = BY[id];
+  if(!it){ SES.q.shift(); return drawCard(anim); }
+  const left = sesLeft();
   const total = SES.done + left;
   const label = SES.mode==='free' ? `${esc(SES.title)} · quedan ${left}` : `Quedan ${left}`;
   const flagged = !!S.flags[id];
   let front, back='';
   if(d==='p'){
-    front = `<span class="chip accent">${nuevo?'Nueva · ':''}Español ${IC.ar} Darija</span>
+    front = `<span class="chip accent">Español ${IC.ar} Darija</span>
       <div class="qes">${esc(it.es)}</div>
       ${SES.shown?'':`<div class="sub" style="max-width:240px;line-height:1.5">Dilo en voz alta antes de darle la vuelta</div>`}`;
   } else {
-    front = `<span class="chip accent">${nuevo?'Nueva · ':''}Darija ${IC.ar} Español</span>
-      <div class="pr qpr">${esc(it.pr)}</div><div class="ar qar">${esc(it.ar)}</div>
+    front = `<span class="chip accent">Darija ${IC.ar} Español</span>
+      <div class="pr qpr">${prH(it.pr)}</div><div class="ar qar">${esc(it.ar)}</div>
       ${SES.shown?'':`<div class="sub">¿Qué significa?</div>`}`;
   }
   if(SES.shown){
     const tip = tipFor(it);
     back = d==='p'
-      ? `<div class="pr qpr up" style="margin-top:6px">${esc(it.pr)}</div><div class="ar qar up">${esc(it.ar)}</div>`
+      ? `<div class="pr qpr up" style="margin-top:6px">${prH(it.pr)}</div><div class="ar qar up">${esc(it.ar)}</div>`
       : `<div class="qes up" style="font-size:24px;margin-top:6px">${esc(it.es)}</div>`;
     if(it.nota) back += `<div class="card tip up"><div class="t">Nota</div><p>${esc(it.nota)}</p></div>`;
     if(tip) back += `<div class="card tip up"><div class="t">Truco</div><p>${tip}</p></div>`;
@@ -767,7 +845,7 @@ function drawCard(anim){
   const face=el.querySelector('.face');
   if(SES.shown) attachSwipe(face, ()=> free?freeAnswer(false,true):rate(1,true), ()=> free?freeAnswer(true,true):rate(3,true));
   else face.onclick=e=>{ if(e.target.closest('button')) return; SES.shown=true; haptic(); drawCard('show'); };
-  $('#b-x').onclick = exitStudy;
+  $('#b-x').onclick = SES.mode==='srs' ? quitSession : exitStudy;
   if($('#b-undo')) $('#b-undo').onclick = undoRate;
   if($('#b-show')) $('#b-show').onclick = ()=>{ SES.shown=true; haptic(); drawCard('show'); };
   if($('#b-flag')) $('#b-flag').onclick = ()=>{ if(S.flags[id]) delete S.flags[id]; else S.flags[id]=dayKey(); save(); drawCard(); };
@@ -783,17 +861,16 @@ function slideOut(next){
 }
 function undoRate(){
   const sn=SES&&SES.hist&&SES.hist.pop(); if(!sn) return;
-  if(sn.card) S.cards[sn.key]=sn.card; else delete S.cards[sn.key];
+  for(const k in sn.cards){ if(sn.cards[k]) S.cards[k]=sn.cards[k]; else delete S.cards[k]; }
   if(sn.intro) S.intro[sn.id]=sn.intro; else delete S.intro[sn.id];
   S.days[dayKey()]=sn.ds; S.fails=S.fails||{}; S.fails[dayKey()]=sn.fails;
-  Object.assign(SES,{q:sn.q, done:sn.done, ok:sn.ok, again:sn.again, shown:true});
+  Object.assign(SES,{q:sn.q, done:sn.done, ok:sn.ok, again:sn.again, rated:sn.rated||0, shown:!sn.q[0]?.pres});
   save(); haptic(); drawCard('in'); toast('Respuesta deshecha');
 }
 function rate(g, flown){
   const now=new Date(); const key=SES.q[0].key; const id=key.split('|')[0];
   SES.hist=SES.hist||[]; S.fails=S.fails||{};
-  SES.hist.push({ key, id, q:SES.q.map(x=>({...x})), done:SES.done, ok:SES.ok, again:SES.again,
-    card:S.cards[key]?{...S.cards[key]}:null, intro:S.intro[id]||null, ds:{...dayStat()}, fails:[...(S.fails[dayKey()]||[])] });
+  SES.hist.push(snap([key], id)); SES.rated++;
   if(SES.hist.length>20) SES.hist.shift();
   const cur=SES.q.shift();
   const c=getCard(key)||FSRS.createEmptyCard(now);
@@ -806,7 +883,8 @@ function rate(g, flown){
   // los fallos se guardan solo una semana
   for(const d in S.fails){ if((Date.now()-new Date(d))/864e5>7) delete S.fails[d]; }
   // si vuelve a tocar en menos de una hora, se repite en esta misma sesión
-  if(nc.due.getTime() - now.getTime() < 60*60*1000){
+  // (en los bloques de 5 minutos solo se repiten las "Otra vez"; el resto espera al siguiente bloque)
+  if(SES.block ? g===1 : nc.due.getTime() - now.getTime() < 60*60*1000){
     const pos = g===1 ? Math.min(SES.q.length,3) : SES.q.length;
     SES.q.splice(pos,0,{key});
   } else SES.done++;
@@ -819,16 +897,28 @@ function drawEnd(){
   <div class="face" style="gap:16px">
     <div class="done-ico"><svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#3DD68C" stroke-width="2.6"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
     <h2>${free?'Repaso hecho':'Sesión completada'}</h2>
-    <div class="sub" style="font-size:15px;line-height:1.5">${SES.done} tarjetas · ${SES.again} fallos por el camino</div>
+    <div class="sub" style="font-size:15px;line-height:1.5">${pl(SES.done,'tarjeta','tarjetas')} · ${pl(SES.again,'fallo','fallos')} por el camino</div>
     <div class="sub" style="max-width:270px;line-height:1.5">${free?'Este repaso libre no cambia tu calendario.':'Mañana tendrás lo que toque repasar. <b class="pr" style="color:var(--accent-2)">Bslama!</b>'}</div>
   </div>
   <button class="btn" id="b-end">Volver</button>`;
   $('#b-end').onclick = exitStudy;
   const sk=streak();
+  if(SES.block){
+    const rest=todayPlan().cards;
+    celebrate({
+      title:'Bloque hecho',
+      stats:[[SES.done, SES.done===1?'tarjeta':'tarjetas'],[SES.again, SES.again===1?'fallo':'fallos','var(--saffron)']],
+      sub: rest ? `Te ${rest===1?'queda':'quedan'} ${pl(rest,'tarjeta','tarjetas')} para hoy. Ya está guardado.` : 'Lo tienes todo al día. Ya está guardado.',
+      btn: !rest ? 'Volver' : rest>BLOCK_FROM ? `Otro bloque · ${BLOCK}` : `Terminar · ${rest}`,
+      onClose: rest ? ()=>startSession({block: rest>BLOCK_FROM}) : exitStudy,
+      alt: rest ? {label:'Basta por hoy', fn:exitStudy} : null
+    });
+    return;
+  }
   celebrate({
     title: free?'Repaso hecho':'Sesión completada',
     stats: free ? [[SES.ok,'las sabías','var(--mint)'],[SES.again,'a repasar','var(--saffron)']]
-                : [[SES.done,'tarjetas'],[SES.again,'fallos','var(--saffron)'],[sk,sk===1?'día seguido':'días seguidos','var(--accent-2)']],
+                : [[SES.done,SES.done===1?'tarjeta':'tarjetas'],[SES.again,SES.again===1?'fallo':'fallos','var(--saffron)'],[sk,sk===1?'día seguido':'días seguidos','var(--accent-2)']],
     sub: free?'Este repaso libre no cambia tu calendario.':'Mañana tendrás lo que toque repasar. <b class="pr" style="color:var(--accent-2)">Bslama!</b>',
     btn:'Volver', onClose: exitStudy, party: !free,
     alt: (!free && failsToday().length) ? {label:`Repasar los ${failsToday().length} fallos`, fn:startFails} : null
@@ -864,12 +954,12 @@ function drawTest(){
   }
   const q=T.qs[T.i]; const it=q.it;
   const prompt = q.dir==='r'
-    ? `<div class="sub">¿Qué significa?</div><div class="pr qpr" style="margin-top:6px">${esc(it.pr)}</div><div class="ar qar" style="color:var(--muted)">${esc(it.ar)}</div>`
+    ? `<div class="sub">¿Qué significa?</div><div class="pr qpr" style="margin-top:6px">${prH(it.pr)}</div><div class="ar qar" style="color:var(--muted)">${esc(it.ar)}</div>`
     : `<div class="sub">¿Cómo se dice?</div><div class="qes" style="margin-top:6px">${esc(it.es)}</div>`;
   const opts = q.opts.map((o,k)=>{
     let cls='';
     if(T.answered){ if(o.id===it.id) cls='ok'; else if(k===T.pick) cls='ko m bad'; }
-    const label = q.dir==='r' ? `<span>${esc(o.es)}</span>` : `<span class="pr" style="font-size:14px">${esc(o.pr)}</span><span class="ar">${esc(o.ar)}</span>`;
+    const label = q.dir==='r' ? `<span>${esc(o.es)}</span>` : `<span class="pr" style="font-size:14px">${prH(o.pr)}</span><span class="ar">${esc(o.ar)}</span>`;
     return `<button class="opt ${cls} ${T.answered?'':'up'}" style="animation-delay:${k*.05}s" data-k="${k}">${label}${cls==='ok'?IC.check:''}</button>`;
   }).join('');
   el.innerHTML = `<div class="row" style="margin-bottom:10px"><button class="close" id="b-x">${IC.x}</button><span class="chip mint">${T.ok} / ${T.i+(T.answered?1:0)} bien</span></div>
@@ -910,7 +1000,7 @@ function drawMatch(){
   }
   const first=!M.drawn; M.drawn=true;
   const cell=(it,side,k)=>{ const d=M.done.has(it.id); const s=M.sel&&M.sel.side===side&&M.sel.id===it.id;
-    return `<button class="m ${side==='r'?'r':''} ${d?'done':''} ${d&&M.just===it.id?'just':''} ${s?'sel':''} ${first?'up':''}" style="animation-delay:${k*.04}s" data-side="${side}" data-id="${it.id}">${esc(side==='l'?it.es:it.pr)}</button>`; };
+    return `<button class="m ${side==='r'?'r':''} ${d?'done':''} ${d&&M.just===it.id?'just':''} ${s?'sel':''} ${first?'up':''}" style="animation-delay:${k*.04}s" data-side="${side}" data-id="${it.id}">${side==='l'?esc(it.es):prH(it.pr)}</button>`; };
   let grid=''; for(let k=0;k<M.pick.length;k++) grid+=cell(M.L[k],'l',k*2)+cell(M.Rr[k],'r',k*2+1);
   el.innerHTML=`<div class="row" style="margin-bottom:6px"><button class="close" id="b-x">${IC.x}</button><span class="sub" id="m-time">${mmss(Date.now()-M.start)}</span></div>
     <div style="margin:4px 0 16px"><h3>Une las parejas</h3><div class="sub" style="margin-top:4px">${esc(M.title)}</div></div>
@@ -972,7 +1062,7 @@ function drawRows(){
   const anim=LF.anim; LF.anim=false;
   $('#list').innerHTML = rows.map((it,i)=>{
     const st=status(it.id); const open=LF.open===it.id;
-    return `<button class="item ${anim&&i<14?'up':''}" data-id="${it.id}" style="${anim&&i<14?`animation-delay:${i*.03}s;`:''}${open?'border-bottom:none':''}"><span class="dot" style="background:${STCOL[st]}"></span><div><div class="es">${esc(it.es)}</div><div class="p">${esc(it.pr)}</div></div><div class="a ar">${esc(it.ar)}</div></button>`
+    return `<button class="item ${anim&&i<14?'up':''}" data-id="${it.id}" style="${anim&&i<14?`animation-delay:${i*.03}s;`:''}${open?'border-bottom:none':''}"><span class="dot" style="background:${STCOL[st]}"></span><div><div class="es">${esc(it.es)}</div><div class="p">${prH(it.pr)}</div></div><div class="a ar">${esc(it.ar)}</div></button>`
      + (open?`<div class="detail up">${it.nota?`<p>${esc(it.nota)}</p>`:''}
         <div class="row" style="justify-content:flex-start;gap:8px;flex-wrap:wrap"><span class="chip ghost">${esc(CATNAME[it.cat])}</span>${it.custom?'<span class="chip accent">Tuya</span>':`<span class="chip ghost">Nivel ${it.lvl}</span>`}${it.edited?'<span class="chip saffron">Corregida</span>':''}<span class="chip" style="background:var(--surface2);color:${STCOL[st]}">${STNAME[st]}</span></div>
         <div class="row" style="justify-content:flex-start;gap:8px;flex-wrap:wrap"><button class="flag ${S.flags[it.id]?'on':''}" data-flag="${it.id}">${S.flags[it.id]?IC.flag+' Dudosa':IC.flag+' Marcar como dudosa'}</button><button class="flag" data-edit="${it.id}">${IC.edit} ${it.custom?'Editar':'Corregir'}</button></div></div>`:'');
@@ -1031,9 +1121,9 @@ function renderProg(){
   <div class="card">
     <div class="row"><span style="font-weight:800;font-size:14px">Esta semana</span><span class="sub" style="font-size:12px">vs. la anterior hasta hoy</span></div>
     <div class="wk">
-      <div><b data-cu="${w.rev}">${w.rev}</b><span>repasos</span>${delta(w.rev,pw.rev)}</div>
+      <div><b data-cu="${w.rev}">${w.rev}</b><span>${w.rev===1?'repaso':'repasos'}</span>${delta(w.rev,pw.rev)}</div>
       <div><b><span data-cu="${w.days}">${w.days}</span><span style="font-size:13px;color:var(--muted)"> / ${w.span}</span></b><span>días estudiados</span></div>
-      <div><b data-cu="${w.nw}">${w.nw}</b><span>frases nuevas</span>${delta(w.nw,pw.nw)}</div>
+      <div><b data-cu="${w.nw}">${w.nw}</b><span>${w.nw===1?'frase nueva':'frases nuevas'}</span>${delta(w.nw,pw.nw)}</div>
       <div><b>${w.pct}%</b><span>acertadas</span>${pw.rev&&w.rev?`<em style="color:${w.pct>=pw.pct?'var(--mint)':'var(--red)'}">${w.pct>=pw.pct?'+':''}${w.pct-pw.pct} pts</em>`:''}</div>
     </div>
   </div>
@@ -1043,7 +1133,7 @@ function renderProg(){
     <div class="heat" id="heat" style="grid-template-columns:repeat(${WEEKS},1fr)">${cells}</div>
     <div class="row" style="margin-top:10px"><span class="sub" style="font-size:12px">Mejor racha: ${best} ${best===1?'día':'días'}</span>
       <div class="hleg" style="margin:0">Menos<i style="background:var(--surface2)"></i><i style="background:rgba(107,92,255,.32)"></i><i style="background:rgba(107,92,255,.55)"></i><i style="background:rgba(123,108,255,.8)"></i><i style="background:#9C91FF"></i>Más</div></div>
-    <div class="row sub" style="margin-top:12px;font-size:12px;padding-top:12px;border-top:1px solid var(--line)"><span>${total} repasos en total</span><span>${total?Math.round(okr/total*100):0}% acertados</span></div>
+    <div class="row sub" style="margin-top:12px;font-size:12px;padding-top:12px;border-top:1px solid var(--line)"><span>${pl(total,'repaso','repasos')} en total</span><span>${total?Math.round(okr/total*100):0}% acertados</span></div>
   </div>
   <div class="card">
     <span style="font-weight:800;font-size:14px">Por tema</span>
@@ -1189,7 +1279,7 @@ async function playOthers(){
   me.finished = me.shown>=L.length; me.askPin=true; drawDialog();
 }
 function bubble(l, who, pin){
-  return `<div class="bub ${l.w} ${pin?'pin':''}"><div class="who">${esc(who)}</div><div class="bpr">${esc(l.pr)}</div><div class="bar">${esc(l.ar)}</div><div class="bes">${esc(l.es)}</div></div>`;
+  return `<div class="bub ${l.w} ${pin?'pin':''}"><div class="who">${esc(who)}</div><div class="bpr">${prH(l.pr)}</div><div class="bar">${esc(l.ar)}</div><div class="bes">${esc(l.es)}</div></div>`;
 }
 function drawDialog(){
   const d=DS.d, L=d.lines, el=$('#study');
@@ -1313,7 +1403,17 @@ window.addEventListener('online',()=>{ if(CFG.dirty) backupNow(false); });
 $('#home').innerHTML='<div class="sk" style="height:52px"></div><div class="sk" style="height:200px"></div><div class="sk" style="height:84px"></div><div class="sk" style="height:110px"></div>';
 loadData().then(()=>{ go('home'); if(CFG.dirty) backupNow(false); }).catch(()=>{ $('#home').innerHTML='<div class="empty">No se ha podido cargar la base de datos. Abre la app con conexión una vez.</div>'; });
 document.addEventListener('visibilitychange',()=>{ if(!document.hidden && current!=='study' && ITEMS.length && !document.querySelector('.sheet.on')) go(current); });
-if('serviceWorker' in navigator) window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
+let reloadPending=false;
+if('serviceWorker' in navigator){
+  let hadCtrl=!!navigator.serviceWorker.controller, reloading=false;
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{
+    if(!hadCtrl){ hadCtrl=true; return; } if(reloading) return;
+    if(current==='study'){ reloadPending=true; return; }
+    reloading=true; location.reload();
+  });
+  window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>r.update()).catch(()=>{}));
+  document.addEventListener('visibilitychange',()=>{ if(!document.hidden && navigator.serviceWorker.getRegistration) navigator.serviceWorker.getRegistration().then(r=>r&&r.update()).catch(()=>{}); });
+}
 </script>
 </body>
 </html>
