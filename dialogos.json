@@ -1,0 +1,806 @@
+{
+"version": 1,
+"dialogs": [
+{
+"id": "d01",
+"title": "Saludar a un vecino",
+"place": "En la escalera",
+"other": "Vecino",
+"lvl": 1,
+"lines": [
+{
+"w": "o",
+"es": "Hola",
+"pr": "salamu 3alikum!",
+"ar": "السلام عليكم!"
+},
+{
+"w": "t",
+"es": "¡Hola! ¿Qué tal?",
+"pr": "wa 3alikum salam! labas?",
+"ar": "وعليكم السلام! لاباس؟"
+},
+{
+"w": "o",
+"es": "Bien, gracias a Dios. ¿Y tú, cómo estás?",
+"pr": "labas, l-7amdulillah. u nta, kidayr?",
+"ar": "لاباس، الحمد لله. ونتا، كيداير؟"
+},
+{
+"w": "t",
+"es": "Bien, gracias a Dios. ¿Todo bien en casa?",
+"pr": "bikhir, l-7amdulillah. d-dar kulshi labas?",
+"ar": "بخير، الحمد لله. الدار كلشي لاباس؟"
+},
+{
+"w": "o",
+"es": "Todo bien, que Dios te guarde.",
+"pr": "kulshi mzyan, lla y7fdek.",
+"ar": "كلشي مزيان، الله يحفظك."
+},
+{
+"w": "t",
+"es": "Gracias a Dios. Venga, ¡adiós!",
+"pr": "l-7amdulillah. yallah, bslama!",
+"ar": "الحمد لله. يالاه، بسلامة!"
+},
+{
+"w": "o",
+"es": "¡Adiós, nos vemos!",
+"pr": "bslama, ntshawfu!",
+"ar": "بسلامة، نتشاوفو!"
+}
+]
+},
+{
+"id": "d02",
+"title": "Presentarte",
+"place": "Conociendo a alguien",
+"other": "Yassine",
+"lvl": 1,
+"lines": [
+{
+"w": "o",
+"es": "¡Hola! ¿Eres nuevo aquí?",
+"pr": "salam! nta jdid hna?",
+"ar": "سلام! نتا جديد هنا؟"
+},
+{
+"w": "t",
+"es": "Sí. Me llamo Carlos. ¿Y tú, cómo te llamas?",
+"pr": "iyeh. smiti Carlos. u nta, shnu smitek?",
+"ar": "ايه. سميتي كارلوس. ونتا، شنو سميتك؟"
+},
+{
+"w": "o",
+"es": "Yo, Yassine. ¡Encantado! ¿De dónde eres?",
+"pr": "ana Yassine. metsharfin! mnin nta?",
+"ar": "أنا ياسين. متشرفين! منين نتا؟"
+},
+{
+"w": "t",
+"es": "Soy español, vivo en Granollers.",
+"pr": "ana sbanyuli, kansken f Granollers.",
+"ar": "أنا سبنيولي، كنسكن ف ڭرانوليرس."
+},
+{
+"w": "o",
+"es": "¡Genial! ¿Hablas darija?",
+"pr": "wa3er! kathder d-darija?",
+"ar": "واعر! كتهضر الدارجة؟"
+},
+{
+"w": "t",
+"es": "Un poco. Estoy aprendiendo darija.",
+"pr": "shwiya. kant3llem d-darija.",
+"ar": "شوية. كنتعلم الدارجة."
+},
+{
+"w": "o",
+"es": "¡Muy bien! Si quieres, te ayudo.",
+"pr": "mzyan bezzaf! ila bghiti, n3awnek.",
+"ar": "مزيان بزاف! إلا بغيتي، نعاونك."
+},
+{
+"w": "t",
+"es": "¡Muchas gracias, tío!",
+"pr": "shukran bezzaf, khay!",
+"ar": "شكرا بزاف، خاي!"
+}
+]
+},
+{
+"id": "d03",
+"title": "En el café",
+"place": "Una terraza",
+"other": "Camarero",
+"lvl": 1,
+"lines": [
+{
+"w": "o",
+"es": "¡Bienvenido! ¿Qué quieres?",
+"pr": "merhba! ash bghiti?",
+"ar": "مرحبا! اش بغيتي؟"
+},
+{
+"w": "t",
+"es": "Quiero un té con menta, por favor.",
+"pr": "bghit wa7ed atay b n-n3na3, 3afak.",
+"ar": "بغيت واحد أتاي بالنعناع، عافاك."
+},
+{
+"w": "o",
+"es": "Vale. ¿Algo más?",
+"pr": "wakha. shi 7aja khra?",
+"ar": "واخا. شي حاجة خرى؟"
+},
+{
+"w": "t",
+"es": "Sí, un msemen con miel.",
+"pr": "iyeh, wa7ed msemmen b l-3sel.",
+"ar": "ايه، واحد مسمن بالعسل."
+},
+{
+"w": "o",
+"es": "Hecho, ahora te lo traigo.",
+"pr": "safi, daba njibu lik.",
+"ar": "صافي، دابا نجيبو ليك."
+},
+{
+"w": "t",
+"es": "La cuenta, por favor. ¿Cuánto es?",
+"pr": "l-7sab 3afak. sh7al?",
+"ar": "الحساب عافاك. شحال؟"
+},
+{
+"w": "o",
+"es": "Quince dirhams.",
+"pr": "khmstash derhem.",
+"ar": "خمسطاش درهم."
+},
+{
+"w": "t",
+"es": "Toma. ¡Gracias, que Dios te ayude!",
+"pr": "hak. shukran, lla y3awnek!",
+"ar": "هاك. شكرا، الله يعاونك!"
+}
+]
+},
+{
+"id": "d04",
+"title": "Coger un taxi",
+"place": "En la calle",
+"other": "Taxista",
+"lvl": 1,
+"lines": [
+{
+"w": "t",
+"es": "Hola. ¿Está libre?",
+"pr": "salamu 3alikum. wash khawi?",
+"ar": "السلام عليكم. واش خاوي؟"
+},
+{
+"w": "o",
+"es": "Hola. ¿Adónde vas?",
+"pr": "wa 3alikum salam. fin ghadi?",
+"ar": "وعليكم السلام. فين غادي؟"
+},
+{
+"w": "t",
+"es": "Llévame a la estación, por favor.",
+"pr": "ddini l lagar 3afak.",
+"ar": "ديني لاݣار عافاك."
+},
+{
+"w": "o",
+"es": "Vale, sube.",
+"pr": "wakha, tle3.",
+"ar": "واخا، طلع."
+},
+{
+"w": "t",
+"es": "¿Está lejos?",
+"pr": "wash b3ida?",
+"ar": "واش بعيدة؟"
+},
+{
+"w": "o",
+"es": "No, solo diez minutos.",
+"pr": "la, ghir 3eshr dqayq.",
+"ar": "لا، غير عشر دقايق."
+},
+{
+"w": "t",
+"es": "Para aquí, por favor. ¿Cuánto es?",
+"pr": "wqef hna 3afak. bsh7al?",
+"ar": "وقف هنا عافاك. بشحال؟"
+},
+{
+"w": "o",
+"es": "Veinte dirhams.",
+"pr": "3eshrin derhem.",
+"ar": "عشرين درهم."
+}
+]
+},
+{
+"id": "d05",
+"title": "Regatear en el zoco",
+"place": "Un puesto de babuchas",
+"other": "Vendedor",
+"lvl": 2,
+"lines": [
+{
+"w": "o",
+"es": "¡Bienvenido, bienvenido! Mira, aquí todo es bonito.",
+"pr": "merhba, merhba! shuf, kulshi zwin hna.",
+"ar": "مرحبا، مرحبا! شوف، كلشي زوين هنا."
+},
+{
+"w": "t",
+"es": "Gracias. ¿Cuánto cuestan estas babuchas?",
+"pr": "shukran. bsh7al had l-belgha?",
+"ar": "شكرا. بشحال هاد البلغة؟"
+},
+{
+"w": "o",
+"es": "Doscientos dirhams.",
+"pr": "miyatayn derhem.",
+"ar": "ميتين درهم."
+},
+{
+"w": "t",
+"es": "¡Muy caro! Rebájame un poco, por favor.",
+"pr": "ghali bezzaf! nqess shwiya 3afak.",
+"ar": "غالي بزاف! نقص شوية عافاك."
+},
+{
+"w": "o",
+"es": "Por ser tú: ciento cincuenta.",
+"pr": "3la wednek: mya u khamsin.",
+"ar": "على ودنك: مية وخمسين."
+},
+{
+"w": "t",
+"es": "Cien. Último precio.",
+"pr": "mya. akhir taman.",
+"ar": "مية. آخر تمن."
+},
+{
+"w": "o",
+"es": "Vale, toma. ¡Que lo disfrutes!",
+"pr": "safi, hak. mbruk 3lik!",
+"ar": "صافي، هاك. مبروك عليك!"
+},
+{
+"w": "t",
+"es": "Gracias. ¡Adiós!",
+"pr": "lla ybarek fik. bslama!",
+"ar": "الله يبارك فيك. بسلامة!"
+}
+]
+},
+{
+"id": "d06",
+"title": "Quedar por WhatsApp",
+"place": "Mensajes con un amigo",
+"other": "Amigo",
+"lvl": 1,
+"lines": [
+{
+"w": "o",
+"es": "Hola tío, ¿qué vas a hacer hoy por la tarde?",
+"pr": "salam khay, ash ghadi dir l-yum f l-3shiya?",
+"ar": "سلام خاي، اش غادي دير اليوم ف العشية؟"
+},
+{
+"w": "t",
+"es": "Nada. ¿Por qué?",
+"pr": "walu. 3lash?",
+"ar": "والو. علاش؟"
+},
+{
+"w": "o",
+"es": "¿Vamos a tomar un café?",
+"pr": "yallah nsherbu shi qahwa?",
+"ar": "يالاه نشربو شي قهوة؟"
+},
+{
+"w": "t",
+"es": "¡Vale! ¿A qué hora quedamos?",
+"pr": "wakha! fuqash ntlaqaw?",
+"ar": "واخا! فوقاش نتلاقاو؟"
+},
+{
+"w": "o",
+"es": "A las siete. En el café del barrio.",
+"pr": "f s-seb3a. f l-qahwa dyal l-7uma.",
+"ar": "ف السبعة. ف القهوة ديال الحومة."
+},
+{
+"w": "t",
+"es": "Hecho. Si llego tarde, te mando un mensaje.",
+"pr": "safi. ila t3ettelt, nsifet lik mesaj.",
+"ar": "صافي. إلا تعطلت، نصيفط ليك ميساج."
+},
+{
+"w": "o",
+"es": "No hay problema. ¡Nos vemos!",
+"pr": "ma kayn mushkil. ntshawfu!",
+"ar": "ما كاين مشكل. نتشاوفو!"
+}
+]
+},
+{
+"id": "d07",
+"title": "Preguntar el camino",
+"place": "En una plaza",
+"other": "Señor",
+"lvl": 1,
+"lines": [
+{
+"w": "t",
+"es": "Perdone, ¿dónde está la medina?",
+"pr": "smeh liya, fin kayna l-mdina l-qdima?",
+"ar": "سمح ليا، فين كاينة المدينة القديمة؟"
+},
+{
+"w": "o",
+"es": "Sigue recto y luego gira a la derecha.",
+"pr": "sir nishan, u men b3d dur 3la l-imen.",
+"ar": "سير نيشان، ومن بعد دور على ليمن."
+},
+{
+"w": "t",
+"es": "¿Está lejos?",
+"pr": "wash b3ida?",
+"ar": "واش بعيدة؟"
+},
+{
+"w": "o",
+"es": "No, está cerca. Cinco minutos andando.",
+"pr": "la, qriba. khmsa dqayq b r-rjlin.",
+"ar": "لا، قريبة. خمسة دقايق بالرجلين."
+},
+{
+"w": "t",
+"es": "No lo he entendido bien. Repita despacio, por favor.",
+"pr": "ma fhemtsh mzyan. 3awed b shwiya 3afak.",
+"ar": "ما فهمتش مزيان. عاود بشوية عافاك."
+},
+{
+"w": "o",
+"es": "Recto... y luego, a la derecha.",
+"pr": "nishan... u men b3d, l-imen.",
+"ar": "نيشان... ومن بعد، ليمن."
+},
+{
+"w": "t",
+"es": "¡Entendido! Muchísimas gracias.",
+"pr": "fhemt! lla yr7m l-walidin.",
+"ar": "فهمت! الله يرحم الواليدين."
+}
+]
+},
+{
+"id": "d08",
+"title": "En la tienda del barrio",
+"place": "El 7anut de la esquina",
+"other": "Tendero",
+"lvl": 1,
+"lines": [
+{
+"w": "o",
+"es": "¿Qué quieres, amigo?",
+"pr": "ash bghiti a sa7bi?",
+"ar": "اش بغيتي أ صاحبي؟"
+},
+{
+"w": "t",
+"es": "Quiero dos panes y leche.",
+"pr": "bghit juj khobzat u l-7lib.",
+"ar": "بغيت جوج خبزات والحليب."
+},
+{
+"w": "o",
+"es": "Toma. ¿Algo más?",
+"pr": "hak. shi 7aja khra?",
+"ar": "هاك. شي حاجة خرى؟"
+},
+{
+"w": "t",
+"es": "¿Tienes huevos?",
+"pr": "wash 3ndek l-bid?",
+"ar": "واش عندك البيض؟"
+},
+{
+"w": "o",
+"es": "Sí. ¿Cuántos quieres?",
+"pr": "iyeh. sh7al bghiti?",
+"ar": "ايه. شحال بغيتي؟"
+},
+{
+"w": "t",
+"es": "Dame diez. ¿Cuánto es todo?",
+"pr": "3tini 3eshra. sh7al kulshi?",
+"ar": "عطيني عشرة. شحال كلشي؟"
+},
+{
+"w": "o",
+"es": "Dieciocho dirhams.",
+"pr": "tmentash derhem.",
+"ar": "تمنطاش درهم."
+},
+{
+"w": "t",
+"es": "Toma. ¡Adiós!",
+"pr": "hak. bslama!",
+"ar": "هاك. بسلامة!"
+}
+]
+},
+{
+"id": "d09",
+"title": "En la farmacia",
+"place": "Te encuentras mal",
+"other": "Farmacéutico",
+"lvl": 2,
+"lines": [
+{
+"w": "o",
+"es": "Hola, ¿qué te pasa?",
+"pr": "salam, ash bik?",
+"ar": "سلام، اش بيك؟"
+},
+{
+"w": "t",
+"es": "Me duele la cabeza y tengo fiebre.",
+"pr": "kaydrrni rasi u fiya s-skhana.",
+"ar": "كيضرني راسي وفيا السخانة."
+},
+{
+"w": "o",
+"es": "¿Desde cuándo?",
+"pr": "men imta?",
+"ar": "من امتى؟"
+},
+{
+"w": "t",
+"es": "Desde ayer.",
+"pr": "men l-bare7.",
+"ar": "من البارح."
+},
+{
+"w": "o",
+"es": "Toma esta medicina, dos veces al día.",
+"pr": "khud had d-dwa, juj d l-merrat f n-nhar.",
+"ar": "خود هاد الدوا، جوج د المرات ف النهار."
+},
+{
+"w": "t",
+"es": "Vale. ¿Cuánto es?",
+"pr": "wakha. bsh7al?",
+"ar": "واخا. بشحال؟"
+},
+{
+"w": "o",
+"es": "Treinta dirhams. ¡Que te mejores!",
+"pr": "tlatin derhem. lla yshafik!",
+"ar": "تلاتين درهم. الله يشافيك!"
+},
+{
+"w": "t",
+"es": "Amén, gracias.",
+"pr": "amin, shukran.",
+"ar": "آمين، شكرا."
+}
+]
+},
+{
+"id": "d10",
+"title": "Llegar al hotel",
+"place": "Recepción",
+"other": "Recepcionista",
+"lvl": 2,
+"lines": [
+{
+"w": "t",
+"es": "Hola. ¿Tenéis alguna habitación libre?",
+"pr": "salamu 3alikum. wash 3ndkom shi bit khawi?",
+"ar": "السلام عليكم. واش عندكم شي بيت خاوي؟"
+},
+{
+"w": "o",
+"es": "Sí. ¿Cuántas noches?",
+"pr": "iyeh. sh7al d l-lyali?",
+"ar": "ايه. شحال د الليالي؟"
+},
+{
+"w": "t",
+"es": "Dos noches, mi pareja y yo.",
+"pr": "juj d l-lyali, ana u sa7bti.",
+"ar": "جوج د الليالي، أنا وصاحبتي."
+},
+{
+"w": "o",
+"es": "Vale. Dame el pasaporte, por favor.",
+"pr": "wakha. 3tini l-pasepor 3afak.",
+"ar": "واخا. عطيني الباسبور عافاك."
+},
+{
+"w": "t",
+"es": "Toma. ¿El desayuno está incluido?",
+"pr": "hak. wash l-ftur dakhel?",
+"ar": "هاك. واش الفطور داخل؟"
+},
+{
+"w": "o",
+"es": "Sí, de siete a diez.",
+"pr": "iyeh, men s-seb3a 7tta l l-3ashra.",
+"ar": "ايه، من السبعة حتى للعشرة."
+},
+{
+"w": "t",
+"es": "Muy bien. Muchas gracias.",
+"pr": "mzyan. shukran bezzaf.",
+"ar": "مزيان. شكرا بزاف."
+}
+]
+},
+{
+"id": "d11",
+"title": "Hablar del trabajo",
+"place": "Con un conocido",
+"other": "Conocido",
+"lvl": 2,
+"lines": [
+{
+"w": "o",
+"es": "¿En qué trabajas tú?",
+"pr": "fash katkhdem nta?",
+"ar": "فاش كتخدم نتا؟"
+},
+{
+"w": "t",
+"es": "Trabajo en una empresa de alquiler.",
+"pr": "kankhdem f wa7ed sh-sharika d l-kra.",
+"ar": "كنخدم ف واحد الشركة د الكرا."
+},
+{
+"w": "o",
+"es": "¿Te gusta el trabajo?",
+"pr": "wash kat3jbek l-khedma?",
+"ar": "واش كتعجبك الخدمة؟"
+},
+{
+"w": "t",
+"es": "No está mal, pero el sueldo es poco.",
+"pr": "mashi khayba, walakin l-khlas qlil.",
+"ar": "ماشي خايبة، ولكن الخلاص قليل."
+},
+{
+"w": "o",
+"es": "Que Dios te ayude. ¿Y los estudios?",
+"pr": "lla y3awnek. u l-qraya?",
+"ar": "الله يعاونك. والقراية؟"
+},
+{
+"w": "t",
+"es": "Estudio en la universidad. Me queda un año.",
+"pr": "kanqra f l-jami3a. bqa liya 3am.",
+"ar": "كنقرا ف الجامعة. بقا ليا عام."
+},
+{
+"w": "o",
+"es": "¡Qué bien! Vas a aprobar, si Dios quiere.",
+"pr": "zwin! ghadi tnje7 inshallah.",
+"ar": "زوين! غادي تنجح إن شاء الله."
+}
+]
+},
+{
+"id": "d12",
+"title": "Comer en casa de alguien",
+"place": "Invitado a cuscús",
+"other": "Anfitriona",
+"lvl": 2,
+"lines": [
+{
+"w": "o",
+"es": "¡Bienvenido! Pasa, siéntate.",
+"pr": "merhba bik! dkhol, gles.",
+"ar": "مرحبا بيك! دخل، ڭلس."
+},
+{
+"w": "t",
+"es": "Gracias. La casa es muy bonita.",
+"pr": "lla ykhallik. d-dar zwina bezzaf.",
+"ar": "الله يخليك. الدار زوينة بزاف."
+},
+{
+"w": "o",
+"es": "¡Come, come! No te cortes.",
+"pr": "kul, kul! ma t7shemsh.",
+"ar": "كول، كول! ما تحشمش."
+},
+{
+"w": "t",
+"es": "En el nombre de Dios. ¡El cuscús está buenísimo!",
+"pr": "bismillah. l-keskssu bnin bezzaf!",
+"ar": "بسم الله. الكسكسو بنين بزاف!"
+},
+{
+"w": "o",
+"es": "¡Que aproveche! Toma un poco más.",
+"pr": "bssa7a! zid shwiya.",
+"ar": "بالصحة! زيد شوية."
+},
+{
+"w": "t",
+"es": "Gracias, estoy lleno. Muchísimas gracias.",
+"pr": "shukran, shb3t. lla yr7m l-walidin.",
+"ar": "شكرا، شبعت. الله يرحم الواليدين."
+},
+{
+"w": "o",
+"es": "De nada. Esta es tu casa.",
+"pr": "bla jmil. hadi darek.",
+"ar": "بلا جميل. هادي دارك."
+}
+]
+},
+{
+"id": "d13",
+"title": "El fin de semana",
+"place": "Con un compañero",
+"other": "Compañero",
+"lvl": 2,
+"lines": [
+{
+"w": "o",
+"es": "¿Qué hiciste el fin de semana?",
+"pr": "ash derti f l-wikand?",
+"ar": "اش درتي ف الويكاند؟"
+},
+{
+"w": "t",
+"es": "Fui a la playa con mi pareja.",
+"pr": "mshit l l-b7er m3a sa7bti.",
+"ar": "مشيت للبحر مع صاحبتي."
+},
+{
+"w": "o",
+"es": "¡Genial! ¿Hacía calor?",
+"pr": "wa3er! kan l-7al skhun?",
+"ar": "واعر! كان الحال سخون؟"
+},
+{
+"w": "t",
+"es": "Sí, pero hacía mucho viento.",
+"pr": "iyeh, walakin kan r-ri7 bezzaf.",
+"ar": "ايه، ولكن كان الريح بزاف."
+},
+{
+"w": "o",
+"es": "¿Y qué vas a hacer la semana que viene?",
+"pr": "u ash ghadi dir s-simana l-jaya?",
+"ar": "واش غادي دير السيمانة الجاية؟"
+},
+{
+"w": "t",
+"es": "Solo trabajar y estudiar. ¡Estoy cansado!",
+"pr": "ghir l-khedma u l-qraya. ana 3iyyan!",
+"ar": "غير الخدمة والقراية. أنا عيان!"
+},
+{
+"w": "o",
+"es": "Poco a poco. ¡Que Dios te ayude!",
+"pr": "shwiya b shwiya. lla y3awnek!",
+"ar": "شوية بشوية. الله يعاونك!"
+}
+]
+},
+{
+"id": "d14",
+"title": "Hablar de fútbol",
+"place": "Después del partido",
+"other": "Amigo",
+"lvl": 2,
+"lines": [
+{
+"w": "o",
+"es": "¿Viste el partido ayer?",
+"pr": "shefti l-match l-bare7?",
+"ar": "شفتي الماتش البارح؟"
+},
+{
+"w": "t",
+"es": "¡Sí! ¿Quién ganó? No lo vi hasta el final.",
+"pr": "iyeh! shkun rbe7? ma kmmeltush.",
+"ar": "ايه! شكون ربح؟ ما كملتوش."
+},
+{
+"w": "o",
+"es": "¡Marruecos ganó dos a uno!",
+"pr": "l-meghrib rbe7 juj l wa7ed!",
+"ar": "المغرب ربح جوج لواحد!"
+},
+{
+"w": "t",
+"es": "¡Genial! ¿Quién metió el segundo gol?",
+"pr": "wa3er! shkun dar l-but t-tani?",
+"ar": "واعر! شكون دار البوت التاني؟"
+},
+{
+"w": "o",
+"es": "Brahim, al final.",
+"pr": "Brahim, f l-lakher.",
+"ar": "براهيم، ف اللخر."
+},
+{
+"w": "t",
+"es": "¡De lujo! El próximo Mundial va a estar bien.",
+"pr": "nadi! l-mundyal l-jay ghadi ykun zwin.",
+"ar": "ناضي! المونديال الجاي غادي يكون زوين."
+},
+{
+"w": "o",
+"es": "¡Ojalá!",
+"pr": "inshallah!",
+"ar": "إن شاء الله!"
+}
+]
+},
+{
+"id": "d15",
+"title": "Pedir ayuda con el idioma",
+"place": "Con una amiga marroquí",
+"other": "Amiga",
+"lvl": 2,
+"lines": [
+{
+"w": "t",
+"es": "Perdona, ¿cómo se dice \"ordenador\" en darija?",
+"pr": "smhi liya, kifash katgulu \"ordenador\" b d-darija?",
+"ar": "سمحي ليا، كيفاش كتڭولو \"ordenador\" بالدارجة؟"
+},
+{
+"w": "o",
+"es": "\"L-ordinatur\".",
+"pr": "l-ordinatur.",
+"ar": "لورديناتور."
+},
+{
+"w": "t",
+"es": "¿Y qué significa \"qafez\"?",
+"pr": "u ash kat3ni \"qafez\"?",
+"ar": "واش كتعني \"قافز\"؟"
+},
+{
+"w": "o",
+"es": "Significa alguien que lo pilla todo rápido.",
+"pr": "kat3ni wa7ed kayfhem dghya.",
+"ar": "كتعني واحد كيفهم دغيا."
+},
+{
+"w": "t",
+"es": "Entendido. ¿Lo he dicho bien?",
+"pr": "fhemt. wash gltha mzyan?",
+"ar": "فهمت. واش ڭلتها مزيان؟"
+},
+{
+"w": "o",
+"es": "Sí, ¡muy bien! Hablas bien.",
+"pr": "iyeh, mzyan bezzaf! kathder mzyan.",
+"ar": "ايه، مزيان بزاف! كتهضر مزيان."
+},
+{
+"w": "t",
+"es": "Poco a poco. ¡Gracias por todo!",
+"pr": "shwiya b shwiya. shukran 3la kulshi!",
+"ar": "شوية بشوية. شكرا على كلشي!"
+}
+]
+}
+]
+}

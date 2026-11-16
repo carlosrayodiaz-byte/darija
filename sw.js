@@ -1,11 +1,12 @@
 // Service worker: la app funciona sin conexión.
 // Cuando cambies algún archivo, sube el número de versión para que el iPhone lo actualice.
-const VERSION = 'darija-v1';
+const VERSION = 'darija-v2';
 const SHELL = [
   './',
   './index.html',
   './fsrs.js',
   './darija.json',
+  './dialogos.json',
   './manifest.webmanifest',
   './icons/apple-touch-icon.png',
   './icons/icon-192.png',
@@ -24,10 +25,14 @@ self.addEventListener('activate', e => {
   );
 });
 
-// Primero la caché (rápido y sin conexión); en segundo plano se actualiza desde la red.
+// Solo se guardan en caché los archivos de la app y las fuentes.
+// Las llamadas a Google Apps Script (copias en Drive) van siempre directas a la red.
 self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
+  const url = new URL(req.url);
+  const isFont = url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com';
+  if (url.origin !== self.location.origin && !isFont) return;
   e.respondWith(
     caches.open(VERSION).then(async cache => {
       const cached = await cache.match(req, { ignoreSearch: true });
