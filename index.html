@@ -182,6 +182,9 @@ h3{font-family:Unbounded;font-weight:700;font-size:17px;letter-spacing:-.2px}
 /* ================= v3: movimiento y acabado ================= */
 :root{--ease:cubic-bezier(.2,.8,.2,1);--spring:cubic-bezier(.3,1.4,.5,1)}
 .scroll{padding-bottom:calc(var(--sb) + 120px);scrollbar-width:none}
+/* que ningún bloque se encoja cuando la pantalla se llena: se baja con scroll */
+.scroll>*,.stack>*,.face>*{flex-shrink:0}
+.hero{min-height:max-content}
 .scroll::-webkit-scrollbar{display:none}
 /* barra flotante de cristal con botón central */
 .tabbar{position:fixed;left:14px;right:14px;bottom:calc(var(--sb) + 12px);height:70px;border-radius:28px;background:rgba(22,22,30,.72);-webkit-backdrop-filter:blur(22px) saturate(170%);backdrop-filter:blur(22px) saturate(170%);border:1px solid rgba(255,255,255,.09);box-shadow:0 14px 40px rgba(0,0,0,.55);align-items:center;padding:0 6px;z-index:20;transition:transform .35s var(--ease),opacity .25s;view-transition-name:tabbar}

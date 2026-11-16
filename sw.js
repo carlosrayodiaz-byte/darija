@@ -1,6 +1,6 @@
 // Service worker: la app funciona sin conexión.
 // Cuando cambies algún archivo, sube el número de versión para que el iPhone lo actualice.
-const VERSION = 'darija-v4';
+const VERSION = 'darija-v5';
 const SHELL = [
   './',
   './index.html',
