@@ -1,0 +1,7878 @@
+{
+"version": 1,
+"cats": [
+{
+"id": "saludos",
+"name": "Saludos y cortesía"
+},
+{
+"id": "basicos",
+"name": "Lo básico"
+},
+{
+"id": "preguntas",
+"name": "Preguntas"
+},
+{
+"id": "presentarse",
+"name": "Presentarte"
+},
+{
+"id": "numeros",
+"name": "Números"
+},
+{
+"id": "tiempo",
+"name": "Tiempo y días"
+},
+{
+"id": "familia",
+"name": "Familia y gente"
+},
+{
+"id": "comida",
+"name": "Comida y bebida"
+},
+{
+"id": "compras",
+"name": "Compras y dinero"
+},
+{
+"id": "ciudad",
+"name": "Ciudad y transporte"
+},
+{
+"id": "casa",
+"name": "Casa"
+},
+{
+"id": "trabajo",
+"name": "Trabajo y estudios"
+},
+{
+"id": "cuerpo",
+"name": "Cuerpo y salud"
+},
+{
+"id": "sentimientos",
+"name": "Sentimientos"
+},
+{
+"id": "adjetivos",
+"name": "Adjetivos y colores"
+},
+{
+"id": "clima",
+"name": "El tiempo"
+},
+{
+"id": "gramatica",
+"name": "Gramática"
+},
+{
+"id": "verbos",
+"name": "Verbos"
+},
+{
+"id": "frases",
+"name": "Frases útiles"
+},
+{
+"id": "conversacion",
+"name": "Conversación"
+},
+{
+"id": "viaje",
+"name": "Viajes"
+},
+{
+"id": "ocio",
+"name": "Ocio y deporte"
+},
+{
+"id": "animales",
+"name": "Animales"
+},
+{
+"id": "ropa",
+"name": "Ropa"
+},
+{
+"id": "cultura",
+"name": "Cultura"
+},
+{
+"id": "actualidad",
+"name": "Actualidad"
+}
+],
+"items": [
+{
+"id": "saludos-001",
+"cat": "saludos",
+"lvl": 1,
+"es": "Hola (saludo completo)",
+"pr": "salamu 3alikum",
+"ar": "السلام عليكم",
+"nota": "El saludo de siempre. Se contesta con wa 3alikum salam"
+},
+{
+"id": "saludos-002",
+"cat": "saludos",
+"lvl": 1,
+"es": "Hola (respuesta a salamu 3alikum)",
+"pr": "wa 3alikum salam",
+"ar": "وعليكم السلام",
+"nota": ""
+},
+{
+"id": "saludos-003",
+"cat": "saludos",
+"lvl": 1,
+"es": "Hola (informal)",
+"pr": "salam",
+"ar": "سلام",
+"nota": "Entre amigos. También sirve para despedirse"
+},
+{
+"id": "saludos-004",
+"cat": "saludos",
+"lvl": 1,
+"es": "¿Qué tal? / ¿Todo bien?",
+"pr": "labas?",
+"ar": "لاباس؟",
+"nota": "Literalmente \"¿sin mal?\". Se contesta labas"
+},
+{
+"id": "saludos-005",
+"cat": "saludos",
+"lvl": 1,
+"es": "Bien (respuesta a labas)",
+"pr": "labas, l-7amdulillah",
+"ar": "لاباس، الحمد لله",
+"nota": ""
+},
+{
+"id": "saludos-006",
+"cat": "saludos",
+"lvl": 1,
+"es": "¿Cómo estás? (a un hombre)",
+"pr": "kidayr?",
+"ar": "كيداير؟",
+"nota": ""
+},
+{
+"id": "saludos-007",
+"cat": "saludos",
+"lvl": 1,
+"es": "¿Cómo estás? (a una mujer)",
+"pr": "kidayra?",
+"ar": "كيدايرة؟",
+"nota": ""
+},
+{
+"id": "saludos-008",
+"cat": "saludos",
+"lvl": 1,
+"es": "¿Cómo estáis?",
+"pr": "kidayrin?",
+"ar": "كيدايرين؟",
+"nota": ""
+},
+{
+"id": "saludos-009",
+"cat": "saludos",
+"lvl": 1,
+"es": "Bien, gracias a Dios",
+"pr": "bikhir, l-7amdulillah",
+"ar": "بخير، الحمد لله",
+"nota": ""
+},
+{
+"id": "saludos-010",
+"cat": "saludos",
+"lvl": 1,
+"es": "Buenos días",
+"pr": "sba7 l-khir",
+"ar": "صباح الخير",
+"nota": ""
+},
+{
+"id": "saludos-011",
+"cat": "saludos",
+"lvl": 1,
+"es": "Buenos días (respuesta)",
+"pr": "sba7 n-nur",
+"ar": "صباح النور",
+"nota": "Literalmente \"mañana de luz\""
+},
+{
+"id": "saludos-012",
+"cat": "saludos",
+"lvl": 1,
+"es": "Buenas tardes",
+"pr": "msa l-khir",
+"ar": "مسا الخير",
+"nota": "Se usa desde media tarde"
+},
+{
+"id": "saludos-013",
+"cat": "saludos",
+"lvl": 2,
+"es": "Buenas noches (al irse a dormir, a un hombre)",
+"pr": "tsba7 3la khir",
+"ar": "تصبح على خير",
+"nota": "A una mujer: tsba7i 3la khir"
+},
+{
+"id": "saludos-014",
+"cat": "saludos",
+"lvl": 1,
+"es": "Adiós",
+"pr": "bslama",
+"ar": "بسلامة",
+"nota": "Literalmente \"con paz\""
+},
+{
+"id": "saludos-015",
+"cat": "saludos",
+"lvl": 1,
+"es": "Nos vemos",
+"pr": "ntshawfu",
+"ar": "نتشاوفو",
+"nota": ""
+},
+{
+"id": "saludos-016",
+"cat": "saludos",
+"lvl": 1,
+"es": "Hasta mañana",
+"pr": "ntshawfu ghedda",
+"ar": "نتشاوفو غدا",
+"nota": ""
+},
+{
+"id": "saludos-017",
+"cat": "saludos",
+"lvl": 1,
+"es": "Gracias",
+"pr": "shukran",
+"ar": "شكرا",
+"nota": ""
+},
+{
+"id": "saludos-018",
+"cat": "saludos",
+"lvl": 1,
+"es": "Muchas gracias",
+"pr": "shukran bezzaf",
+"ar": "شكرا بزاف",
+"nota": ""
+},
+{
+"id": "saludos-019",
+"cat": "saludos",
+"lvl": 1,
+"es": "De nada",
+"pr": "bla jmil",
+"ar": "بلا جميل",
+"nota": "Literalmente \"sin favor\""
+},
+{
+"id": "saludos-020",
+"cat": "saludos",
+"lvl": 1,
+"es": "Por favor",
+"pr": "3afak",
+"ar": "عافاك",
+"nota": "A una mujer: 3afaki"
+},
+{
+"id": "saludos-021",
+"cat": "saludos",
+"lvl": 2,
+"es": "Por favor (más suave, \"que Dios te guarde\")",
+"pr": "lla ykhallik",
+"ar": "الله يخليك",
+"nota": "También sirve como \"gracias\""
+},
+{
+"id": "saludos-022",
+"cat": "saludos",
+"lvl": 1,
+"es": "Perdón (a un hombre)",
+"pr": "smeh liya",
+"ar": "سمح ليا",
+"nota": "A una mujer: smhi liya"
+},
+{
+"id": "saludos-023",
+"cat": "saludos",
+"lvl": 1,
+"es": "Bienvenido",
+"pr": "merhba bik",
+"ar": "مرحبا بيك",
+"nota": "A una mujer: merhba biki"
+},
+{
+"id": "saludos-024",
+"cat": "saludos",
+"lvl": 1,
+"es": "Encantado",
+"pr": "metsharfin",
+"ar": "متشرفين",
+"nota": ""
+},
+{
+"id": "saludos-025",
+"cat": "saludos",
+"lvl": 2,
+"es": "Gracias (muy marroquí)",
+"pr": "lla yr7m l-walidin",
+"ar": "الله يرحم الواليدين",
+"nota": "\"Que Dios tenga piedad de tus padres\". Muy agradecido y muy usado"
+},
+{
+"id": "saludos-026",
+"cat": "saludos",
+"lvl": 1,
+"es": "Si Dios quiere",
+"pr": "inshallah",
+"ar": "إن شاء الله",
+"nota": "Para cualquier plan futuro"
+},
+{
+"id": "saludos-027",
+"cat": "saludos",
+"lvl": 1,
+"es": "Gracias a Dios",
+"pr": "l-7amdulillah",
+"ar": "الحمد لله",
+"nota": ""
+},
+{
+"id": "saludos-028",
+"cat": "saludos",
+"lvl": 2,
+"es": "Que Dios te ayude",
+"pr": "lla y3awnek",
+"ar": "الله يعاونك",
+"nota": "Se le dice a alguien que está trabajando"
+},
+{
+"id": "saludos-029",
+"cat": "saludos",
+"lvl": 2,
+"es": "Que aproveche / salud",
+"pr": "bssa7a",
+"ar": "بالصحة",
+"nota": "También tras ducharse, cortarse el pelo o estrenar algo"
+},
+{
+"id": "saludos-030",
+"cat": "saludos",
+"lvl": 2,
+"es": "Enhorabuena",
+"pr": "mbruk",
+"ar": "مبروك",
+"nota": ""
+},
+{
+"id": "saludos-031",
+"cat": "saludos",
+"lvl": 2,
+"es": "Feliz fiesta",
+"pr": "mbruk l-3id",
+"ar": "مبروك العيد",
+"nota": ""
+},
+{
+"id": "saludos-032",
+"cat": "saludos",
+"lvl": 2,
+"es": "Buen viaje",
+"pr": "triq s-salama",
+"ar": "طريق السلامة",
+"nota": ""
+},
+{
+"id": "saludos-033",
+"cat": "saludos",
+"lvl": 2,
+"es": "Que te mejores",
+"pr": "lla yshafik",
+"ar": "الله يشافيك",
+"nota": ""
+},
+{
+"id": "saludos-034",
+"cat": "saludos",
+"lvl": 3,
+"es": "Que descanse en paz",
+"pr": "lla yr7mu",
+"ar": "الله يرحمو",
+"nota": "Para una mujer: lla yr7mha"
+},
+{
+"id": "basicos-001",
+"cat": "basicos",
+"lvl": 1,
+"es": "Sí",
+"pr": "iyeh",
+"ar": "ايه",
+"nota": "También se oye ah"
+},
+{
+"id": "basicos-002",
+"cat": "basicos",
+"lvl": 1,
+"es": "No",
+"pr": "la",
+"ar": "لا",
+"nota": ""
+},
+{
+"id": "basicos-003",
+"cat": "basicos",
+"lvl": 1,
+"es": "Vale / de acuerdo",
+"pr": "wakha",
+"ar": "واخا",
+"nota": "De las palabras que más vas a oír"
+},
+{
+"id": "basicos-004",
+"cat": "basicos",
+"lvl": 1,
+"es": "Ya está / basta / vale ya",
+"pr": "safi",
+"ar": "صافي",
+"nota": "Comodín para cerrar un tema"
+},
+{
+"id": "basicos-005",
+"cat": "basicos",
+"lvl": 1,
+"es": "Bien / bueno",
+"pr": "mzyan",
+"ar": "مزيان",
+"nota": ""
+},
+{
+"id": "basicos-006",
+"cat": "basicos",
+"lvl": 1,
+"es": "Muy bien",
+"pr": "mzyan bezzaf",
+"ar": "مزيان بزاف",
+"nota": ""
+},
+{
+"id": "basicos-007",
+"cat": "basicos",
+"lvl": 1,
+"es": "Mucho / muy",
+"pr": "bezzaf",
+"ar": "بزاف",
+"nota": ""
+},
+{
+"id": "basicos-008",
+"cat": "basicos",
+"lvl": 1,
+"es": "Un poco",
+"pr": "shwiya",
+"ar": "شوية",
+"nota": ""
+},
+{
+"id": "basicos-009",
+"cat": "basicos",
+"lvl": 1,
+"es": "Ahora",
+"pr": "daba",
+"ar": "دابا",
+"nota": ""
+},
+{
+"id": "basicos-010",
+"cat": "basicos",
+"lvl": 1,
+"es": "Rápido",
+"pr": "dghya",
+"ar": "دغيا",
+"nota": ""
+},
+{
+"id": "basicos-011",
+"cat": "basicos",
+"lvl": 1,
+"es": "Despacio",
+"pr": "b shwiya",
+"ar": "بشوية",
+"nota": ""
+},
+{
+"id": "basicos-012",
+"cat": "basicos",
+"lvl": 1,
+"es": "Vamos",
+"pr": "yallah",
+"ar": "يالاه",
+"nota": ""
+},
+{
+"id": "basicos-013",
+"cat": "basicos",
+"lvl": 1,
+"es": "Hay",
+"pr": "kayn",
+"ar": "كاين",
+"nota": "Femenino: kayna"
+},
+{
+"id": "basicos-014",
+"cat": "basicos",
+"lvl": 1,
+"es": "No hay",
+"pr": "ma kaynsh",
+"ar": "ما كاينش",
+"nota": ""
+},
+{
+"id": "basicos-015",
+"cat": "basicos",
+"lvl": 1,
+"es": "Quiero",
+"pr": "bghit",
+"ar": "بغيت",
+"nota": ""
+},
+{
+"id": "basicos-016",
+"cat": "basicos",
+"lvl": 1,
+"es": "No quiero",
+"pr": "ma bghitsh",
+"ar": "ما بغيتش",
+"nota": "La negación rodea al verbo: ma ... sh"
+},
+{
+"id": "basicos-017",
+"cat": "basicos",
+"lvl": 1,
+"es": "Tengo",
+"pr": "3ndi",
+"ar": "عندي",
+"nota": ""
+},
+{
+"id": "basicos-018",
+"cat": "basicos",
+"lvl": 1,
+"es": "No tengo",
+"pr": "ma 3ndish",
+"ar": "ما عنديش",
+"nota": ""
+},
+{
+"id": "basicos-019",
+"cat": "basicos",
+"lvl": 1,
+"es": "Necesito / tengo que",
+"pr": "khassni",
+"ar": "خاصني",
+"nota": "khassni nmshi = tengo que ir"
+},
+{
+"id": "basicos-020",
+"cat": "basicos",
+"lvl": 1,
+"es": "Puedo",
+"pr": "nqder",
+"ar": "نقدر",
+"nota": ""
+},
+{
+"id": "basicos-021",
+"cat": "basicos",
+"lvl": 1,
+"es": "No puedo",
+"pr": "ma nqdersh",
+"ar": "ما نقدرش",
+"nota": ""
+},
+{
+"id": "basicos-022",
+"cat": "basicos",
+"lvl": 1,
+"es": "Me gusta",
+"pr": "3jbni",
+"ar": "عجبني",
+"nota": "Literalmente \"me ha gustado\". Para gustos habituales: kay3jbni"
+},
+{
+"id": "basicos-023",
+"cat": "basicos",
+"lvl": 1,
+"es": "No me gusta",
+"pr": "ma 3jbnish",
+"ar": "ما عجبنيش",
+"nota": ""
+},
+{
+"id": "basicos-024",
+"cat": "basicos",
+"lvl": 1,
+"es": "Todo",
+"pr": "kulshi",
+"ar": "كلشي",
+"nota": ""
+},
+{
+"id": "basicos-025",
+"cat": "basicos",
+"lvl": 1,
+"es": "Nada",
+"pr": "walu",
+"ar": "والو",
+"nota": ""
+},
+{
+"id": "basicos-026",
+"cat": "basicos",
+"lvl": 1,
+"es": "Algo",
+"pr": "shi 7aja",
+"ar": "شي حاجة",
+"nota": ""
+},
+{
+"id": "basicos-027",
+"cat": "basicos",
+"lvl": 1,
+"es": "Alguien",
+"pr": "shi wa7ed",
+"ar": "شي واحد",
+"nota": ""
+},
+{
+"id": "basicos-028",
+"cat": "basicos",
+"lvl": 2,
+"es": "Nadie",
+"pr": "7tta wa7ed",
+"ar": "حتى واحد",
+"nota": ""
+},
+{
+"id": "basicos-029",
+"cat": "basicos",
+"lvl": 1,
+"es": "Aquí",
+"pr": "hna",
+"ar": "هنا",
+"nota": ""
+},
+{
+"id": "basicos-030",
+"cat": "basicos",
+"lvl": 1,
+"es": "Allí",
+"pr": "temma",
+"ar": "تما",
+"nota": ""
+},
+{
+"id": "basicos-031",
+"cat": "basicos",
+"lvl": 1,
+"es": "Así",
+"pr": "hakka",
+"ar": "هكا",
+"nota": ""
+},
+{
+"id": "basicos-032",
+"cat": "basicos",
+"lvl": 1,
+"es": "Con",
+"pr": "m3a",
+"ar": "مع",
+"nota": ""
+},
+{
+"id": "basicos-033",
+"cat": "basicos",
+"lvl": 1,
+"es": "Sin",
+"pr": "bla",
+"ar": "بلا",
+"nota": ""
+},
+{
+"id": "basicos-034",
+"cat": "basicos",
+"lvl": 1,
+"es": "Y",
+"pr": "u",
+"ar": "و",
+"nota": ""
+},
+{
+"id": "basicos-035",
+"cat": "basicos",
+"lvl": 1,
+"es": "O",
+"pr": "wla",
+"ar": "ولا",
+"nota": ""
+},
+{
+"id": "basicos-036",
+"cat": "basicos",
+"lvl": 1,
+"es": "Pero",
+"pr": "walakin",
+"ar": "ولكن",
+"nota": ""
+},
+{
+"id": "basicos-037",
+"cat": "basicos",
+"lvl": 1,
+"es": "Porque",
+"pr": "7it",
+"ar": "حيت",
+"nota": ""
+},
+{
+"id": "basicos-038",
+"cat": "basicos",
+"lvl": 1,
+"es": "Este / esta",
+"pr": "had",
+"ar": "هاد",
+"nota": "had l-ktab = este libro"
+},
+{
+"id": "basicos-039",
+"cat": "basicos",
+"lvl": 1,
+"es": "Esto",
+"pr": "hada",
+"ar": "هادا",
+"nota": "Femenino: hadi"
+},
+{
+"id": "basicos-040",
+"cat": "basicos",
+"lvl": 2,
+"es": "Eso / aquel",
+"pr": "hadak",
+"ar": "هداك",
+"nota": "Femenino: hadik"
+},
+{
+"id": "basicos-041",
+"cat": "basicos",
+"lvl": 1,
+"es": "Otro",
+"pr": "akhor",
+"ar": "آخور",
+"nota": "Femenino: akhra"
+},
+{
+"id": "basicos-042",
+"cat": "basicos",
+"lvl": 1,
+"es": "También (yo también)",
+"pr": "7tta ana",
+"ar": "حتى أنا",
+"nota": ""
+},
+{
+"id": "basicos-043",
+"cat": "basicos",
+"lvl": 1,
+"es": "Siempre",
+"pr": "dima",
+"ar": "ديما",
+"nota": ""
+},
+{
+"id": "basicos-044",
+"cat": "basicos",
+"lvl": 2,
+"es": "A veces",
+"pr": "b3d l-merrat",
+"ar": "بعض المرات",
+"nota": ""
+},
+{
+"id": "basicos-045",
+"cat": "basicos",
+"lvl": 1,
+"es": "Otra vez",
+"pr": "3awed",
+"ar": "عاود",
+"nota": "También \"repite\""
+},
+{
+"id": "basicos-046",
+"cat": "basicos",
+"lvl": 1,
+"es": "Todavía",
+"pr": "mazal",
+"ar": "مازال",
+"nota": "mazal ma = todavía no"
+},
+{
+"id": "basicos-047",
+"cat": "basicos",
+"lvl": 1,
+"es": "Solo",
+"pr": "ghir",
+"ar": "غير",
+"nota": "ghir shwiya = solo un poco"
+},
+{
+"id": "basicos-048",
+"cat": "basicos",
+"lvl": 2,
+"es": "Quizás",
+"pr": "ymken",
+"ar": "يمكن",
+"nota": ""
+},
+{
+"id": "basicos-049",
+"cat": "basicos",
+"lvl": 1,
+"es": "Claro",
+"pr": "akid",
+"ar": "أكيد",
+"nota": ""
+},
+{
+"id": "preguntas-001",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Qué?",
+"pr": "shnu?",
+"ar": "شنو؟",
+"nota": "También ash?"
+},
+{
+"id": "preguntas-002",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Quién?",
+"pr": "shkun?",
+"ar": "شكون؟",
+"nota": ""
+},
+{
+"id": "preguntas-003",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Dónde?",
+"pr": "fin?",
+"ar": "فين؟",
+"nota": ""
+},
+{
+"id": "preguntas-004",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Cuándo?",
+"pr": "fuqash?",
+"ar": "فوقاش؟",
+"nota": ""
+},
+{
+"id": "preguntas-005",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Por qué?",
+"pr": "3lash?",
+"ar": "علاش؟",
+"nota": ""
+},
+{
+"id": "preguntas-006",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Cómo?",
+"pr": "kifash?",
+"ar": "كيفاش؟",
+"nota": ""
+},
+{
+"id": "preguntas-007",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Cuánto?",
+"pr": "sh7al?",
+"ar": "شحال؟",
+"nota": ""
+},
+{
+"id": "preguntas-008",
+"cat": "preguntas",
+"lvl": 2,
+"es": "¿Cuál?",
+"pr": "ashmen wa7ed?",
+"ar": "اشمن واحد؟",
+"nota": ""
+},
+{
+"id": "preguntas-009",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Hay...?",
+"pr": "wash kayn...?",
+"ar": "واش كاين...؟",
+"nota": "wash convierte una frase en pregunta de sí o no"
+},
+{
+"id": "preguntas-010",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Tienes...?",
+"pr": "wash 3ndek...?",
+"ar": "واش عندك...؟",
+"nota": ""
+},
+{
+"id": "preguntas-011",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Puedes...?",
+"pr": "wash tqder...?",
+"ar": "واش تقدر...؟",
+"nota": ""
+},
+{
+"id": "preguntas-012",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Entiendes?",
+"pr": "wash fhemti?",
+"ar": "واش فهمتي؟",
+"nota": ""
+},
+{
+"id": "preguntas-013",
+"cat": "preguntas",
+"lvl": 1,
+"es": "No entiendo",
+"pr": "ma fhemtsh",
+"ar": "ما فهمتش",
+"nota": ""
+},
+{
+"id": "preguntas-014",
+"cat": "preguntas",
+"lvl": 1,
+"es": "No te entiendo",
+"pr": "ma fhemteksh",
+"ar": "ما فهمتكش",
+"nota": ""
+},
+{
+"id": "preguntas-015",
+"cat": "preguntas",
+"lvl": 1,
+"es": "No sé",
+"pr": "ma 3reftsh",
+"ar": "ما عرفتش",
+"nota": ""
+},
+{
+"id": "preguntas-016",
+"cat": "preguntas",
+"lvl": 1,
+"es": "Lo sé",
+"pr": "3reft",
+"ar": "عرفت",
+"nota": ""
+},
+{
+"id": "preguntas-017",
+"cat": "preguntas",
+"lvl": 2,
+"es": "¿Qué significa...?",
+"pr": "ash kat3ni...?",
+"ar": "اش كتعني...؟",
+"nota": ""
+},
+{
+"id": "preguntas-018",
+"cat": "preguntas",
+"lvl": 2,
+"es": "¿Cómo se dice... en darija?",
+"pr": "kifash katgulu... b d-darija?",
+"ar": "كيفاش كتڭولو... بالدارجة؟",
+"nota": ""
+},
+{
+"id": "preguntas-019",
+"cat": "preguntas",
+"lvl": 1,
+"es": "Repite, por favor",
+"pr": "3awed 3afak",
+"ar": "عاود عافاك",
+"nota": ""
+},
+{
+"id": "preguntas-020",
+"cat": "preguntas",
+"lvl": 1,
+"es": "Más despacio, por favor",
+"pr": "b shwiya 3afak",
+"ar": "بشوية عافاك",
+"nota": ""
+},
+{
+"id": "preguntas-021",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Dónde está el baño?",
+"pr": "fin kayn bit l-ma?",
+"ar": "فين كاين بيت الما؟",
+"nota": ""
+},
+{
+"id": "preguntas-022",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Qué hora es?",
+"pr": "sh7al f s-sa3a?",
+"ar": "شحال ف الساعة؟",
+"nota": ""
+},
+{
+"id": "preguntas-023",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Qué pasa? / ¿Qué hay?",
+"pr": "shnu kayn?",
+"ar": "شنو كاين؟",
+"nota": ""
+},
+{
+"id": "preguntas-024",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Qué haces?",
+"pr": "shnu katdir?",
+"ar": "شنو كتدير؟",
+"nota": ""
+},
+{
+"id": "preguntas-025",
+"cat": "preguntas",
+"lvl": 2,
+"es": "¿Por qué no?",
+"pr": "3lash la?",
+"ar": "علاش لا؟",
+"nota": ""
+},
+{
+"id": "preguntas-026",
+"cat": "preguntas",
+"lvl": 2,
+"es": "¿De verdad?",
+"pr": "b sa7?",
+"ar": "بصح؟",
+"nota": ""
+},
+{
+"id": "preguntas-027",
+"cat": "preguntas",
+"lvl": 2,
+"es": "¿Qué opinas?",
+"pr": "ash ban lik?",
+"ar": "اش بان ليك؟",
+"nota": "Literalmente \"¿qué te parece?\""
+},
+{
+"id": "presentarse-001",
+"cat": "presentarse",
+"lvl": 1,
+"es": "Me llamo Carlos",
+"pr": "smiti Carlos",
+"ar": "سميتي كارلوس",
+"nota": ""
+},
+{
+"id": "presentarse-002",
+"cat": "presentarse",
+"lvl": 1,
+"es": "¿Cómo te llamas?",
+"pr": "shnu smitek?",
+"ar": "شنو سميتك؟",
+"nota": ""
+},
+{
+"id": "presentarse-003",
+"cat": "presentarse",
+"lvl": 1,
+"es": "Soy de España",
+"pr": "ana mn sbanya",
+"ar": "أنا من سبانيا",
+"nota": ""
+},
+{
+"id": "presentarse-004",
+"cat": "presentarse",
+"lvl": 1,
+"es": "Soy español",
+"pr": "ana sbanyuli",
+"ar": "أنا سبنيولي",
+"nota": ""
+},
+{
+"id": "presentarse-005",
+"cat": "presentarse",
+"lvl": 1,
+"es": "¿De dónde eres? (a un hombre)",
+"pr": "mnin nta?",
+"ar": "منين نتا؟",
+"nota": "A una mujer: mnin nti?"
+},
+{
+"id": "presentarse-006",
+"cat": "presentarse",
+"lvl": 1,
+"es": "Vivo en Granollers",
+"pr": "kansken f Granollers",
+"ar": "كنسكن ف ڭرانوليرس",
+"nota": ""
+},
+{
+"id": "presentarse-007",
+"cat": "presentarse",
+"lvl": 1,
+"es": "¿Dónde vives?",
+"pr": "fin katskun?",
+"ar": "فين كتسكن؟",
+"nota": ""
+},
+{
+"id": "presentarse-008",
+"cat": "presentarse",
+"lvl": 1,
+"es": "Tengo 25 años",
+"pr": "3ndi khmsa u 3shrin 3am",
+"ar": "عندي خمسة وعشرين عام",
+"nota": ""
+},
+{
+"id": "presentarse-009",
+"cat": "presentarse",
+"lvl": 1,
+"es": "¿Cuántos años tienes?",
+"pr": "sh7al f 3mrek?",
+"ar": "شحال ف عمرك؟",
+"nota": ""
+},
+{
+"id": "presentarse-010",
+"cat": "presentarse",
+"lvl": 1,
+"es": "Trabajo en una empresa",
+"pr": "kankhdem f shi sharika",
+"ar": "كنخدم ف شي شركة",
+"nota": ""
+},
+{
+"id": "presentarse-011",
+"cat": "presentarse",
+"lvl": 1,
+"es": "¿A qué te dedicas?",
+"pr": "ash katkhdem?",
+"ar": "اش كتخدم؟",
+"nota": ""
+},
+{
+"id": "presentarse-012",
+"cat": "presentarse",
+"lvl": 1,
+"es": "Estudio en la universidad",
+"pr": "kanqra f l-jami3a",
+"ar": "كنقرا ف الجامعة",
+"nota": "qra = estudiar y leer"
+},
+{
+"id": "presentarse-013",
+"cat": "presentarse",
+"lvl": 1,
+"es": "Hablo un poco de darija",
+"pr": "kanhder shwiya d d-darija",
+"ar": "كنهضر شوية د الدارجة",
+"nota": ""
+},
+{
+"id": "presentarse-014",
+"cat": "presentarse",
+"lvl": 1,
+"es": "No hablo bien",
+"pr": "ma kanhdersh mzyan",
+"ar": "ما كنهضرش مزيان",
+"nota": ""
+},
+{
+"id": "presentarse-015",
+"cat": "presentarse",
+"lvl": 1,
+"es": "Estoy aprendiendo darija",
+"pr": "kant3llem d-darija",
+"ar": "كنتعلم الدارجة",
+"nota": ""
+},
+{
+"id": "presentarse-016",
+"cat": "presentarse",
+"lvl": 2,
+"es": "Hablo español y catalán",
+"pr": "kanhder sbanyuliya u katalaniya",
+"ar": "كنهضر السبنيولية والكطلانية",
+"nota": ""
+},
+{
+"id": "presentarse-017",
+"cat": "presentarse",
+"lvl": 1,
+"es": "¿Hablas español?",
+"pr": "wash kathder sbanyuliya?",
+"ar": "واش كتهضر السبنيولية؟",
+"nota": ""
+},
+{
+"id": "presentarse-018",
+"cat": "presentarse",
+"lvl": 2,
+"es": "¿Hablas francés?",
+"pr": "wash kathder l-fransawiya?",
+"ar": "واش كتهضر الفرنساوية؟",
+"nota": ""
+},
+{
+"id": "presentarse-019",
+"cat": "presentarse",
+"lvl": 2,
+"es": "Estoy casado",
+"pr": "ana mzuwwej",
+"ar": "أنا مزوج",
+"nota": ""
+},
+{
+"id": "presentarse-020",
+"cat": "presentarse",
+"lvl": 2,
+"es": "Tengo pareja",
+"pr": "3ndi sa7bti",
+"ar": "عندي صاحبتي",
+"nota": "sa7bti también es \"mi amiga\": el contexto lo aclara"
+},
+{
+"id": "presentarse-021",
+"cat": "presentarse",
+"lvl": 2,
+"es": "Nunca he ido a Marruecos",
+"pr": "3mmerni ma mshit l l-mghrib",
+"ar": "عمرني ما مشيت للمغرب",
+"nota": ""
+},
+{
+"id": "presentarse-022",
+"cat": "presentarse",
+"lvl": 2,
+"es": "Me gusta mucho Marruecos",
+"pr": "l-mghrib 3jbni bezzaf",
+"ar": "المغرب عجبني بزاف",
+"nota": ""
+},
+{
+"id": "presentarse-023",
+"cat": "presentarse",
+"lvl": 1,
+"es": "Quiero aprender darija",
+"pr": "bghit nt3llem d-darija",
+"ar": "بغيت نتعلم الدارجة",
+"nota": ""
+},
+{
+"id": "numeros-001",
+"cat": "numeros",
+"lvl": 1,
+"es": "Uno",
+"pr": "wa7ed",
+"ar": "واحد",
+"nota": ""
+},
+{
+"id": "numeros-002",
+"cat": "numeros",
+"lvl": 1,
+"es": "Dos",
+"pr": "juj",
+"ar": "جوج",
+"nota": ""
+},
+{
+"id": "numeros-003",
+"cat": "numeros",
+"lvl": 1,
+"es": "Tres",
+"pr": "tlata",
+"ar": "تلاتة",
+"nota": ""
+},
+{
+"id": "numeros-004",
+"cat": "numeros",
+"lvl": 1,
+"es": "Cuatro",
+"pr": "reb3a",
+"ar": "ربعة",
+"nota": ""
+},
+{
+"id": "numeros-005",
+"cat": "numeros",
+"lvl": 1,
+"es": "Cinco",
+"pr": "khmsa",
+"ar": "خمسة",
+"nota": ""
+},
+{
+"id": "numeros-006",
+"cat": "numeros",
+"lvl": 1,
+"es": "Seis",
+"pr": "stta",
+"ar": "ستة",
+"nota": ""
+},
+{
+"id": "numeros-007",
+"cat": "numeros",
+"lvl": 1,
+"es": "Siete",
+"pr": "seb3a",
+"ar": "سبعة",
+"nota": ""
+},
+{
+"id": "numeros-008",
+"cat": "numeros",
+"lvl": 1,
+"es": "Ocho",
+"pr": "tmenya",
+"ar": "تمنية",
+"nota": ""
+},
+{
+"id": "numeros-009",
+"cat": "numeros",
+"lvl": 1,
+"es": "Nueve",
+"pr": "tes3ud",
+"ar": "تسعود",
+"nota": "Forma muy marroquí; en otros países es tis3a"
+},
+{
+"id": "numeros-010",
+"cat": "numeros",
+"lvl": 1,
+"es": "Diez",
+"pr": "3ashra",
+"ar": "عشرة",
+"nota": ""
+},
+{
+"id": "numeros-011",
+"cat": "numeros",
+"lvl": 2,
+"es": "Once",
+"pr": "7dash",
+"ar": "حداش",
+"nota": ""
+},
+{
+"id": "numeros-012",
+"cat": "numeros",
+"lvl": 2,
+"es": "Doce",
+"pr": "tnash",
+"ar": "طناش",
+"nota": ""
+},
+{
+"id": "numeros-013",
+"cat": "numeros",
+"lvl": 2,
+"es": "Trece",
+"pr": "tlettash",
+"ar": "تلطاش",
+"nota": ""
+},
+{
+"id": "numeros-014",
+"cat": "numeros",
+"lvl": 2,
+"es": "Catorce",
+"pr": "reb3tash",
+"ar": "ربعطاش",
+"nota": ""
+},
+{
+"id": "numeros-015",
+"cat": "numeros",
+"lvl": 2,
+"es": "Quince",
+"pr": "khmstash",
+"ar": "خمسطاش",
+"nota": ""
+},
+{
+"id": "numeros-016",
+"cat": "numeros",
+"lvl": 2,
+"es": "Dieciséis",
+"pr": "settash",
+"ar": "سطاش",
+"nota": ""
+},
+{
+"id": "numeros-017",
+"cat": "numeros",
+"lvl": 2,
+"es": "Diecisiete",
+"pr": "seb3tash",
+"ar": "سبعطاش",
+"nota": ""
+},
+{
+"id": "numeros-018",
+"cat": "numeros",
+"lvl": 2,
+"es": "Dieciocho",
+"pr": "tmentash",
+"ar": "تمنطاش",
+"nota": ""
+},
+{
+"id": "numeros-019",
+"cat": "numeros",
+"lvl": 2,
+"es": "Diecinueve",
+"pr": "tes3tash",
+"ar": "تسعطاش",
+"nota": ""
+},
+{
+"id": "numeros-020",
+"cat": "numeros",
+"lvl": 1,
+"es": "Veinte",
+"pr": "3eshrin",
+"ar": "عشرين",
+"nota": ""
+},
+{
+"id": "numeros-021",
+"cat": "numeros",
+"lvl": 2,
+"es": "Veintiuno",
+"pr": "wa7ed u 3eshrin",
+"ar": "واحد وعشرين",
+"nota": "Las unidades van delante: \"uno y veinte\""
+},
+{
+"id": "numeros-022",
+"cat": "numeros",
+"lvl": 2,
+"es": "Treinta",
+"pr": "tlatin",
+"ar": "تلاتين",
+"nota": ""
+},
+{
+"id": "numeros-023",
+"cat": "numeros",
+"lvl": 2,
+"es": "Cuarenta",
+"pr": "reb3in",
+"ar": "ربعين",
+"nota": ""
+},
+{
+"id": "numeros-024",
+"cat": "numeros",
+"lvl": 2,
+"es": "Cincuenta",
+"pr": "khamsin",
+"ar": "خمسين",
+"nota": ""
+},
+{
+"id": "numeros-025",
+"cat": "numeros",
+"lvl": 2,
+"es": "Sesenta",
+"pr": "sttin",
+"ar": "ستين",
+"nota": ""
+},
+{
+"id": "numeros-026",
+"cat": "numeros",
+"lvl": 2,
+"es": "Setenta",
+"pr": "seb3in",
+"ar": "سبعين",
+"nota": ""
+},
+{
+"id": "numeros-027",
+"cat": "numeros",
+"lvl": 2,
+"es": "Ochenta",
+"pr": "tmanin",
+"ar": "تمانين",
+"nota": ""
+},
+{
+"id": "numeros-028",
+"cat": "numeros",
+"lvl": 2,
+"es": "Noventa",
+"pr": "tes3in",
+"ar": "تسعين",
+"nota": ""
+},
+{
+"id": "numeros-029",
+"cat": "numeros",
+"lvl": 1,
+"es": "Cien",
+"pr": "mya",
+"ar": "مية",
+"nota": ""
+},
+{
+"id": "numeros-030",
+"cat": "numeros",
+"lvl": 2,
+"es": "Doscientos",
+"pr": "miyatayn",
+"ar": "ميتين",
+"nota": ""
+},
+{
+"id": "numeros-031",
+"cat": "numeros",
+"lvl": 1,
+"es": "Mil",
+"pr": "alf",
+"ar": "ألف",
+"nota": ""
+},
+{
+"id": "numeros-032",
+"cat": "numeros",
+"lvl": 2,
+"es": "Dos mil",
+"pr": "alfayn",
+"ar": "ألفين",
+"nota": ""
+},
+{
+"id": "numeros-033",
+"cat": "numeros",
+"lvl": 2,
+"es": "Mitad / media",
+"pr": "nuss",
+"ar": "نص",
+"nota": ""
+},
+{
+"id": "numeros-034",
+"cat": "numeros",
+"lvl": 2,
+"es": "Cuarto",
+"pr": "rbe3",
+"ar": "ربع",
+"nota": ""
+},
+{
+"id": "numeros-035",
+"cat": "numeros",
+"lvl": 2,
+"es": "Primero",
+"pr": "l-luwwel",
+"ar": "اللول",
+"nota": ""
+},
+{
+"id": "numeros-036",
+"cat": "numeros",
+"lvl": 2,
+"es": "Segundo",
+"pr": "t-tani",
+"ar": "التاني",
+"nota": ""
+},
+{
+"id": "numeros-037",
+"cat": "numeros",
+"lvl": 2,
+"es": "Último",
+"pr": "l-lakher",
+"ar": "اللخر",
+"nota": ""
+},
+{
+"id": "tiempo-001",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Hoy",
+"pr": "l-yum",
+"ar": "اليوم",
+"nota": ""
+},
+{
+"id": "tiempo-002",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Mañana",
+"pr": "ghedda",
+"ar": "غدا",
+"nota": ""
+},
+{
+"id": "tiempo-003",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Ayer",
+"pr": "l-bare7",
+"ar": "البارح",
+"nota": ""
+},
+{
+"id": "tiempo-004",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Pasado mañana",
+"pr": "b3d ghedda",
+"ar": "بعد غدا",
+"nota": ""
+},
+{
+"id": "tiempo-005",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Anteayer",
+"pr": "wwel l-bare7",
+"ar": "ول البارح",
+"nota": ""
+},
+{
+"id": "tiempo-006",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Día",
+"pr": "nhar",
+"ar": "نهار",
+"nota": ""
+},
+{
+"id": "tiempo-007",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Semana",
+"pr": "simana",
+"ar": "سيمانة",
+"nota": "Viene del español \"semana\""
+},
+{
+"id": "tiempo-008",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Mes",
+"pr": "shher",
+"ar": "شهر",
+"nota": ""
+},
+{
+"id": "tiempo-009",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Año",
+"pr": "3am",
+"ar": "عام",
+"nota": ""
+},
+{
+"id": "tiempo-010",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Hora",
+"pr": "sa3a",
+"ar": "ساعة",
+"nota": "También \"reloj\""
+},
+{
+"id": "tiempo-011",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Minuto",
+"pr": "dqiqa",
+"ar": "دقيقة",
+"nota": ""
+},
+{
+"id": "tiempo-012",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Por la mañana",
+"pr": "f s-sba7",
+"ar": "ف الصباح",
+"nota": ""
+},
+{
+"id": "tiempo-013",
+"cat": "tiempo",
+"lvl": 2,
+"es": "A mediodía",
+"pr": "f nuss n-nhar",
+"ar": "ف نص النهار",
+"nota": ""
+},
+{
+"id": "tiempo-014",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Por la tarde",
+"pr": "f l-3shiya",
+"ar": "ف العشية",
+"nota": ""
+},
+{
+"id": "tiempo-015",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Por la noche",
+"pr": "f l-lil",
+"ar": "ف الليل",
+"nota": ""
+},
+{
+"id": "tiempo-016",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Esta mañana",
+"pr": "had s-sba7",
+"ar": "هاد الصباح",
+"nota": ""
+},
+{
+"id": "tiempo-017",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Lunes",
+"pr": "t-tnin",
+"ar": "التنين",
+"nota": ""
+},
+{
+"id": "tiempo-018",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Martes",
+"pr": "t-tlat",
+"ar": "التلات",
+"nota": ""
+},
+{
+"id": "tiempo-019",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Miércoles",
+"pr": "l-arb3",
+"ar": "الاربع",
+"nota": ""
+},
+{
+"id": "tiempo-020",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Jueves",
+"pr": "l-khmis",
+"ar": "الخميس",
+"nota": ""
+},
+{
+"id": "tiempo-021",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Viernes",
+"pr": "j-jem3a",
+"ar": "الجمعة",
+"nota": ""
+},
+{
+"id": "tiempo-022",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Sábado",
+"pr": "s-sebt",
+"ar": "السبت",
+"nota": ""
+},
+{
+"id": "tiempo-023",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Domingo",
+"pr": "l-7edd",
+"ar": "الحد",
+"nota": ""
+},
+{
+"id": "tiempo-024",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Fin de semana",
+"pr": "l-wikand",
+"ar": "الويكاند",
+"nota": ""
+},
+{
+"id": "tiempo-025",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Temprano",
+"pr": "bekri",
+"ar": "بكري",
+"nota": ""
+},
+{
+"id": "tiempo-026",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Llego tarde",
+"pr": "ana m3ettel",
+"ar": "أنا معطل",
+"nota": ""
+},
+{
+"id": "tiempo-027",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Antes",
+"pr": "qbel",
+"ar": "قبل",
+"nota": ""
+},
+{
+"id": "tiempo-028",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Después",
+"pr": "men b3d",
+"ar": "من بعد",
+"nota": ""
+},
+{
+"id": "tiempo-029",
+"cat": "tiempo",
+"lvl": 1,
+"es": "Cada día",
+"pr": "kul nhar",
+"ar": "كل نهار",
+"nota": ""
+},
+{
+"id": "tiempo-030",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Son las tres",
+"pr": "t-tlata",
+"ar": "التلاتة",
+"nota": ""
+},
+{
+"id": "tiempo-031",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Las tres y media",
+"pr": "t-tlata u nuss",
+"ar": "التلاتة ونص",
+"nota": ""
+},
+{
+"id": "tiempo-032",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Dentro de un rato",
+"pr": "men b3d shwiya",
+"ar": "من بعد شوية",
+"nota": ""
+},
+{
+"id": "tiempo-033",
+"cat": "tiempo",
+"lvl": 3,
+"es": "Hace mucho que no nos vemos",
+"pr": "hadi modda ma tshawfna",
+"ar": "هادي مدة ما تشاوفنا",
+"nota": ""
+},
+{
+"id": "tiempo-034",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Vacaciones",
+"pr": "l-3otla",
+"ar": "العطلة",
+"nota": ""
+},
+{
+"id": "familia-001",
+"cat": "familia",
+"lvl": 1,
+"es": "Padre",
+"pr": "l-walid",
+"ar": "الواليد",
+"nota": "\"Mi padre\" en confianza: bba"
+},
+{
+"id": "familia-002",
+"cat": "familia",
+"lvl": 1,
+"es": "Madre",
+"pr": "l-walida",
+"ar": "الواليدة",
+"nota": "\"Mi madre\" en confianza: mmi"
+},
+{
+"id": "familia-003",
+"cat": "familia",
+"lvl": 1,
+"es": "Mi hermano",
+"pr": "khuya",
+"ar": "خويا",
+"nota": ""
+},
+{
+"id": "familia-004",
+"cat": "familia",
+"lvl": 1,
+"es": "Mi hermana",
+"pr": "khti",
+"ar": "ختي",
+"nota": ""
+},
+{
+"id": "familia-005",
+"cat": "familia",
+"lvl": 1,
+"es": "Mi hijo",
+"pr": "weldi",
+"ar": "ولدي",
+"nota": ""
+},
+{
+"id": "familia-006",
+"cat": "familia",
+"lvl": 1,
+"es": "Mi hija",
+"pr": "benti",
+"ar": "بنتي",
+"nota": ""
+},
+{
+"id": "familia-007",
+"cat": "familia",
+"lvl": 2,
+"es": "Mi abuelo",
+"pr": "jeddi",
+"ar": "جدي",
+"nota": ""
+},
+{
+"id": "familia-008",
+"cat": "familia",
+"lvl": 2,
+"es": "Mi abuela",
+"pr": "jeddti",
+"ar": "جدتي",
+"nota": ""
+},
+{
+"id": "familia-009",
+"cat": "familia",
+"lvl": 2,
+"es": "Mi tío (paterno)",
+"pr": "3mmi",
+"ar": "عمي",
+"nota": "Tío materno: khali"
+},
+{
+"id": "familia-010",
+"cat": "familia",
+"lvl": 2,
+"es": "Mi tía (paterna)",
+"pr": "3mmti",
+"ar": "عمتي",
+"nota": "Tía materna: khalti"
+},
+{
+"id": "familia-011",
+"cat": "familia",
+"lvl": 2,
+"es": "Mi primo",
+"pr": "weld 3mmi",
+"ar": "ولد عمي",
+"nota": "\"Hijo de mi tío\""
+},
+{
+"id": "familia-012",
+"cat": "familia",
+"lvl": 2,
+"es": "Mi marido",
+"pr": "rajli",
+"ar": "راجلي",
+"nota": ""
+},
+{
+"id": "familia-013",
+"cat": "familia",
+"lvl": 2,
+"es": "Mi mujer",
+"pr": "mrati",
+"ar": "مراتي",
+"nota": ""
+},
+{
+"id": "familia-014",
+"cat": "familia",
+"lvl": 1,
+"es": "Mi amigo",
+"pr": "sa7bi",
+"ar": "صاحبي",
+"nota": ""
+},
+{
+"id": "familia-015",
+"cat": "familia",
+"lvl": 1,
+"es": "Mi amiga",
+"pr": "sa7bti",
+"ar": "صاحبتي",
+"nota": ""
+},
+{
+"id": "familia-016",
+"cat": "familia",
+"lvl": 1,
+"es": "Familia",
+"pr": "l-3a2ila",
+"ar": "العائلة",
+"nota": ""
+},
+{
+"id": "familia-017",
+"cat": "familia",
+"lvl": 1,
+"es": "Hombre",
+"pr": "rajel",
+"ar": "راجل",
+"nota": ""
+},
+{
+"id": "familia-018",
+"cat": "familia",
+"lvl": 1,
+"es": "Mujer",
+"pr": "mra",
+"ar": "مرا",
+"nota": ""
+},
+{
+"id": "familia-019",
+"cat": "familia",
+"lvl": 1,
+"es": "Chico",
+"pr": "weld",
+"ar": "ولد",
+"nota": ""
+},
+{
+"id": "familia-020",
+"cat": "familia",
+"lvl": 1,
+"es": "Chica",
+"pr": "bent",
+"ar": "بنت",
+"nota": ""
+},
+{
+"id": "familia-021",
+"cat": "familia",
+"lvl": 1,
+"es": "Niño",
+"pr": "derri",
+"ar": "دري",
+"nota": ""
+},
+{
+"id": "familia-022",
+"cat": "familia",
+"lvl": 1,
+"es": "Niños",
+"pr": "drari",
+"ar": "دراري",
+"nota": ""
+},
+{
+"id": "familia-023",
+"cat": "familia",
+"lvl": 2,
+"es": "Vecino",
+"pr": "jar",
+"ar": "جار",
+"nota": ""
+},
+{
+"id": "familia-024",
+"cat": "familia",
+"lvl": 1,
+"es": "La gente",
+"pr": "n-nas",
+"ar": "الناس",
+"nota": ""
+},
+{
+"id": "comida-001",
+"cat": "comida",
+"lvl": 1,
+"es": "Pan",
+"pr": "l-khobz",
+"ar": "الخبز",
+"nota": ""
+},
+{
+"id": "comida-002",
+"cat": "comida",
+"lvl": 1,
+"es": "Agua",
+"pr": "l-ma",
+"ar": "الما",
+"nota": ""
+},
+{
+"id": "comida-003",
+"cat": "comida",
+"lvl": 1,
+"es": "Té",
+"pr": "atay",
+"ar": "أتاي",
+"nota": "El té marroquí, con menta y bastante azúcar"
+},
+{
+"id": "comida-004",
+"cat": "comida",
+"lvl": 1,
+"es": "Té con menta",
+"pr": "atay b n-n3na3",
+"ar": "أتاي بالنعناع",
+"nota": ""
+},
+{
+"id": "comida-005",
+"cat": "comida",
+"lvl": 1,
+"es": "Café",
+"pr": "qahwa",
+"ar": "قهوة",
+"nota": ""
+},
+{
+"id": "comida-006",
+"cat": "comida",
+"lvl": 2,
+"es": "Café cortado (mitad y mitad)",
+"pr": "nuss nuss",
+"ar": "نص نص",
+"nota": "Lo que se pide en cualquier café marroquí"
+},
+{
+"id": "comida-007",
+"cat": "comida",
+"lvl": 1,
+"es": "Leche",
+"pr": "l-7lib",
+"ar": "الحليب",
+"nota": ""
+},
+{
+"id": "comida-008",
+"cat": "comida",
+"lvl": 1,
+"es": "Azúcar",
+"pr": "s-sokkar",
+"ar": "السكر",
+"nota": ""
+},
+{
+"id": "comida-009",
+"cat": "comida",
+"lvl": 2,
+"es": "Sal",
+"pr": "l-mel7a",
+"ar": "الملحة",
+"nota": ""
+},
+{
+"id": "comida-010",
+"cat": "comida",
+"lvl": 1,
+"es": "Carne",
+"pr": "l-l7em",
+"ar": "اللحم",
+"nota": ""
+},
+{
+"id": "comida-011",
+"cat": "comida",
+"lvl": 1,
+"es": "Pollo",
+"pr": "d-djaj",
+"ar": "الدجاج",
+"nota": ""
+},
+{
+"id": "comida-012",
+"cat": "comida",
+"lvl": 1,
+"es": "Pescado",
+"pr": "l-7ut",
+"ar": "الحوت",
+"nota": ""
+},
+{
+"id": "comida-013",
+"cat": "comida",
+"lvl": 1,
+"es": "Huevos",
+"pr": "l-bid",
+"ar": "البيض",
+"nota": ""
+},
+{
+"id": "comida-014",
+"cat": "comida",
+"lvl": 2,
+"es": "Arroz",
+"pr": "r-ruz",
+"ar": "الروز",
+"nota": ""
+},
+{
+"id": "comida-015",
+"cat": "comida",
+"lvl": 2,
+"es": "Verduras",
+"pr": "l-khodra",
+"ar": "الخضرة",
+"nota": ""
+},
+{
+"id": "comida-016",
+"cat": "comida",
+"lvl": 1,
+"es": "Manzana",
+"pr": "t-teffa7",
+"ar": "التفاح",
+"nota": ""
+},
+{
+"id": "comida-017",
+"cat": "comida",
+"lvl": 1,
+"es": "Naranja",
+"pr": "l-limun",
+"ar": "الليمون",
+"nota": "Ojo: en Marruecos limun es naranja"
+},
+{
+"id": "comida-018",
+"cat": "comida",
+"lvl": 2,
+"es": "Plátano",
+"pr": "l-banan",
+"ar": "البنان",
+"nota": ""
+},
+{
+"id": "comida-019",
+"cat": "comida",
+"lvl": 1,
+"es": "Tomate",
+"pr": "maticha",
+"ar": "ماطيشة",
+"nota": "Del español \"tomate\""
+},
+{
+"id": "comida-020",
+"cat": "comida",
+"lvl": 1,
+"es": "Patata",
+"pr": "btata",
+"ar": "بطاطا",
+"nota": ""
+},
+{
+"id": "comida-021",
+"cat": "comida",
+"lvl": 2,
+"es": "Cebolla",
+"pr": "l-besla",
+"ar": "البصلة",
+"nota": ""
+},
+{
+"id": "comida-022",
+"cat": "comida",
+"lvl": 2,
+"es": "Aceite",
+"pr": "z-zit",
+"ar": "الزيت",
+"nota": ""
+},
+{
+"id": "comida-023",
+"cat": "comida",
+"lvl": 2,
+"es": "Aceitunas",
+"pr": "z-zitun",
+"ar": "الزيتون",
+"nota": ""
+},
+{
+"id": "comida-024",
+"cat": "comida",
+"lvl": 1,
+"es": "Cuscús",
+"pr": "keskssu",
+"ar": "كسكسو",
+"nota": "Tradición: el viernes a mediodía"
+},
+{
+"id": "comida-025",
+"cat": "comida",
+"lvl": 1,
+"es": "Tajín",
+"pr": "tajin",
+"ar": "طاجين",
+"nota": ""
+},
+{
+"id": "comida-026",
+"cat": "comida",
+"lvl": 2,
+"es": "Harira (sopa)",
+"pr": "l-7rira",
+"ar": "الحريرة",
+"nota": "La sopa típica de Ramadán"
+},
+{
+"id": "comida-027",
+"cat": "comida",
+"lvl": 1,
+"es": "Desayuno",
+"pr": "l-ftur",
+"ar": "الفطور",
+"nota": ""
+},
+{
+"id": "comida-028",
+"cat": "comida",
+"lvl": 1,
+"es": "Comida (almuerzo)",
+"pr": "l-ghda",
+"ar": "الغدا",
+"nota": ""
+},
+{
+"id": "comida-029",
+"cat": "comida",
+"lvl": 1,
+"es": "Cena",
+"pr": "l-3sha",
+"ar": "العشا",
+"nota": ""
+},
+{
+"id": "comida-030",
+"cat": "comida",
+"lvl": 1,
+"es": "Tengo hambre",
+"pr": "ana ji3an",
+"ar": "أنا جيعان",
+"nota": "Una mujer: ana ji3ana"
+},
+{
+"id": "comida-031",
+"cat": "comida",
+"lvl": 1,
+"es": "Tengo sed",
+"pr": "ana 3tshan",
+"ar": "أنا عطشان",
+"nota": "Una mujer: ana 3tshana"
+},
+{
+"id": "comida-032",
+"cat": "comida",
+"lvl": 1,
+"es": "Estoy lleno",
+"pr": "shb3t",
+"ar": "شبعت",
+"nota": ""
+},
+{
+"id": "comida-033",
+"cat": "comida",
+"lvl": 1,
+"es": "Está muy rico",
+"pr": "bnin bezzaf",
+"ar": "بنين بزاف",
+"nota": "bnin = rico, sabroso"
+},
+{
+"id": "comida-034",
+"cat": "comida",
+"lvl": 1,
+"es": "La cuenta, por favor",
+"pr": "l-7sab 3afak",
+"ar": "الحساب عافاك",
+"nota": ""
+},
+{
+"id": "comida-035",
+"cat": "comida",
+"lvl": 1,
+"es": "Quiero un té",
+"pr": "bghit wa7ed atay",
+"ar": "بغيت واحد أتاي",
+"nota": ""
+},
+{
+"id": "comida-036",
+"cat": "comida",
+"lvl": 1,
+"es": "Sin azúcar",
+"pr": "bla sokkar",
+"ar": "بلا سكر",
+"nota": ""
+},
+{
+"id": "comida-037",
+"cat": "comida",
+"lvl": 2,
+"es": "Picante",
+"pr": "7arr",
+"ar": "حار",
+"nota": ""
+},
+{
+"id": "comida-038",
+"cat": "comida",
+"lvl": 1,
+"es": "Comer",
+"pr": "kla / nakul",
+"ar": "كلا / ناكل",
+"nota": "kla = comió; nakul = (que yo) coma"
+},
+{
+"id": "comida-039",
+"cat": "comida",
+"lvl": 1,
+"es": "Beber",
+"pr": "shreb / nshreb",
+"ar": "شرب / نشرب",
+"nota": ""
+},
+{
+"id": "comida-040",
+"cat": "comida",
+"lvl": 2,
+"es": "Voy a comer",
+"pr": "ghadi nakul",
+"ar": "غادي ناكل",
+"nota": ""
+},
+{
+"id": "comida-041",
+"cat": "comida",
+"lvl": 2,
+"es": "Vaso",
+"pr": "l-kas",
+"ar": "الكاس",
+"nota": ""
+},
+{
+"id": "comida-042",
+"cat": "comida",
+"lvl": 2,
+"es": "Plato",
+"pr": "t-tbsil",
+"ar": "الطبسيل",
+"nota": ""
+},
+{
+"id": "comida-043",
+"cat": "comida",
+"lvl": 2,
+"es": "Cuchara",
+"pr": "l-m3elqa",
+"ar": "المعلقة",
+"nota": ""
+},
+{
+"id": "comida-044",
+"cat": "comida",
+"lvl": 2,
+"es": "Cuchillo",
+"pr": "l-mus",
+"ar": "الموس",
+"nota": ""
+},
+{
+"id": "comida-045",
+"cat": "comida",
+"lvl": 2,
+"es": "¿Vamos a tomar un café?",
+"pr": "yallah nsherbu shi qahwa?",
+"ar": "يالاه نشربو شي قهوة؟",
+"nota": ""
+},
+{
+"id": "comida-046",
+"cat": "comida",
+"lvl": 2,
+"es": "Invito yo",
+"pr": "3liya ana",
+"ar": "عليا أنا",
+"nota": ""
+},
+{
+"id": "compras-001",
+"cat": "compras",
+"lvl": 1,
+"es": "¿Cuánto cuesta?",
+"pr": "bsh7al hadi?",
+"ar": "بشحال هادي؟",
+"nota": ""
+},
+{
+"id": "compras-002",
+"cat": "compras",
+"lvl": 1,
+"es": "Es caro",
+"pr": "ghali",
+"ar": "غالي",
+"nota": ""
+},
+{
+"id": "compras-003",
+"cat": "compras",
+"lvl": 1,
+"es": "Barato",
+"pr": "rkhis",
+"ar": "رخيص",
+"nota": ""
+},
+{
+"id": "compras-004",
+"cat": "compras",
+"lvl": 1,
+"es": "Rebájame un poco",
+"pr": "nqess shwiya 3afak",
+"ar": "نقص شوية عافاك",
+"nota": "Regatear es normal en el zoco"
+},
+{
+"id": "compras-005",
+"cat": "compras",
+"lvl": 2,
+"es": "¿Último precio?",
+"pr": "akhir taman?",
+"ar": "آخر تمن؟",
+"nota": ""
+},
+{
+"id": "compras-006",
+"cat": "compras",
+"lvl": 2,
+"es": "Me lo llevo",
+"pr": "ghadi nakhdu",
+"ar": "غادي ناخدو",
+"nota": ""
+},
+{
+"id": "compras-007",
+"cat": "compras",
+"lvl": 1,
+"es": "Comprar",
+"pr": "shra / nshri",
+"ar": "شرا / نشري",
+"nota": ""
+},
+{
+"id": "compras-008",
+"cat": "compras",
+"lvl": 2,
+"es": "Vender",
+"pr": "ba3 / nbi3",
+"ar": "باع / نبيع",
+"nota": ""
+},
+{
+"id": "compras-009",
+"cat": "compras",
+"lvl": 1,
+"es": "Dinero",
+"pr": "l-flus",
+"ar": "الفلوس",
+"nota": ""
+},
+{
+"id": "compras-010",
+"cat": "compras",
+"lvl": 1,
+"es": "Dirham",
+"pr": "derhem",
+"ar": "درهم",
+"nota": ""
+},
+{
+"id": "compras-011",
+"cat": "compras",
+"lvl": 3,
+"es": "Real (moneda informal)",
+"pr": "ryal",
+"ar": "ريال",
+"nota": "1 dirham = 20 reales. Mucha gente da los precios en reales: ojo"
+},
+{
+"id": "compras-012",
+"cat": "compras",
+"lvl": 1,
+"es": "Tienda",
+"pr": "l-7anut",
+"ar": "الحانوت",
+"nota": ""
+},
+{
+"id": "compras-013",
+"cat": "compras",
+"lvl": 1,
+"es": "Mercado / zoco",
+"pr": "s-suq",
+"ar": "السوق",
+"nota": ""
+},
+{
+"id": "compras-014",
+"cat": "compras",
+"lvl": 2,
+"es": "Cambio (monedas sueltas)",
+"pr": "s-serf",
+"ar": "الصرف",
+"nota": ""
+},
+{
+"id": "compras-015",
+"cat": "compras",
+"lvl": 2,
+"es": "Tarjeta",
+"pr": "l-karta",
+"ar": "الكارطة",
+"nota": ""
+},
+{
+"id": "compras-016",
+"cat": "compras",
+"lvl": 2,
+"es": "¿Aceptáis tarjeta?",
+"pr": "wash katqeblu l-karta?",
+"ar": "واش كتقبلو الكارطة؟",
+"nota": ""
+},
+{
+"id": "compras-017",
+"cat": "compras",
+"lvl": 2,
+"es": "Una bolsa",
+"pr": "wa7ed l-mika",
+"ar": "واحد الميكا",
+"nota": ""
+},
+{
+"id": "compras-018",
+"cat": "compras",
+"lvl": 1,
+"es": "Solo estoy mirando",
+"pr": "ghir kanshuf",
+"ar": "غير كنشوف",
+"nota": ""
+},
+{
+"id": "compras-019",
+"cat": "compras",
+"lvl": 2,
+"es": "¿Tienes otro color?",
+"pr": "wash 3ndek shi lun akhor?",
+"ar": "واش عندك شي لون آخور؟",
+"nota": ""
+},
+{
+"id": "compras-020",
+"cat": "compras",
+"lvl": 1,
+"es": "Grande",
+"pr": "kbir",
+"ar": "كبير",
+"nota": ""
+},
+{
+"id": "compras-021",
+"cat": "compras",
+"lvl": 1,
+"es": "Pequeño",
+"pr": "sghir",
+"ar": "صغير",
+"nota": ""
+},
+{
+"id": "compras-022",
+"cat": "compras",
+"lvl": 1,
+"es": "Más",
+"pr": "ktar",
+"ar": "كتر",
+"nota": ""
+},
+{
+"id": "compras-023",
+"cat": "compras",
+"lvl": 2,
+"es": "Menos",
+"pr": "qell",
+"ar": "قل",
+"nota": ""
+},
+{
+"id": "ciudad-001",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Ciudad",
+"pr": "l-mdina",
+"ar": "المدينة",
+"nota": "También \"la medina\", el casco antiguo"
+},
+{
+"id": "ciudad-002",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Calle",
+"pr": "z-zenqa",
+"ar": "الزنقة",
+"nota": ""
+},
+{
+"id": "ciudad-003",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Barrio",
+"pr": "l-7uma",
+"ar": "الحومة",
+"nota": ""
+},
+{
+"id": "ciudad-004",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Casa",
+"pr": "d-dar",
+"ar": "الدار",
+"nota": ""
+},
+{
+"id": "ciudad-005",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Taxi",
+"pr": "t-taxi",
+"ar": "الطاكسي",
+"nota": ""
+},
+{
+"id": "ciudad-006",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Autobús",
+"pr": "t-tobis",
+"ar": "الطوبيس",
+"nota": ""
+},
+{
+"id": "ciudad-007",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Tren",
+"pr": "t-tran",
+"ar": "التران",
+"nota": ""
+},
+{
+"id": "ciudad-008",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Estación (de tren)",
+"pr": "lagar",
+"ar": "لاݣار",
+"nota": "Del francés gare"
+},
+{
+"id": "ciudad-009",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Aeropuerto",
+"pr": "l-matar",
+"ar": "المطار",
+"nota": ""
+},
+{
+"id": "ciudad-010",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Coche",
+"pr": "t-tomobil",
+"ar": "الطوموبيل",
+"nota": ""
+},
+{
+"id": "ciudad-011",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Billete",
+"pr": "l-biyyi",
+"ar": "البيي",
+"nota": "Del francés billet"
+},
+{
+"id": "ciudad-012",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Derecha",
+"pr": "l-imen",
+"ar": "ليمن",
+"nota": ""
+},
+{
+"id": "ciudad-013",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Izquierda",
+"pr": "l-isser",
+"ar": "ليسر",
+"nota": ""
+},
+{
+"id": "ciudad-014",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Recto",
+"pr": "nishan",
+"ar": "نيشان",
+"nota": ""
+},
+{
+"id": "ciudad-015",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Cerca",
+"pr": "qrib",
+"ar": "قريب",
+"nota": ""
+},
+{
+"id": "ciudad-016",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Lejos",
+"pr": "b3id",
+"ar": "بعيد",
+"nota": ""
+},
+{
+"id": "ciudad-017",
+"cat": "ciudad",
+"lvl": 1,
+"es": "¿Dónde está la estación?",
+"pr": "fin kayna lagar?",
+"ar": "فين كاينة لاݣار؟",
+"nota": ""
+},
+{
+"id": "ciudad-018",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Lléveme a..., por favor",
+"pr": "ddini l... 3afak",
+"ar": "ديني ل... عافاك",
+"nota": "Lo que le dices al taxista"
+},
+{
+"id": "ciudad-019",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Pare aquí",
+"pr": "wqef hna",
+"ar": "وقف هنا",
+"nota": ""
+},
+{
+"id": "ciudad-020",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Me he perdido",
+"pr": "tlft",
+"ar": "تلفت",
+"nota": ""
+},
+{
+"id": "ciudad-021",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Hotel",
+"pr": "l-util",
+"ar": "الوطيل",
+"nota": "Del francés hôtel"
+},
+{
+"id": "ciudad-022",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Mezquita",
+"pr": "j-jame3",
+"ar": "الجامع",
+"nota": ""
+},
+{
+"id": "ciudad-023",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Playa / mar",
+"pr": "l-b7er",
+"ar": "البحر",
+"nota": ""
+},
+{
+"id": "ciudad-024",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Plaza",
+"pr": "s-sa7a",
+"ar": "الساحة",
+"nota": ""
+},
+{
+"id": "ciudad-025",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Hospital",
+"pr": "sbitar",
+"ar": "سبيطار",
+"nota": "Del español \"hospital\""
+},
+{
+"id": "ciudad-026",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Farmacia",
+"pr": "l-fermasyan",
+"ar": "الفرمسيان",
+"nota": "En realidad es \"el farmacéutico\", pero se usa para la farmacia"
+},
+{
+"id": "ciudad-027",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Policía",
+"pr": "l-bulis",
+"ar": "البوليس",
+"nota": ""
+},
+{
+"id": "ciudad-028",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Banco",
+"pr": "l-banka",
+"ar": "البانكا",
+"nota": "Del español \"banca\""
+},
+{
+"id": "ciudad-029",
+"cat": "ciudad",
+"lvl": 3,
+"es": "Correos",
+"pr": "l-bosta",
+"ar": "البوسطة",
+"nota": ""
+},
+{
+"id": "ciudad-030",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Escuela",
+"pr": "l-medrasa",
+"ar": "المدرسة",
+"nota": ""
+},
+{
+"id": "ciudad-031",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Ir",
+"pr": "msha / nmshi",
+"ar": "مشى / نمشي",
+"nota": ""
+},
+{
+"id": "ciudad-032",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Voy a casa",
+"pr": "ghadi l d-dar",
+"ar": "غادي للدار",
+"nota": ""
+},
+{
+"id": "ciudad-033",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Venir",
+"pr": "ja / nji",
+"ar": "جا / نجي",
+"nota": ""
+},
+{
+"id": "ciudad-034",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Entrar",
+"pr": "dkhel / ndkhol",
+"ar": "دخل / ندخل",
+"nota": ""
+},
+{
+"id": "ciudad-035",
+"cat": "ciudad",
+"lvl": 1,
+"es": "Salir",
+"pr": "khrej / nkhroj",
+"ar": "خرج / نخرج",
+"nota": ""
+},
+{
+"id": "ciudad-036",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Subir",
+"pr": "tle3 / ntle3",
+"ar": "طلع / نطلع",
+"nota": ""
+},
+{
+"id": "ciudad-037",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Bajar",
+"pr": "hbet / nhbet",
+"ar": "هبط / نهبط",
+"nota": ""
+},
+{
+"id": "ciudad-038",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Estoy de camino",
+"pr": "ana f t-triq",
+"ar": "أنا ف الطريق",
+"nota": ""
+},
+{
+"id": "ciudad-039",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Estoy llegando",
+"pr": "ana wasel",
+"ar": "أنا واصل",
+"nota": ""
+},
+{
+"id": "casa-001",
+"cat": "casa",
+"lvl": 1,
+"es": "Habitación",
+"pr": "l-bit",
+"ar": "البيت",
+"nota": ""
+},
+{
+"id": "casa-002",
+"cat": "casa",
+"lvl": 1,
+"es": "Cocina",
+"pr": "l-kuzina",
+"ar": "الكوزينة",
+"nota": "Del español \"cocina\""
+},
+{
+"id": "casa-003",
+"cat": "casa",
+"lvl": 1,
+"es": "Baño",
+"pr": "bit l-ma",
+"ar": "بيت الما",
+"nota": "Literalmente \"habitación del agua\""
+},
+{
+"id": "casa-004",
+"cat": "casa",
+"lvl": 1,
+"es": "Puerta",
+"pr": "l-bab",
+"ar": "الباب",
+"nota": ""
+},
+{
+"id": "casa-005",
+"cat": "casa",
+"lvl": 2,
+"es": "Ventana",
+"pr": "sh-sherjem",
+"ar": "الشرجم",
+"nota": ""
+},
+{
+"id": "casa-006",
+"cat": "casa",
+"lvl": 1,
+"es": "Llave",
+"pr": "s-sarut",
+"ar": "الساروت",
+"nota": ""
+},
+{
+"id": "casa-007",
+"cat": "casa",
+"lvl": 2,
+"es": "Cama",
+"pr": "n-namusiya",
+"ar": "الناموسية",
+"nota": ""
+},
+{
+"id": "casa-008",
+"cat": "casa",
+"lvl": 1,
+"es": "Mesa",
+"pr": "t-tebla",
+"ar": "الطبلة",
+"nota": "Del español \"tabla\""
+},
+{
+"id": "casa-009",
+"cat": "casa",
+"lvl": 1,
+"es": "Silla",
+"pr": "l-kursi",
+"ar": "الكرسي",
+"nota": ""
+},
+{
+"id": "casa-010",
+"cat": "casa",
+"lvl": 1,
+"es": "Ropa",
+"pr": "l-7wayej",
+"ar": "الحوايج",
+"nota": "También \"cosas\" en general"
+},
+{
+"id": "casa-011",
+"cat": "casa",
+"lvl": 1,
+"es": "Zapatos",
+"pr": "s-sebbat",
+"ar": "الصباط",
+"nota": "Del español \"zapato\""
+},
+{
+"id": "casa-012",
+"cat": "casa",
+"lvl": 1,
+"es": "Móvil",
+"pr": "l-portabl",
+"ar": "البورطابل",
+"nota": ""
+},
+{
+"id": "casa-013",
+"cat": "casa",
+"lvl": 2,
+"es": "Luz",
+"pr": "d-du",
+"ar": "الضو",
+"nota": ""
+},
+{
+"id": "casa-014",
+"cat": "casa",
+"lvl": 2,
+"es": "Agua caliente",
+"pr": "l-ma skhun",
+"ar": "الما سخون",
+"nota": ""
+},
+{
+"id": "casa-015",
+"cat": "casa",
+"lvl": 2,
+"es": "Televisión",
+"pr": "t-tilfaza",
+"ar": "التلفازة",
+"nota": ""
+},
+{
+"id": "casa-016",
+"cat": "casa",
+"lvl": 1,
+"es": "Dormir",
+"pr": "n3es / nn3es",
+"ar": "نعس / ننعس",
+"nota": ""
+},
+{
+"id": "casa-017",
+"cat": "casa",
+"lvl": 1,
+"es": "Despertarse",
+"pr": "faq / nfiq",
+"ar": "فاق / نفيق",
+"nota": ""
+},
+{
+"id": "casa-018",
+"cat": "casa",
+"lvl": 2,
+"es": "Ducharse",
+"pr": "tdewwesh / ntdewwesh",
+"ar": "تدوش / نتدوش",
+"nota": "Del francés douche"
+},
+{
+"id": "casa-019",
+"cat": "casa",
+"lvl": 2,
+"es": "Limpiar",
+"pr": "neqqa / nneqqi",
+"ar": "نقى / ننقي",
+"nota": ""
+},
+{
+"id": "casa-020",
+"cat": "casa",
+"lvl": 2,
+"es": "Lavar",
+"pr": "ghsel / nghsel",
+"ar": "غسل / نغسل",
+"nota": ""
+},
+{
+"id": "casa-021",
+"cat": "casa",
+"lvl": 2,
+"es": "Cocinar",
+"pr": "tyyeb / ntyyeb",
+"ar": "طيب / نطيب",
+"nota": ""
+},
+{
+"id": "casa-022",
+"cat": "casa",
+"lvl": 2,
+"es": "Voy a dormir",
+"pr": "ghadi nn3es",
+"ar": "غادي ننعس",
+"nota": ""
+},
+{
+"id": "trabajo-001",
+"cat": "trabajo",
+"lvl": 1,
+"es": "Trabajo",
+"pr": "l-khedma",
+"ar": "الخدمة",
+"nota": ""
+},
+{
+"id": "trabajo-002",
+"cat": "trabajo",
+"lvl": 1,
+"es": "Trabajar",
+"pr": "khdem / nkhdem",
+"ar": "خدم / نخدم",
+"nota": ""
+},
+{
+"id": "trabajo-003",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Trabajador",
+"pr": "khddam",
+"ar": "خدام",
+"nota": "\"Ana khddam\" = estoy trabajando / tengo trabajo"
+},
+{
+"id": "trabajo-004",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Jefe",
+"pr": "l-patron",
+"ar": "الباطرون",
+"nota": ""
+},
+{
+"id": "trabajo-005",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Compañero de trabajo",
+"pr": "zmil",
+"ar": "زميل",
+"nota": ""
+},
+{
+"id": "trabajo-006",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Oficina",
+"pr": "l-biru",
+"ar": "البيرو",
+"nota": "Del francés bureau"
+},
+{
+"id": "trabajo-007",
+"cat": "trabajo",
+"lvl": 3,
+"es": "Sueldo",
+"pr": "l-khlas",
+"ar": "الخلاص",
+"nota": ""
+},
+{
+"id": "trabajo-008",
+"cat": "trabajo",
+"lvl": 1,
+"es": "Estoy cansado",
+"pr": "ana 3iyyan",
+"ar": "أنا عيان",
+"nota": ""
+},
+{
+"id": "trabajo-009",
+"cat": "trabajo",
+"lvl": 1,
+"es": "Estoy ocupado",
+"pr": "ana mshghul",
+"ar": "أنا مشغول",
+"nota": ""
+},
+{
+"id": "trabajo-010",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Tengo mucho trabajo",
+"pr": "3ndi l-khedma bezzaf",
+"ar": "عندي الخدمة بزاف",
+"nota": ""
+},
+{
+"id": "trabajo-011",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Empresa",
+"pr": "sharika",
+"ar": "شركة",
+"nota": ""
+},
+{
+"id": "trabajo-012",
+"cat": "trabajo",
+"lvl": 1,
+"es": "Universidad",
+"pr": "l-jami3a",
+"ar": "الجامعة",
+"nota": ""
+},
+{
+"id": "trabajo-013",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Examen",
+"pr": "l-imti7an",
+"ar": "الامتحان",
+"nota": ""
+},
+{
+"id": "trabajo-014",
+"cat": "trabajo",
+"lvl": 1,
+"es": "Libro",
+"pr": "l-ktab",
+"ar": "الكتاب",
+"nota": ""
+},
+{
+"id": "trabajo-015",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Ordenador",
+"pr": "l-ordinatur",
+"ar": "لورديناتور",
+"nota": "Del francés ordinateur"
+},
+{
+"id": "trabajo-016",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Me voy a trabajar",
+"pr": "ghadi l l-khedma",
+"ar": "غادي للخدمة",
+"nota": ""
+},
+{
+"id": "trabajo-017",
+"cat": "trabajo",
+"lvl": 3,
+"es": "Salgo a las cinco",
+"pr": "kansali f l-khmsa",
+"ar": "كنسالي ف الخمسة",
+"nota": "sala = terminar"
+},
+{
+"id": "cuerpo-001",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Cabeza",
+"pr": "r-ras",
+"ar": "الراس",
+"nota": ""
+},
+{
+"id": "cuerpo-002",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Ojo",
+"pr": "l-3in",
+"ar": "العين",
+"nota": ""
+},
+{
+"id": "cuerpo-003",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Boca",
+"pr": "l-fomm",
+"ar": "الفم",
+"nota": ""
+},
+{
+"id": "cuerpo-004",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Mano",
+"pr": "l-yedd",
+"ar": "اليد",
+"nota": ""
+},
+{
+"id": "cuerpo-005",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Pie / pierna",
+"pr": "r-rjel",
+"ar": "الرجل",
+"nota": ""
+},
+{
+"id": "cuerpo-006",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Barriga",
+"pr": "l-kersh",
+"ar": "الكرش",
+"nota": ""
+},
+{
+"id": "cuerpo-007",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Diente",
+"pr": "s-snna",
+"ar": "السنة",
+"nota": ""
+},
+{
+"id": "cuerpo-008",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Espalda",
+"pr": "d-dher",
+"ar": "الضهر",
+"nota": ""
+},
+{
+"id": "cuerpo-009",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Corazón",
+"pr": "l-qelb",
+"ar": "القلب",
+"nota": ""
+},
+{
+"id": "cuerpo-010",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Me duele la cabeza",
+"pr": "kaydrrni rasi",
+"ar": "كيضرني راسي",
+"nota": "kaydrrni = me duele"
+},
+{
+"id": "cuerpo-011",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Estoy enfermo",
+"pr": "ana mrid",
+"ar": "أنا مريض",
+"nota": ""
+},
+{
+"id": "cuerpo-012",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Médico",
+"pr": "t-tbib",
+"ar": "الطبيب",
+"nota": ""
+},
+{
+"id": "cuerpo-013",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Medicina",
+"pr": "d-dwa",
+"ar": "الدوا",
+"nota": ""
+},
+{
+"id": "cuerpo-014",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Fiebre",
+"pr": "s-skhana",
+"ar": "السخانة",
+"nota": ""
+},
+{
+"id": "cuerpo-015",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "¡Ayuda!",
+"pr": "3tquni!",
+"ar": "عتقوني!",
+"nota": ""
+},
+{
+"id": "cuerpo-016",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Llama a una ambulancia",
+"pr": "3eyyet l l-ambulans",
+"ar": "عيط للامبيلانس",
+"nota": "3eyyet = llamar (y también gritar)"
+},
+{
+"id": "sentimientos-001",
+"cat": "sentimientos",
+"lvl": 1,
+"es": "Contento",
+"pr": "fer7an",
+"ar": "فرحان",
+"nota": ""
+},
+{
+"id": "sentimientos-002",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Enfadado / molesto",
+"pr": "mqelleq",
+"ar": "مقلق",
+"nota": "También se oye ghadban"
+},
+{
+"id": "sentimientos-003",
+"cat": "sentimientos",
+"lvl": 1,
+"es": "Cansado",
+"pr": "3iyyan",
+"ar": "عيان",
+"nota": ""
+},
+{
+"id": "sentimientos-004",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Con miedo",
+"pr": "khayef",
+"ar": "خايف",
+"nota": ""
+},
+{
+"id": "sentimientos-005",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Tranquilo",
+"pr": "hani",
+"ar": "هاني",
+"nota": "\"Ana hani\" = estoy tranquilo, estoy a gusto"
+},
+{
+"id": "sentimientos-006",
+"cat": "sentimientos",
+"lvl": 1,
+"es": "Te quiero",
+"pr": "kanbghik",
+"ar": "كنبغيك",
+"nota": ""
+},
+{
+"id": "sentimientos-007",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Te echo de menos",
+"pr": "twe77eshtek",
+"ar": "توحشتك",
+"nota": ""
+},
+{
+"id": "sentimientos-008",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "No te preocupes",
+"pr": "ma tkhemmemsh",
+"ar": "ما تخممش",
+"nota": "Literalmente \"no le des vueltas\""
+},
+{
+"id": "sentimientos-009",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Pensar",
+"pr": "khemmem / nkhemmem",
+"ar": "خمم / نخمم",
+"nota": ""
+},
+{
+"id": "sentimientos-010",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Qué pena",
+"pr": "khsara",
+"ar": "خسارة",
+"nota": ""
+},
+{
+"id": "sentimientos-011",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Me alegro",
+"pr": "fre7t",
+"ar": "فرحت",
+"nota": ""
+},
+{
+"id": "sentimientos-012",
+"cat": "sentimientos",
+"lvl": 3,
+"es": "Vergüenza / eso no se hace",
+"pr": "7shuma",
+"ar": "حشومة",
+"nota": "Concepto cultural muy presente"
+},
+{
+"id": "sentimientos-013",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Me encanta",
+"pr": "kanmut 3la",
+"ar": "كنموت على",
+"nota": "Literalmente \"me muero por\". Ejemplo: kanmut 3la atay"
+},
+{
+"id": "adjetivos-001",
+"cat": "adjetivos",
+"lvl": 1,
+"es": "Bonito",
+"pr": "zwin",
+"ar": "زوين",
+"nota": ""
+},
+{
+"id": "adjetivos-002",
+"cat": "adjetivos",
+"lvl": 1,
+"es": "Feo / malo",
+"pr": "khayb",
+"ar": "خايب",
+"nota": ""
+},
+{
+"id": "adjetivos-003",
+"cat": "adjetivos",
+"lvl": 1,
+"es": "Nuevo",
+"pr": "jdid",
+"ar": "جديد",
+"nota": ""
+},
+{
+"id": "adjetivos-004",
+"cat": "adjetivos",
+"lvl": 2,
+"es": "Viejo (cosa)",
+"pr": "qdim",
+"ar": "قديم",
+"nota": ""
+},
+{
+"id": "adjetivos-005",
+"cat": "adjetivos",
+"lvl": 2,
+"es": "Viejo (persona)",
+"pr": "sharef",
+"ar": "شارف",
+"nota": ""
+},
+{
+"id": "adjetivos-006",
+"cat": "adjetivos",
+"lvl": 1,
+"es": "Caliente",
+"pr": "skhun",
+"ar": "سخون",
+"nota": ""
+},
+{
+"id": "adjetivos-007",
+"cat": "adjetivos",
+"lvl": 1,
+"es": "Frío",
+"pr": "bared",
+"ar": "بارد",
+"nota": ""
+},
+{
+"id": "adjetivos-008",
+"cat": "adjetivos",
+"lvl": 1,
+"es": "Fácil",
+"pr": "sahel",
+"ar": "ساهل",
+"nota": ""
+},
+{
+"id": "adjetivos-009",
+"cat": "adjetivos",
+"lvl": 1,
+"es": "Difícil",
+"pr": "s3ib",
+"ar": "صعيب",
+"nota": ""
+},
+{
+"id": "adjetivos-010",
+"cat": "adjetivos",
+"lvl": 2,
+"es": "Lleno",
+"pr": "3amer",
+"ar": "عامر",
+"nota": ""
+},
+{
+"id": "adjetivos-011",
+"cat": "adjetivos",
+"lvl": 2,
+"es": "Vacío",
+"pr": "khawi",
+"ar": "خاوي",
+"nota": ""
+},
+{
+"id": "adjetivos-012",
+"cat": "adjetivos",
+"lvl": 2,
+"es": "Limpio",
+"pr": "nqi",
+"ar": "نقي",
+"nota": ""
+},
+{
+"id": "adjetivos-013",
+"cat": "adjetivos",
+"lvl": 2,
+"es": "Sucio",
+"pr": "mwessekh",
+"ar": "موسخ",
+"nota": ""
+},
+{
+"id": "adjetivos-014",
+"cat": "adjetivos",
+"lvl": 2,
+"es": "Largo / alto",
+"pr": "twil",
+"ar": "طويل",
+"nota": ""
+},
+{
+"id": "adjetivos-015",
+"cat": "adjetivos",
+"lvl": 2,
+"es": "Corto / bajo",
+"pr": "qsir",
+"ar": "قصير",
+"nota": ""
+},
+{
+"id": "adjetivos-016",
+"cat": "adjetivos",
+"lvl": 2,
+"es": "Rico (dinero)",
+"pr": "ghani",
+"ar": "غني",
+"nota": ""
+},
+{
+"id": "adjetivos-017",
+"cat": "adjetivos",
+"lvl": 2,
+"es": "Pobre",
+"pr": "fqir",
+"ar": "فقير",
+"nota": ""
+},
+{
+"id": "adjetivos-018",
+"cat": "adjetivos",
+"lvl": 3,
+"es": "Listo / espabilado",
+"pr": "qafez",
+"ar": "قافز",
+"nota": ""
+},
+{
+"id": "adjetivos-019",
+"cat": "adjetivos",
+"lvl": 2,
+"es": "Abierto",
+"pr": "m7lul",
+"ar": "محلول",
+"nota": ""
+},
+{
+"id": "adjetivos-020",
+"cat": "adjetivos",
+"lvl": 2,
+"es": "Cerrado",
+"pr": "msdud",
+"ar": "مسدود",
+"nota": ""
+},
+{
+"id": "adjetivos-021",
+"cat": "adjetivos",
+"lvl": 1,
+"es": "Blanco",
+"pr": "byed",
+"ar": "بيض",
+"nota": ""
+},
+{
+"id": "adjetivos-022",
+"cat": "adjetivos",
+"lvl": 1,
+"es": "Negro",
+"pr": "k7el",
+"ar": "كحل",
+"nota": ""
+},
+{
+"id": "adjetivos-023",
+"cat": "adjetivos",
+"lvl": 1,
+"es": "Rojo",
+"pr": "7mer",
+"ar": "حمر",
+"nota": ""
+},
+{
+"id": "adjetivos-024",
+"cat": "adjetivos",
+"lvl": 1,
+"es": "Verde",
+"pr": "khder",
+"ar": "خضر",
+"nota": ""
+},
+{
+"id": "adjetivos-025",
+"cat": "adjetivos",
+"lvl": 1,
+"es": "Azul",
+"pr": "zreq",
+"ar": "زرق",
+"nota": ""
+},
+{
+"id": "adjetivos-026",
+"cat": "adjetivos",
+"lvl": 1,
+"es": "Amarillo",
+"pr": "sfer",
+"ar": "صفر",
+"nota": ""
+},
+{
+"id": "adjetivos-027",
+"cat": "adjetivos",
+"lvl": 2,
+"es": "Marrón",
+"pr": "qehwi",
+"ar": "قهوي",
+"nota": ""
+},
+{
+"id": "clima-001",
+"cat": "clima",
+"lvl": 1,
+"es": "Hace calor",
+"pr": "l-7al skhun",
+"ar": "الحال سخون",
+"nota": "l-7al = el tiempo (y \"la situación\")"
+},
+{
+"id": "clima-002",
+"cat": "clima",
+"lvl": 1,
+"es": "Hace frío",
+"pr": "l-7al bared",
+"ar": "الحال بارد",
+"nota": ""
+},
+{
+"id": "clima-003",
+"cat": "clima",
+"lvl": 1,
+"es": "Llueve",
+"pr": "katti7 sh-shta",
+"ar": "كطيح الشتا",
+"nota": "Literalmente \"cae la lluvia\""
+},
+{
+"id": "clima-004",
+"cat": "clima",
+"lvl": 1,
+"es": "Lluvia",
+"pr": "sh-shta",
+"ar": "الشتا",
+"nota": ""
+},
+{
+"id": "clima-005",
+"cat": "clima",
+"lvl": 1,
+"es": "Sol",
+"pr": "sh-shems",
+"ar": "الشمس",
+"nota": ""
+},
+{
+"id": "clima-006",
+"cat": "clima",
+"lvl": 2,
+"es": "Viento",
+"pr": "r-ri7",
+"ar": "الريح",
+"nota": ""
+},
+{
+"id": "clima-007",
+"cat": "clima",
+"lvl": 2,
+"es": "Nieve",
+"pr": "t-telj",
+"ar": "التلج",
+"nota": ""
+},
+{
+"id": "clima-008",
+"cat": "clima",
+"lvl": 2,
+"es": "Qué frío hace",
+"pr": "l-7al bared bezzaf",
+"ar": "الحال بارد بزاف",
+"nota": ""
+},
+{
+"id": "gramatica-001",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Yo",
+"pr": "ana",
+"ar": "أنا",
+"nota": ""
+},
+{
+"id": "gramatica-002",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Tú (a un hombre)",
+"pr": "nta",
+"ar": "نتا",
+"nota": ""
+},
+{
+"id": "gramatica-003",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Tú (a una mujer)",
+"pr": "nti",
+"ar": "نتي",
+"nota": ""
+},
+{
+"id": "gramatica-004",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Él",
+"pr": "huwa",
+"ar": "هو",
+"nota": ""
+},
+{
+"id": "gramatica-005",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Ella",
+"pr": "hiya",
+"ar": "هي",
+"nota": ""
+},
+{
+"id": "gramatica-006",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Nosotros",
+"pr": "7na",
+"ar": "حنا",
+"nota": ""
+},
+{
+"id": "gramatica-007",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Vosotros",
+"pr": "ntuma",
+"ar": "نتوما",
+"nota": ""
+},
+{
+"id": "gramatica-008",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Ellos",
+"pr": "huma",
+"ar": "هوما",
+"nota": ""
+},
+{
+"id": "gramatica-009",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Mío / de mí",
+"pr": "dyali",
+"ar": "ديالي",
+"nota": "l-ktab dyali = mi libro"
+},
+{
+"id": "gramatica-010",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Tuyo",
+"pr": "dyalek",
+"ar": "ديالك",
+"nota": ""
+},
+{
+"id": "gramatica-011",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Suyo (de él)",
+"pr": "dyalu",
+"ar": "ديالو",
+"nota": ""
+},
+{
+"id": "gramatica-012",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Suyo (de ella)",
+"pr": "dyalha",
+"ar": "ديالها",
+"nota": ""
+},
+{
+"id": "gramatica-013",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Nuestro",
+"pr": "dyalna",
+"ar": "ديالنا",
+"nota": ""
+},
+{
+"id": "gramatica-014",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Presente: ka + verbo",
+"pr": "kanakul (como)",
+"ar": "كناكل",
+"nota": "ka- indica lo que haces ahora o habitualmente"
+},
+{
+"id": "gramatica-015",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Futuro: ghadi + verbo",
+"pr": "ghadi nakul (voy a comer)",
+"ar": "غادي ناكل",
+"nota": ""
+},
+{
+"id": "gramatica-016",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Negación: ma ... sh",
+"pr": "ma kanakulsh (no como)",
+"ar": "ما كناكلش",
+"nota": "El verbo queda en medio de ma y sh"
+},
+{
+"id": "gramatica-017",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Pasado (yo)",
+"pr": "klit (comí)",
+"ar": "كليت",
+"nota": "En pasado, \"yo\" termina en -t o -it"
+},
+{
+"id": "gramatica-018",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Voy (yo)",
+"pr": "kanmshi",
+"ar": "كنمشي",
+"nota": ""
+},
+{
+"id": "gramatica-019",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Vas (tú)",
+"pr": "katmshi",
+"ar": "كتمشي",
+"nota": ""
+},
+{
+"id": "gramatica-020",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Va (él)",
+"pr": "kaymshi",
+"ar": "كيمشي",
+"nota": ""
+},
+{
+"id": "gramatica-021",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Vamos (nosotros)",
+"pr": "kanmshiw",
+"ar": "كنمشيو",
+"nota": ""
+},
+{
+"id": "gramatica-022",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Fui",
+"pr": "mshit",
+"ar": "مشيت",
+"nota": ""
+},
+{
+"id": "gramatica-023",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Fuiste",
+"pr": "mshiti",
+"ar": "مشيتي",
+"nota": ""
+},
+{
+"id": "gramatica-024",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Fue (él)",
+"pr": "msha",
+"ar": "مشى",
+"nota": ""
+},
+{
+"id": "gramatica-025",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Fue (ella)",
+"pr": "mshat",
+"ar": "مشات",
+"nota": ""
+},
+{
+"id": "gramatica-026",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Fuimos",
+"pr": "mshina",
+"ar": "مشينا",
+"nota": ""
+},
+{
+"id": "gramatica-027",
+"cat": "gramatica",
+"lvl": 3,
+"es": "Estaba (yo)",
+"pr": "kunt",
+"ar": "كنت",
+"nota": "kunt kanakul = estaba comiendo"
+},
+{
+"id": "gramatica-028",
+"cat": "gramatica",
+"lvl": 3,
+"es": "Debo / tengo que (yo)",
+"pr": "khassni",
+"ar": "خاصني",
+"nota": "Tú: khassek. Él: khassu"
+},
+{
+"id": "gramatica-029",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Me falta / necesito (algo)",
+"pr": "khassni shi 7aja",
+"ar": "خاصني شي حاجة",
+"nota": ""
+},
+{
+"id": "gramatica-030",
+"cat": "gramatica",
+"lvl": 3,
+"es": "Tengo que irme",
+"pr": "khassni nmshi",
+"ar": "خاصني نمشي",
+"nota": ""
+},
+{
+"id": "verbos-001",
+"cat": "verbos",
+"lvl": 1,
+"es": "Hacer",
+"pr": "dar / ndir",
+"ar": "دار / ندير",
+"nota": ""
+},
+{
+"id": "verbos-002",
+"cat": "verbos",
+"lvl": 1,
+"es": "Decir",
+"pr": "gal / ngul",
+"ar": "ڭال / نڭول",
+"nota": "Se pronuncia con g"
+},
+{
+"id": "verbos-003",
+"cat": "verbos",
+"lvl": 1,
+"es": "Saber",
+"pr": "3ref / n3ref",
+"ar": "عرف / نعرف",
+"nota": ""
+},
+{
+"id": "verbos-004",
+"cat": "verbos",
+"lvl": 1,
+"es": "Ver",
+"pr": "shaf / nshuf",
+"ar": "شاف / نشوف",
+"nota": ""
+},
+{
+"id": "verbos-005",
+"cat": "verbos",
+"lvl": 1,
+"es": "Dar",
+"pr": "3ta / n3ti",
+"ar": "عطا / نعطي",
+"nota": ""
+},
+{
+"id": "verbos-006",
+"cat": "verbos",
+"lvl": 1,
+"es": "Coger / tomar",
+"pr": "khda / nakhud",
+"ar": "خدا / ناخد",
+"nota": ""
+},
+{
+"id": "verbos-007",
+"cat": "verbos",
+"lvl": 1,
+"es": "Traer",
+"pr": "jab / njib",
+"ar": "جاب / نجيب",
+"nota": ""
+},
+{
+"id": "verbos-008",
+"cat": "verbos",
+"lvl": 1,
+"es": "Abrir",
+"pr": "7ell / n7ell",
+"ar": "حل / نحل",
+"nota": ""
+},
+{
+"id": "verbos-009",
+"cat": "verbos",
+"lvl": 1,
+"es": "Cerrar",
+"pr": "sedd / nsedd",
+"ar": "سد / نسد",
+"nota": ""
+},
+{
+"id": "verbos-010",
+"cat": "verbos",
+"lvl": 1,
+"es": "Hablar",
+"pr": "hder / nhder",
+"ar": "هضر / نهضر",
+"nota": ""
+},
+{
+"id": "verbos-011",
+"cat": "verbos",
+"lvl": 1,
+"es": "Escuchar",
+"pr": "sme3 / nsme3",
+"ar": "سمع / نسمع",
+"nota": ""
+},
+{
+"id": "verbos-012",
+"cat": "verbos",
+"lvl": 1,
+"es": "Esperar",
+"pr": "tsenna / ntsenna",
+"ar": "تسنى / نتسنى",
+"nota": ""
+},
+{
+"id": "verbos-013",
+"cat": "verbos",
+"lvl": 2,
+"es": "Buscar",
+"pr": "qelleb 3la / nqelleb 3la",
+"ar": "قلب على / نقلب على",
+"nota": ""
+},
+{
+"id": "verbos-014",
+"cat": "verbos",
+"lvl": 2,
+"es": "Encontrar",
+"pr": "lqa / nlqa",
+"ar": "لقى / نلقى",
+"nota": ""
+},
+{
+"id": "verbos-015",
+"cat": "verbos",
+"lvl": 2,
+"es": "Perder",
+"pr": "dyye3 / ndyye3",
+"ar": "ضيع / نضيع",
+"nota": "dyye3t s-sarut = he perdido la llave"
+},
+{
+"id": "verbos-016",
+"cat": "verbos",
+"lvl": 1,
+"es": "Escribir",
+"pr": "kteb / nkteb",
+"ar": "كتب / نكتب",
+"nota": ""
+},
+{
+"id": "verbos-017",
+"cat": "verbos",
+"lvl": 1,
+"es": "Leer / estudiar",
+"pr": "qra / nqra",
+"ar": "قرا / نقرا",
+"nota": ""
+},
+{
+"id": "verbos-018",
+"cat": "verbos",
+"lvl": 2,
+"es": "Jugar",
+"pr": "l3eb / nl3eb",
+"ar": "لعب / نلعب",
+"nota": ""
+},
+{
+"id": "verbos-019",
+"cat": "verbos",
+"lvl": 2,
+"es": "Vivir (residir)",
+"pr": "sken / nskun",
+"ar": "سكن / نسكن",
+"nota": ""
+},
+{
+"id": "verbos-020",
+"cat": "verbos",
+"lvl": 1,
+"es": "Llegar",
+"pr": "wsel / nwsel",
+"ar": "وصل / نوصل",
+"nota": ""
+},
+{
+"id": "verbos-021",
+"cat": "verbos",
+"lvl": 1,
+"es": "Volver",
+"pr": "rje3 / nrje3",
+"ar": "رجع / نرجع",
+"nota": ""
+},
+{
+"id": "verbos-022",
+"cat": "verbos",
+"lvl": 2,
+"es": "Empezar",
+"pr": "bda / nbda",
+"ar": "بدا / نبدا",
+"nota": ""
+},
+{
+"id": "verbos-023",
+"cat": "verbos",
+"lvl": 2,
+"es": "Terminar",
+"pr": "sala / nsali",
+"ar": "سالى / نسالي",
+"nota": ""
+},
+{
+"id": "verbos-024",
+"cat": "verbos",
+"lvl": 2,
+"es": "Pagar",
+"pr": "khelles / nkhelles",
+"ar": "خلص / نخلص",
+"nota": ""
+},
+{
+"id": "verbos-025",
+"cat": "verbos",
+"lvl": 1,
+"es": "Entender",
+"pr": "fhem / nfhem",
+"ar": "فهم / نفهم",
+"nota": ""
+},
+{
+"id": "verbos-026",
+"cat": "verbos",
+"lvl": 2,
+"es": "Olvidar",
+"pr": "nsa / nensa",
+"ar": "نسى / ننسى",
+"nota": ""
+},
+{
+"id": "verbos-027",
+"cat": "verbos",
+"lvl": 2,
+"es": "Acordarse",
+"pr": "3qel / n3qel",
+"ar": "عقل / نعقل",
+"nota": "ma 3qeltsh = no me acuerdo"
+},
+{
+"id": "verbos-028",
+"cat": "verbos",
+"lvl": 2,
+"es": "Enviar",
+"pr": "sifet / nsifet",
+"ar": "صيفط / نصيفط",
+"nota": ""
+},
+{
+"id": "verbos-029",
+"cat": "verbos",
+"lvl": 2,
+"es": "Llamar (por teléfono)",
+"pr": "3eyyet / n3eyyet",
+"ar": "عيط / نعيط",
+"nota": ""
+},
+{
+"id": "verbos-030",
+"cat": "verbos",
+"lvl": 2,
+"es": "Sentarse",
+"pr": "gles / ngles",
+"ar": "ڭلس / نڭلس",
+"nota": ""
+},
+{
+"id": "verbos-031",
+"cat": "verbos",
+"lvl": 2,
+"es": "Ayudar",
+"pr": "3awen / n3awen",
+"ar": "عاون / نعاون",
+"nota": ""
+},
+{
+"id": "verbos-032",
+"cat": "verbos",
+"lvl": 2,
+"es": "Aprender",
+"pr": "t3llem / nt3llem",
+"ar": "تعلم / نتعلم",
+"nota": ""
+},
+{
+"id": "verbos-033",
+"cat": "verbos",
+"lvl": 2,
+"es": "Querer / amar",
+"pr": "bgha / nbghi",
+"ar": "بغا / نبغي",
+"nota": ""
+},
+{
+"id": "frases-001",
+"cat": "frases",
+"lvl": 1,
+"es": "Ven aquí",
+"pr": "aji l hna",
+"ar": "اجي لهنا",
+"nota": ""
+},
+{
+"id": "frases-002",
+"cat": "frases",
+"lvl": 1,
+"es": "Mira",
+"pr": "shuf",
+"ar": "شوف",
+"nota": ""
+},
+{
+"id": "frases-003",
+"cat": "frases",
+"lvl": 1,
+"es": "Espera un poco",
+"pr": "tsenna shwiya",
+"ar": "تسنى شوية",
+"nota": ""
+},
+{
+"id": "frases-004",
+"cat": "frases",
+"lvl": 1,
+"es": "Siéntate",
+"pr": "gles",
+"ar": "ڭلس",
+"nota": ""
+},
+{
+"id": "frases-005",
+"cat": "frases",
+"lvl": 1,
+"es": "Vete",
+"pr": "sir",
+"ar": "سير",
+"nota": ""
+},
+{
+"id": "frases-006",
+"cat": "frases",
+"lvl": 1,
+"es": "No pasa nada",
+"pr": "ma kayn mushkil",
+"ar": "ما كاين مشكل",
+"nota": ""
+},
+{
+"id": "frases-007",
+"cat": "frases",
+"lvl": 1,
+"es": "Es normal / tranquilo",
+"pr": "3adi",
+"ar": "عادي",
+"nota": ""
+},
+{
+"id": "frases-008",
+"cat": "frases",
+"lvl": 1,
+"es": "Te lo juro",
+"pr": "wallah",
+"ar": "والله",
+"nota": "También \"¿en serio?\" en tono de pregunta"
+},
+{
+"id": "frases-009",
+"cat": "frases",
+"lvl": 1,
+"es": "Todo bien",
+"pr": "kulshi mzyan",
+"ar": "كلشي مزيان",
+"nota": ""
+},
+{
+"id": "frases-010",
+"cat": "frases",
+"lvl": 1,
+"es": "Todo bien, ¿y tú?",
+"pr": "kulshi mzyan, u nta?",
+"ar": "كلشي مزيان، ونتا؟",
+"nota": ""
+},
+{
+"id": "frases-011",
+"cat": "frases",
+"lvl": 2,
+"es": "Llámame",
+"pr": "3eyyet liya",
+"ar": "عيط ليا",
+"nota": ""
+},
+{
+"id": "frases-012",
+"cat": "frases",
+"lvl": 2,
+"es": "Mándame un mensaje",
+"pr": "sifet liya mesaj",
+"ar": "صيفط ليا ميساج",
+"nota": ""
+},
+{
+"id": "frases-013",
+"cat": "frases",
+"lvl": 2,
+"es": "¿Tienes WhatsApp?",
+"pr": "wash 3ndek watsap?",
+"ar": "واش عندك واتساب؟",
+"nota": ""
+},
+{
+"id": "frases-014",
+"cat": "frases",
+"lvl": 2,
+"es": "Espérame",
+"pr": "tsennani",
+"ar": "تسناني",
+"nota": ""
+},
+{
+"id": "frases-015",
+"cat": "frases",
+"lvl": 2,
+"es": "Escríbemelo, por favor",
+"pr": "ktebha liya 3afak",
+"ar": "كتبها ليا عافاك",
+"nota": ""
+},
+{
+"id": "frases-016",
+"cat": "frases",
+"lvl": 2,
+"es": "¿Qué haces hoy?",
+"pr": "ash ghadi dir l-yum?",
+"ar": "اش غادي دير اليوم؟",
+"nota": ""
+},
+{
+"id": "frases-017",
+"cat": "frases",
+"lvl": 2,
+"es": "¿Qué tal el trabajo?",
+"pr": "kidayra l-khedma?",
+"ar": "كيدايرة الخدمة؟",
+"nota": ""
+},
+{
+"id": "frases-018",
+"cat": "frases",
+"lvl": 2,
+"es": "Tienes razón",
+"pr": "3ndek l-7eqq",
+"ar": "عندك الحق",
+"nota": ""
+},
+{
+"id": "frases-019",
+"cat": "frases",
+"lvl": 2,
+"es": "No estoy de acuerdo",
+"pr": "ana mashi mttafeq",
+"ar": "أنا ماشي متافق",
+"nota": ""
+},
+{
+"id": "frases-020",
+"cat": "frases",
+"lvl": 2,
+"es": "Eso es / exacto",
+"pr": "huwa hadak",
+"ar": "هو هداك",
+"nota": ""
+},
+{
+"id": "frases-021",
+"cat": "frases",
+"lvl": 2,
+"es": "¡Cuidado!",
+"pr": "3endak!",
+"ar": "عندك!",
+"nota": ""
+},
+{
+"id": "frases-022",
+"cat": "frases",
+"lvl": 2,
+"es": "Lo siento, no lo sabía",
+"pr": "smeh liya, ma kuntsh 3aref",
+"ar": "سمح ليا، ما كنتش عارف",
+"nota": ""
+},
+{
+"id": "frases-023",
+"cat": "frases",
+"lvl": 2,
+"es": "¿Me ayudas?",
+"pr": "wash tqder t3awni?",
+"ar": "واش تقدر تعاوني؟",
+"nota": ""
+},
+{
+"id": "frases-024",
+"cat": "frases",
+"lvl": 2,
+"es": "¿Puedo...?",
+"pr": "wash nqder...?",
+"ar": "واش نقدر...؟",
+"nota": ""
+},
+{
+"id": "frases-025",
+"cat": "frases",
+"lvl": 1,
+"es": "Estoy aquí",
+"pr": "ana hna",
+"ar": "أنا هنا",
+"nota": ""
+},
+{
+"id": "frases-026",
+"cat": "frases",
+"lvl": 2,
+"es": "Ahora no",
+"pr": "mashi daba",
+"ar": "ماشي دابا",
+"nota": "mashi niega adjetivos y nombres"
+},
+{
+"id": "frases-027",
+"cat": "frases",
+"lvl": 2,
+"es": "No es caro",
+"pr": "mashi ghali",
+"ar": "ماشي غالي",
+"nota": ""
+},
+{
+"id": "frases-028",
+"cat": "frases",
+"lvl": 2,
+"es": "No es mío",
+"pr": "mashi dyali",
+"ar": "ماشي ديالي",
+"nota": ""
+},
+{
+"id": "frases-029",
+"cat": "frases",
+"lvl": 2,
+"es": "Me he olvidado",
+"pr": "nsit",
+"ar": "نسيت",
+"nota": ""
+},
+{
+"id": "frases-030",
+"cat": "frases",
+"lvl": 2,
+"es": "No me acuerdo",
+"pr": "ma 3qeltsh",
+"ar": "ما عقلتش",
+"nota": ""
+},
+{
+"id": "frases-031",
+"cat": "frases",
+"lvl": 2,
+"es": "He perdido las llaves",
+"pr": "dyye3t s-sarut",
+"ar": "ضيعت الساروت",
+"nota": ""
+},
+{
+"id": "frases-032",
+"cat": "frases",
+"lvl": 3,
+"es": "No le des más vueltas",
+"pr": "ma tkhemmemsh bezzaf",
+"ar": "ما تخممش بزاف",
+"nota": ""
+},
+{
+"id": "frases-033",
+"cat": "frases",
+"lvl": 2,
+"es": "En mi opinión",
+"pr": "ana ban liya",
+"ar": "أنا بان ليا",
+"nota": "Literalmente \"a mí me parece\""
+},
+{
+"id": "frases-034",
+"cat": "frases",
+"lvl": 2,
+"es": "Hasta la próxima",
+"pr": "7tta l merra jaya",
+"ar": "حتى لمرة جاية",
+"nota": ""
+},
+{
+"id": "frases-035",
+"cat": "frases",
+"lvl": 3,
+"es": "Que Dios te guarde",
+"pr": "lla y7fdek",
+"ar": "الله يحفظك",
+"nota": ""
+},
+{
+"id": "frases-036",
+"cat": "frases",
+"lvl": 3,
+"es": "Con paciencia todo llega",
+"pr": "s-sber mzyan",
+"ar": "الصبر مزيان",
+"nota": ""
+},
+{
+"id": "actualidad-001",
+"cat": "actualidad",
+"lvl": 1,
+"es": "País",
+"pr": "l-blad",
+"ar": "البلاد",
+"nota": ""
+},
+{
+"id": "actualidad-002",
+"cat": "actualidad",
+"lvl": 1,
+"es": "Marruecos",
+"pr": "l-meghrib",
+"ar": "المغرب",
+"nota": ""
+},
+{
+"id": "actualidad-003",
+"cat": "actualidad",
+"lvl": 1,
+"es": "España",
+"pr": "sbanya",
+"ar": "سبانيا",
+"nota": ""
+},
+{
+"id": "actualidad-004",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Argelia",
+"pr": "dzayer",
+"ar": "الدزاير",
+"nota": ""
+},
+{
+"id": "actualidad-005",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Gobierno",
+"pr": "l-7ukuma",
+"ar": "الحكومة",
+"nota": ""
+},
+{
+"id": "actualidad-006",
+"cat": "actualidad",
+"lvl": 2,
+"es": "El rey (coloquial)",
+"pr": "sidna",
+"ar": "سيدنا",
+"nota": "\"Nuestro señor\": así se refiere la gente al rey"
+},
+{
+"id": "actualidad-007",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Elecciones",
+"pr": "l-intikhabat",
+"ar": "الانتخابات",
+"nota": ""
+},
+{
+"id": "actualidad-008",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Política",
+"pr": "s-siyasa",
+"ar": "السياسة",
+"nota": ""
+},
+{
+"id": "actualidad-009",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Guerra",
+"pr": "l-7arb",
+"ar": "الحرب",
+"nota": ""
+},
+{
+"id": "actualidad-010",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Paz",
+"pr": "s-salam",
+"ar": "السلام",
+"nota": ""
+},
+{
+"id": "actualidad-011",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Ejército",
+"pr": "l-3esker",
+"ar": "العسكر",
+"nota": ""
+},
+{
+"id": "actualidad-012",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Frontera",
+"pr": "l-7udud",
+"ar": "الحدود",
+"nota": ""
+},
+{
+"id": "actualidad-013",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Noticias",
+"pr": "l-akhbar",
+"ar": "الأخبار",
+"nota": ""
+},
+{
+"id": "actualidad-014",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Periódico",
+"pr": "l-jarida",
+"ar": "الجريدة",
+"nota": ""
+},
+{
+"id": "actualidad-015",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Carestía / precios altos",
+"pr": "l-ghla",
+"ar": "الغلا",
+"nota": "Tema constante en la calle"
+},
+{
+"id": "actualidad-016",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Paro",
+"pr": "sh-shomaj",
+"ar": "الشوماج",
+"nota": "Del francés chômage"
+},
+{
+"id": "actualidad-017",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Emigración",
+"pr": "l-hijra",
+"ar": "الهجرة",
+"nota": ""
+},
+{
+"id": "actualidad-018",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Emigración irregular",
+"pr": "l-7rig",
+"ar": "الحريڭ",
+"nota": "Literalmente \"quemar\" (las fronteras, los papeles)"
+},
+{
+"id": "actualidad-019",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Sáhara",
+"pr": "s-s7ra",
+"ar": "الصحرا",
+"nota": ""
+},
+{
+"id": "actualidad-020",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Ministro",
+"pr": "l-wazir",
+"ar": "الوزير",
+"nota": ""
+},
+{
+"id": "actualidad-021",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Parlamento",
+"pr": "l-barlaman",
+"ar": "البرلمان",
+"nota": ""
+},
+{
+"id": "actualidad-022",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Ley",
+"pr": "l-qanun",
+"ar": "القانون",
+"nota": ""
+},
+{
+"id": "actualidad-023",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Protestas",
+"pr": "l-i7tijajat",
+"ar": "الاحتجاجات",
+"nota": ""
+},
+{
+"id": "actualidad-024",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Corrupción",
+"pr": "l-fasad",
+"ar": "الفساد",
+"nota": ""
+},
+{
+"id": "actualidad-025",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Economía",
+"pr": "l-iqtisad",
+"ar": "الاقتصاد",
+"nota": ""
+},
+{
+"id": "actualidad-026",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Seguridad",
+"pr": "l-amn",
+"ar": "الأمن",
+"nota": ""
+},
+{
+"id": "basicos-050",
+"cat": "basicos",
+"lvl": 1,
+"es": "Al lado de",
+"pr": "7da",
+"ar": "حدا",
+"nota": ""
+},
+{
+"id": "basicos-051",
+"cat": "basicos",
+"lvl": 1,
+"es": "Delante de",
+"pr": "qeddam",
+"ar": "قدام",
+"nota": ""
+},
+{
+"id": "basicos-052",
+"cat": "basicos",
+"lvl": 1,
+"es": "Detrás de",
+"pr": "mur",
+"ar": "مور",
+"nota": ""
+},
+{
+"id": "basicos-053",
+"cat": "basicos",
+"lvl": 1,
+"es": "Dentro",
+"pr": "l-dakhel",
+"ar": "الداخل",
+"nota": ""
+},
+{
+"id": "basicos-054",
+"cat": "basicos",
+"lvl": 1,
+"es": "Fuera",
+"pr": "l-berra",
+"ar": "البرا",
+"nota": ""
+},
+{
+"id": "basicos-055",
+"cat": "basicos",
+"lvl": 2,
+"es": "Arriba",
+"pr": "l-fuq",
+"ar": "الفوق",
+"nota": ""
+},
+{
+"id": "basicos-056",
+"cat": "basicos",
+"lvl": 2,
+"es": "Abajo",
+"pr": "l-te7t",
+"ar": "التحت",
+"nota": ""
+},
+{
+"id": "basicos-057",
+"cat": "basicos",
+"lvl": 1,
+"es": "Como (parecido a)",
+"pr": "b7al",
+"ar": "بحال",
+"nota": "b7al hakka = así"
+},
+{
+"id": "basicos-058",
+"cat": "basicos",
+"lvl": 1,
+"es": "Da igual / lo mismo",
+"pr": "kif kif",
+"ar": "كيف كيف",
+"nota": ""
+},
+{
+"id": "basicos-059",
+"cat": "basicos",
+"lvl": 1,
+"es": "Poco a poco",
+"pr": "shwiya b shwiya",
+"ar": "شوية بشوية",
+"nota": ""
+},
+{
+"id": "basicos-060",
+"cat": "basicos",
+"lvl": 1,
+"es": "Tiempo (rato)",
+"pr": "l-weqt",
+"ar": "الوقت",
+"nota": ""
+},
+{
+"id": "basicos-061",
+"cat": "basicos",
+"lvl": 1,
+"es": "Gratis",
+"pr": "fabor",
+"ar": "فابور",
+"nota": "Del español \"de favor\""
+},
+{
+"id": "preguntas-028",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Adónde vas?",
+"pr": "fin ghadi?",
+"ar": "فين غادي؟",
+"nota": ""
+},
+{
+"id": "preguntas-029",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿De dónde vienes?",
+"pr": "mnin jay?",
+"ar": "منين جاي؟",
+"nota": ""
+},
+{
+"id": "preguntas-030",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Qué quieres?",
+"pr": "ash bghiti?",
+"ar": "اش بغيتي؟",
+"nota": ""
+},
+{
+"id": "preguntas-031",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Qué te pasa?",
+"pr": "ash bik?",
+"ar": "اش بيك؟",
+"nota": ""
+},
+{
+"id": "preguntas-032",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Estás bien?",
+"pr": "wash nta labas?",
+"ar": "واش نتا لاباس؟",
+"nota": "A una mujer: wash nti labas?"
+},
+{
+"id": "preguntas-033",
+"cat": "preguntas",
+"lvl": 1,
+"es": "¿Dónde estás?",
+"pr": "fin nta?",
+"ar": "فين نتا؟",
+"nota": ""
+},
+{
+"id": "preguntas-034",
+"cat": "preguntas",
+"lvl": 2,
+"es": "¿Con quién?",
+"pr": "m3a men?",
+"ar": "مع من؟",
+"nota": ""
+},
+{
+"id": "preguntas-035",
+"cat": "preguntas",
+"lvl": 2,
+"es": "¿De quién es?",
+"pr": "dyal men hada?",
+"ar": "ديال من هادا؟",
+"nota": ""
+},
+{
+"id": "preguntas-036",
+"cat": "preguntas",
+"lvl": 2,
+"es": "¿Cuánto tiempo?",
+"pr": "sh7al d l-weqt?",
+"ar": "شحال د الوقت؟",
+"nota": ""
+},
+{
+"id": "preguntas-037",
+"cat": "preguntas",
+"lvl": 2,
+"es": "¿Algo más?",
+"pr": "shi 7aja khra?",
+"ar": "شي حاجة خرى؟",
+"nota": ""
+},
+{
+"id": "preguntas-038",
+"cat": "preguntas",
+"lvl": 2,
+"es": "¿Está abierto?",
+"pr": "wash m7lul?",
+"ar": "واش محلول؟",
+"nota": ""
+},
+{
+"id": "preguntas-039",
+"cat": "preguntas",
+"lvl": 2,
+"es": "¿Lo he dicho bien?",
+"pr": "wash gltha mzyan?",
+"ar": "واش ڭلتها مزيان؟",
+"nota": ""
+},
+{
+"id": "numeros-038",
+"cat": "numeros",
+"lvl": 2,
+"es": "Trescientos",
+"pr": "tlt mya",
+"ar": "تلت مية",
+"nota": ""
+},
+{
+"id": "numeros-039",
+"cat": "numeros",
+"lvl": 2,
+"es": "Quinientos",
+"pr": "khems mya",
+"ar": "خمس مية",
+"nota": ""
+},
+{
+"id": "numeros-040",
+"cat": "numeros",
+"lvl": 3,
+"es": "Un millón",
+"pr": "melyun",
+"ar": "مليون",
+"nota": ""
+},
+{
+"id": "tiempo-035",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Verano",
+"pr": "s-sif",
+"ar": "الصيف",
+"nota": ""
+},
+{
+"id": "tiempo-036",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Invierno",
+"pr": "sh-shta",
+"ar": "الشتا",
+"nota": "La misma palabra que \"lluvia\""
+},
+{
+"id": "tiempo-037",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Primavera",
+"pr": "r-rbi3",
+"ar": "الربيع",
+"nota": ""
+},
+{
+"id": "tiempo-038",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Otoño",
+"pr": "l-khrif",
+"ar": "الخريف",
+"nota": ""
+},
+{
+"id": "tiempo-039",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Enero",
+"pr": "yennayer",
+"ar": "يناير",
+"nota": "Los meses en Marruecos suenan parecidos a los nuestros"
+},
+{
+"id": "tiempo-040",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Febrero",
+"pr": "febrayer",
+"ar": "فبراير",
+"nota": ""
+},
+{
+"id": "tiempo-041",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Marzo",
+"pr": "mars",
+"ar": "مارس",
+"nota": ""
+},
+{
+"id": "tiempo-042",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Abril",
+"pr": "abril",
+"ar": "أبريل",
+"nota": ""
+},
+{
+"id": "tiempo-043",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Mayo",
+"pr": "may",
+"ar": "ماي",
+"nota": ""
+},
+{
+"id": "tiempo-044",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Junio",
+"pr": "yunyu",
+"ar": "يونيو",
+"nota": ""
+},
+{
+"id": "tiempo-045",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Julio",
+"pr": "yulyuz",
+"ar": "يوليوز",
+"nota": ""
+},
+{
+"id": "tiempo-046",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Agosto",
+"pr": "ghusht",
+"ar": "غشت",
+"nota": ""
+},
+{
+"id": "tiempo-047",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Septiembre",
+"pr": "shutanbir",
+"ar": "شتنبر",
+"nota": ""
+},
+{
+"id": "tiempo-048",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Octubre",
+"pr": "oktuber",
+"ar": "أكتوبر",
+"nota": ""
+},
+{
+"id": "tiempo-049",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Noviembre",
+"pr": "nuwanbir",
+"ar": "نونبر",
+"nota": ""
+},
+{
+"id": "tiempo-050",
+"cat": "tiempo",
+"lvl": 2,
+"es": "Diciembre",
+"pr": "dujanbir",
+"ar": "دجنبر",
+"nota": ""
+},
+{
+"id": "familia-025",
+"cat": "familia",
+"lvl": 2,
+"es": "Hermanos",
+"pr": "l-khut",
+"ar": "الخوت",
+"nota": ""
+},
+{
+"id": "familia-026",
+"cat": "familia",
+"lvl": 2,
+"es": "Bebé",
+"pr": "l-bebe",
+"ar": "البيبي",
+"nota": ""
+},
+{
+"id": "familia-027",
+"cat": "familia",
+"lvl": 3,
+"es": "Señor (trato respetuoso)",
+"pr": "si",
+"ar": "سي",
+"nota": "Delante del nombre: si Mohamed"
+},
+{
+"id": "familia-028",
+"cat": "familia",
+"lvl": 3,
+"es": "Señora (trato respetuoso)",
+"pr": "lalla",
+"ar": "لالة",
+"nota": "Delante del nombre: lalla Fatima"
+},
+{
+"id": "familia-029",
+"cat": "familia",
+"lvl": 3,
+"es": "Forma respetuosa para un señor mayor",
+"pr": "l-7ajj",
+"ar": "الحاج",
+"nota": "A una señora mayor: l-7ajja"
+},
+{
+"id": "comida-047",
+"cat": "comida",
+"lvl": 1,
+"es": "Zumo",
+"pr": "l-3asir",
+"ar": "العصير",
+"nota": ""
+},
+{
+"id": "comida-048",
+"cat": "comida",
+"lvl": 2,
+"es": "Camarero",
+"pr": "s-serbay",
+"ar": "السرباي",
+"nota": ""
+},
+{
+"id": "comida-049",
+"cat": "comida",
+"lvl": 2,
+"es": "Bocadillo",
+"pr": "l-kaskrut",
+"ar": "الكاسكروط",
+"nota": "Del francés casse-croûte"
+},
+{
+"id": "comida-050",
+"cat": "comida",
+"lvl": 2,
+"es": "Sopa",
+"pr": "s-subba",
+"ar": "الصوبة",
+"nota": "Del español \"sopa\""
+},
+{
+"id": "comida-051",
+"cat": "comida",
+"lvl": 2,
+"es": "Msemen (crepe marroquí)",
+"pr": "msemmen",
+"ar": "مسمن",
+"nota": ""
+},
+{
+"id": "comida-052",
+"cat": "comida",
+"lvl": 3,
+"es": "Pastela",
+"pr": "l-bastila",
+"ar": "البسطيلة",
+"nota": ""
+},
+{
+"id": "comida-053",
+"cat": "comida",
+"lvl": 2,
+"es": "Galletas",
+"pr": "l-biskwi",
+"ar": "البيسكوي",
+"nota": ""
+},
+{
+"id": "comida-054",
+"cat": "comida",
+"lvl": 2,
+"es": "Queso",
+"pr": "l-fromaj",
+"ar": "الفرماج",
+"nota": ""
+},
+{
+"id": "comida-055",
+"cat": "comida",
+"lvl": 2,
+"es": "Mantequilla",
+"pr": "z-zebda",
+"ar": "الزبدة",
+"nota": ""
+},
+{
+"id": "comida-056",
+"cat": "comida",
+"lvl": 2,
+"es": "Miel",
+"pr": "l-3sel",
+"ar": "العسل",
+"nota": ""
+},
+{
+"id": "comida-057",
+"cat": "comida",
+"lvl": 2,
+"es": "Dátiles",
+"pr": "t-tmer",
+"ar": "التمر",
+"nota": ""
+},
+{
+"id": "comida-058",
+"cat": "comida",
+"lvl": 2,
+"es": "Almendras",
+"pr": "l-luz",
+"ar": "اللوز",
+"nota": ""
+},
+{
+"id": "comida-059",
+"cat": "comida",
+"lvl": 2,
+"es": "Ajo",
+"pr": "t-tuma",
+"ar": "التومة",
+"nota": ""
+},
+{
+"id": "comida-060",
+"cat": "comida",
+"lvl": 2,
+"es": "Pimiento",
+"pr": "l-felfla",
+"ar": "الفلفلة",
+"nota": ""
+},
+{
+"id": "comida-061",
+"cat": "comida",
+"lvl": 2,
+"es": "Uvas",
+"pr": "l-3neb",
+"ar": "العنب",
+"nota": ""
+},
+{
+"id": "comida-062",
+"cat": "comida",
+"lvl": 2,
+"es": "Sandía",
+"pr": "d-della7",
+"ar": "الدلاح",
+"nota": ""
+},
+{
+"id": "comida-063",
+"cat": "comida",
+"lvl": 2,
+"es": "Melón",
+"pr": "l-bettikh",
+"ar": "البطيخ",
+"nota": ""
+},
+{
+"id": "comida-064",
+"cat": "comida",
+"lvl": 2,
+"es": "Fresas",
+"pr": "l-frez",
+"ar": "الفريز",
+"nota": ""
+},
+{
+"id": "comida-065",
+"cat": "comida",
+"lvl": 2,
+"es": "Lentejas",
+"pr": "l-3des",
+"ar": "العدس",
+"nota": ""
+},
+{
+"id": "comida-066",
+"cat": "comida",
+"lvl": 2,
+"es": "Garbanzos",
+"pr": "l-7ommos",
+"ar": "الحمص",
+"nota": ""
+},
+{
+"id": "comida-067",
+"cat": "comida",
+"lvl": 2,
+"es": "Dulces",
+"pr": "l-7elwa",
+"ar": "الحلوة",
+"nota": ""
+},
+{
+"id": "comida-068",
+"cat": "comida",
+"lvl": 2,
+"es": "Quiero comer cuscús",
+"pr": "bghit nakul keskssu",
+"ar": "بغيت ناكل كسكسو",
+"nota": ""
+},
+{
+"id": "comida-069",
+"cat": "comida",
+"lvl": 2,
+"es": "Ponme un poco más",
+"pr": "zid shwiya",
+"ar": "زيد شوية",
+"nota": ""
+},
+{
+"id": "compras-024",
+"cat": "compras",
+"lvl": 1,
+"es": "Quiero este",
+"pr": "bghit hada",
+"ar": "بغيت هادا",
+"nota": ""
+},
+{
+"id": "compras-025",
+"cat": "compras",
+"lvl": 1,
+"es": "Quiero ese",
+"pr": "bghit hadak",
+"ar": "بغيت هداك",
+"nota": ""
+},
+{
+"id": "compras-026",
+"cat": "compras",
+"lvl": 1,
+"es": "Dame dos",
+"pr": "3tini juj",
+"ar": "عطيني جوج",
+"nota": ""
+},
+{
+"id": "compras-027",
+"cat": "compras",
+"lvl": 2,
+"es": "Medio kilo",
+"pr": "nuss kilo",
+"ar": "نص كيلو",
+"nota": ""
+},
+{
+"id": "compras-028",
+"cat": "compras",
+"lvl": 2,
+"es": "Un kilo de tomates",
+"pr": "kilo d maticha",
+"ar": "كيلو د ماطيشة",
+"nota": ""
+},
+{
+"id": "compras-029",
+"cat": "compras",
+"lvl": 1,
+"es": "Precio",
+"pr": "t-taman",
+"ar": "التمن",
+"nota": ""
+},
+{
+"id": "compras-030",
+"cat": "compras",
+"lvl": 2,
+"es": "Está roto",
+"pr": "mherres",
+"ar": "مهرس",
+"nota": ""
+},
+{
+"id": "compras-031",
+"cat": "compras",
+"lvl": 2,
+"es": "¿Puedo devolverlo?",
+"pr": "wash nqder nrejj3u?",
+"ar": "واش نقدر نرجعو؟",
+"nota": ""
+},
+{
+"id": "compras-032",
+"cat": "compras",
+"lvl": 2,
+"es": "Rebajas",
+"pr": "s-solde",
+"ar": "الصولد",
+"nota": ""
+},
+{
+"id": "compras-033",
+"cat": "compras",
+"lvl": 2,
+"es": "Cajero automático",
+"pr": "l-gishi",
+"ar": "الڭيشي",
+"nota": "Del francés guichet"
+},
+{
+"id": "ciudad-040",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Puente",
+"pr": "l-qentra",
+"ar": "القنطرة",
+"nota": ""
+},
+{
+"id": "ciudad-041",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Esquina",
+"pr": "l-qent",
+"ar": "القنت",
+"nota": ""
+},
+{
+"id": "ciudad-042",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Subir (a un vehículo)",
+"pr": "rkeb / nrkeb",
+"ar": "ركب / نركب",
+"nota": ""
+},
+{
+"id": "ciudad-043",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Bajar (de un vehículo)",
+"pr": "nzel / nnzel",
+"ar": "نزل / ننزل",
+"nota": ""
+},
+{
+"id": "ciudad-044",
+"cat": "ciudad",
+"lvl": 2,
+"es": "Caminar",
+"pr": "tmshsha / ntmshsha",
+"ar": "تمشى / نتمشى",
+"nota": ""
+},
+{
+"id": "casa-023",
+"cat": "casa",
+"lvl": 2,
+"es": "Piso",
+"pr": "sh-shqqa",
+"ar": "الشقة",
+"nota": ""
+},
+{
+"id": "casa-024",
+"cat": "casa",
+"lvl": 2,
+"es": "Salón",
+"pr": "s-salun",
+"ar": "الصالون",
+"nota": ""
+},
+{
+"id": "casa-025",
+"cat": "casa",
+"lvl": 2,
+"es": "Nevera",
+"pr": "t-tellaja",
+"ar": "التلاجة",
+"nota": ""
+},
+{
+"id": "casa-026",
+"cat": "casa",
+"lvl": 2,
+"es": "Escalera",
+"pr": "d-druj",
+"ar": "الدروج",
+"nota": ""
+},
+{
+"id": "casa-027",
+"cat": "casa",
+"lvl": 2,
+"es": "Azotea",
+"pr": "s-sta7",
+"ar": "السطح",
+"nota": ""
+},
+{
+"id": "casa-028",
+"cat": "casa",
+"lvl": 2,
+"es": "Jabón",
+"pr": "s-sabun",
+"ar": "الصابون",
+"nota": ""
+},
+{
+"id": "casa-029",
+"cat": "casa",
+"lvl": 2,
+"es": "Toalla",
+"pr": "l-futa",
+"ar": "الفوطة",
+"nota": ""
+},
+{
+"id": "casa-030",
+"cat": "casa",
+"lvl": 2,
+"es": "Manta",
+"pr": "l-manta",
+"ar": "المانطا",
+"nota": "Del español \"manta\""
+},
+{
+"id": "casa-031",
+"cat": "casa",
+"lvl": 2,
+"es": "Almohada",
+"pr": "l-mkhedda",
+"ar": "المخدة",
+"nota": ""
+},
+{
+"id": "casa-032",
+"cat": "casa",
+"lvl": 2,
+"es": "Alquiler",
+"pr": "l-kra",
+"ar": "الكرا",
+"nota": ""
+},
+{
+"id": "casa-033",
+"cat": "casa",
+"lvl": 2,
+"es": "Encender",
+"pr": "sh3el / nsh3el",
+"ar": "شعل / نشعل",
+"nota": ""
+},
+{
+"id": "casa-034",
+"cat": "casa",
+"lvl": 2,
+"es": "Apagar",
+"pr": "tfa / ntfi",
+"ar": "طفا / نطفي",
+"nota": ""
+},
+{
+"id": "trabajo-018",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Contrato",
+"pr": "l-kuntra",
+"ar": "الكونطرا",
+"nota": "Del español \"contrato\""
+},
+{
+"id": "trabajo-019",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Reunión",
+"pr": "l-ijtima3",
+"ar": "الاجتماع",
+"nota": ""
+},
+{
+"id": "trabajo-020",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Correo electrónico",
+"pr": "l-imil",
+"ar": "الإيميل",
+"nota": ""
+},
+{
+"id": "trabajo-021",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Profesor",
+"pr": "l-ostad",
+"ar": "الأستاد",
+"nota": ""
+},
+{
+"id": "trabajo-022",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Estudiante",
+"pr": "t-talib",
+"ar": "الطالب",
+"nota": ""
+},
+{
+"id": "trabajo-023",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Busco trabajo",
+"pr": "kanqelleb 3la l-khedma",
+"ar": "كنقلب على الخدمة",
+"nota": ""
+},
+{
+"id": "trabajo-024",
+"cat": "trabajo",
+"lvl": 2,
+"es": "Estoy en paro",
+"pr": "ana bla khedma",
+"ar": "أنا بلا خدمة",
+"nota": ""
+},
+{
+"id": "cuerpo-017",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Pelo",
+"pr": "sh-sh3er",
+"ar": "الشعر",
+"nota": ""
+},
+{
+"id": "cuerpo-018",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Nariz",
+"pr": "n-nif",
+"ar": "النيف",
+"nota": ""
+},
+{
+"id": "cuerpo-019",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Oreja",
+"pr": "l-wden",
+"ar": "الودن",
+"nota": ""
+},
+{
+"id": "cuerpo-020",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Cara",
+"pr": "l-wjeh",
+"ar": "الوجه",
+"nota": ""
+},
+{
+"id": "cuerpo-021",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Brazo",
+"pr": "d-dra3",
+"ar": "الدراع",
+"nota": ""
+},
+{
+"id": "cuerpo-022",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Dedo",
+"pr": "s-sbe3",
+"ar": "الصبع",
+"nota": ""
+},
+{
+"id": "cuerpo-023",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Me duele la barriga",
+"pr": "kaydrrni kershi",
+"ar": "كيضرني كرشي",
+"nota": ""
+},
+{
+"id": "cuerpo-024",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Estoy resfriado / tengo frío",
+"pr": "fiya l-berd",
+"ar": "فيا البرد",
+"nota": ""
+},
+{
+"id": "cuerpo-025",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Tengo sueño",
+"pr": "fiya n-n3as",
+"ar": "فيا النعاس",
+"nota": ""
+},
+{
+"id": "cuerpo-026",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Me he hecho daño",
+"pr": "tjre7t",
+"ar": "تجرحت",
+"nota": ""
+},
+{
+"id": "sentimientos-014",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Triste",
+"pr": "7zin",
+"ar": "حزين",
+"nota": "También se oye m7zun"
+},
+{
+"id": "sentimientos-015",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Enamorado",
+"pr": "mghrum",
+"ar": "مغروم",
+"nota": ""
+},
+{
+"id": "sentimientos-016",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Celoso",
+"pr": "ghiyyar",
+"ar": "غيار",
+"nota": ""
+},
+{
+"id": "sentimientos-017",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Avergonzado",
+"pr": "7eshman",
+"ar": "حشمان",
+"nota": ""
+},
+{
+"id": "sentimientos-018",
+"cat": "sentimientos",
+"lvl": 3,
+"es": "Aburrido",
+"pr": "mqennet",
+"ar": "مقنط",
+"nota": ""
+},
+{
+"id": "sentimientos-019",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Estoy harto",
+"pr": "3yit",
+"ar": "عييت",
+"nota": ""
+},
+{
+"id": "sentimientos-020",
+"cat": "sentimientos",
+"lvl": 2,
+"es": "Pobrecito",
+"pr": "meskin",
+"ar": "مسكين",
+"nota": ""
+},
+{
+"id": "verbos-034",
+"cat": "verbos",
+"lvl": 2,
+"es": "Llevar",
+"pr": "dda / nddi",
+"ar": "دا / ندي",
+"nota": "ddini = llévame"
+},
+{
+"id": "verbos-035",
+"cat": "verbos",
+"lvl": 2,
+"es": "Poner",
+"pr": "7ett / n7ett",
+"ar": "حط / نحط",
+"nota": ""
+},
+{
+"id": "verbos-036",
+"cat": "verbos",
+"lvl": 2,
+"es": "Correr",
+"pr": "jra / njri",
+"ar": "جرا / نجري",
+"nota": ""
+},
+{
+"id": "verbos-037",
+"cat": "verbos",
+"lvl": 2,
+"es": "Llorar",
+"pr": "bka / nbki",
+"ar": "بكى / نبكي",
+"nota": ""
+},
+{
+"id": "verbos-038",
+"cat": "verbos",
+"lvl": 2,
+"es": "Reír",
+"pr": "d7ek / nd7ek",
+"ar": "ضحك / نضحك",
+"nota": ""
+},
+{
+"id": "verbos-039",
+"cat": "verbos",
+"lvl": 2,
+"es": "Preguntar",
+"pr": "suwwel / nsuwwel",
+"ar": "سول / نسول",
+"nota": ""
+},
+{
+"id": "verbos-040",
+"cat": "verbos",
+"lvl": 2,
+"es": "Responder",
+"pr": "jaweb / njaweb",
+"ar": "جاوب / نجاوب",
+"nota": ""
+},
+{
+"id": "verbos-041",
+"cat": "verbos",
+"lvl": 2,
+"es": "Enseñar (mostrar)",
+"pr": "werra / nwerri",
+"ar": "ورا / نوري",
+"nota": "werrini = enséñame"
+},
+{
+"id": "verbos-042",
+"cat": "verbos",
+"lvl": 2,
+"es": "Cambiar",
+"pr": "beddel / nbeddel",
+"ar": "بدل / نبدل",
+"nota": ""
+},
+{
+"id": "verbos-043",
+"cat": "verbos",
+"lvl": 2,
+"es": "Probar",
+"pr": "jerreb / njerreb",
+"ar": "جرب / نجرب",
+"nota": ""
+},
+{
+"id": "verbos-044",
+"cat": "verbos",
+"lvl": 2,
+"es": "Ganar",
+"pr": "rbe7 / nrbe7",
+"ar": "ربح / نربح",
+"nota": ""
+},
+{
+"id": "verbos-045",
+"cat": "verbos",
+"lvl": 2,
+"es": "Perder (un partido)",
+"pr": "khser / nkhser",
+"ar": "خسر / نخسر",
+"nota": ""
+},
+{
+"id": "verbos-046",
+"cat": "verbos",
+"lvl": 2,
+"es": "Quedarse",
+"pr": "bqa / nbqa",
+"ar": "بقى / نبقى",
+"nota": ""
+},
+{
+"id": "verbos-047",
+"cat": "verbos",
+"lvl": 2,
+"es": "Dejar",
+"pr": "khella / nkhelli",
+"ar": "خلى / نخلي",
+"nota": "khellini = déjame"
+},
+{
+"id": "verbos-048",
+"cat": "verbos",
+"lvl": 2,
+"es": "Conducir",
+"pr": "sag / nsug",
+"ar": "ساق / نسوق",
+"nota": ""
+},
+{
+"id": "verbos-049",
+"cat": "verbos",
+"lvl": 2,
+"es": "Nadar",
+"pr": "3am / n3um",
+"ar": "عام / نعوم",
+"nota": ""
+},
+{
+"id": "verbos-050",
+"cat": "verbos",
+"lvl": 2,
+"es": "Fumar",
+"pr": "kma / nkmi",
+"ar": "كمى / نكمي",
+"nota": ""
+},
+{
+"id": "verbos-051",
+"cat": "verbos",
+"lvl": 2,
+"es": "Casarse",
+"pr": "tzuwwej / ntzuwwej",
+"ar": "تزوج / نتزوج",
+"nota": ""
+},
+{
+"id": "verbos-052",
+"cat": "verbos",
+"lvl": 2,
+"es": "Vivir (estar vivo)",
+"pr": "3ash / n3ish",
+"ar": "عاش / نعيش",
+"nota": ""
+},
+{
+"id": "verbos-053",
+"cat": "verbos",
+"lvl": 2,
+"es": "Equivocarse",
+"pr": "ghlet / nghlet",
+"ar": "غلط / نغلط",
+"nota": ""
+},
+{
+"id": "verbos-054",
+"cat": "verbos",
+"lvl": 2,
+"es": "Reservar",
+"pr": "7jez / n7jez",
+"ar": "حجز / نحجز",
+"nota": ""
+},
+{
+"id": "verbos-055",
+"cat": "verbos",
+"lvl": 3,
+"es": "Odiar",
+"pr": "kreh / nkreh",
+"ar": "كره / نكره",
+"nota": ""
+},
+{
+"id": "gramatica-031",
+"cat": "gramatica",
+"lvl": 1,
+"es": "El, la, los, las",
+"pr": "l-",
+"ar": "ال",
+"nota": "Delante de algunas letras se asimila: s-suq, d-dar"
+},
+{
+"id": "gramatica-032",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Mi... (pegado a la palabra)",
+"pr": "ktabi (mi libro)",
+"ar": "كتابي",
+"nota": ""
+},
+{
+"id": "gramatica-033",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Tu... (pegado a la palabra)",
+"pr": "ktabek (tu libro)",
+"ar": "كتابك",
+"nota": ""
+},
+{
+"id": "gramatica-034",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Su... de él (pegado a la palabra)",
+"pr": "ktabu (su libro)",
+"ar": "كتابو",
+"nota": ""
+},
+{
+"id": "gramatica-035",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Querer + verbo",
+"pr": "bghit nakul (quiero comer)",
+"ar": "بغيت ناكل",
+"nota": ""
+},
+{
+"id": "gramatica-036",
+"cat": "gramatica",
+"lvl": 1,
+"es": "Poder + verbo",
+"pr": "nqder nji (puedo venir)",
+"ar": "نقدر نجي",
+"nota": ""
+},
+{
+"id": "gramatica-037",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Orden (a una persona)",
+"pr": "kul! (¡come!)",
+"ar": "كول!",
+"nota": ""
+},
+{
+"id": "gramatica-038",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Orden negativa",
+"pr": "ma takulsh! (¡no comas!)",
+"ar": "ما تاكلش!",
+"nota": ""
+},
+{
+"id": "gramatica-039",
+"cat": "gramatica",
+"lvl": 2,
+"es": "Negar con mashi (no es...)",
+"pr": "mashi mzyan (no está bien)",
+"ar": "ماشي مزيان",
+"nota": ""
+},
+{
+"id": "frases-037",
+"cat": "frases",
+"lvl": 2,
+"es": "Pasa, entra",
+"pr": "dkhol",
+"ar": "دخل",
+"nota": ""
+},
+{
+"id": "frases-038",
+"cat": "frases",
+"lvl": 2,
+"es": "¿Puedo pasar?",
+"pr": "wash nqder ndkhol?",
+"ar": "واش نقدر ندخل؟",
+"nota": ""
+},
+{
+"id": "frases-039",
+"cat": "frases",
+"lvl": 2,
+"es": "¿Te ayudo?",
+"pr": "n3awnek?",
+"ar": "نعاونك؟",
+"nota": ""
+},
+{
+"id": "frases-040",
+"cat": "frases",
+"lvl": 2,
+"es": "Déjame",
+"pr": "khellini",
+"ar": "خليني",
+"nota": ""
+},
+{
+"id": "frases-041",
+"cat": "frases",
+"lvl": 2,
+"es": "Enséñame",
+"pr": "werrini",
+"ar": "وريني",
+"nota": ""
+},
+{
+"id": "frases-042",
+"cat": "frases",
+"lvl": 2,
+"es": "Es broma",
+"pr": "kand7ek m3ak",
+"ar": "كنضحك معاك",
+"nota": "Literalmente \"me estoy riendo contigo\""
+},
+{
+"id": "frases-043",
+"cat": "frases",
+"lvl": 1,
+"es": "¡Bravo!",
+"pr": "brafo!",
+"ar": "برافو!",
+"nota": ""
+},
+{
+"id": "frases-044",
+"cat": "frases",
+"lvl": 2,
+"es": "Correcto",
+"pr": "sa7i7",
+"ar": "صحيح",
+"nota": ""
+},
+{
+"id": "frases-045",
+"cat": "frases",
+"lvl": 2,
+"es": "Ten paciencia",
+"pr": "sber",
+"ar": "صبر",
+"nota": ""
+},
+{
+"id": "frases-046",
+"cat": "frases",
+"lvl": 2,
+"es": "Tienes suerte",
+"pr": "3ndek z-zher",
+"ar": "عندك الزهر",
+"nota": ""
+},
+{
+"id": "frases-047",
+"cat": "frases",
+"lvl": 2,
+"es": "No tengo suerte",
+"pr": "ma 3ndish z-zher",
+"ar": "ما عنديش الزهر",
+"nota": ""
+},
+{
+"id": "frases-048",
+"cat": "frases",
+"lvl": 2,
+"es": "Ya veremos",
+"pr": "ghadi nshufu",
+"ar": "غادي نشوفو",
+"nota": ""
+},
+{
+"id": "frases-049",
+"cat": "frases",
+"lvl": 2,
+"es": "Estoy equivocado",
+"pr": "ana ghalet",
+"ar": "أنا غالط",
+"nota": ""
+},
+{
+"id": "conversacion-001",
+"cat": "conversacion",
+"lvl": 1,
+"es": "Tengo prisa",
+"pr": "ana zerban",
+"ar": "أنا زربان",
+"nota": ""
+},
+{
+"id": "conversacion-002",
+"cat": "conversacion",
+"lvl": 1,
+"es": "Ya voy",
+"pr": "ana jay",
+"ar": "أنا جاي",
+"nota": ""
+},
+{
+"id": "conversacion-003",
+"cat": "conversacion",
+"lvl": 1,
+"es": "Ya he llegado",
+"pr": "wselt",
+"ar": "وصلت",
+"nota": ""
+},
+{
+"id": "conversacion-004",
+"cat": "conversacion",
+"lvl": 1,
+"es": "Estoy en casa",
+"pr": "ana f d-dar",
+"ar": "أنا ف الدار",
+"nota": ""
+},
+{
+"id": "conversacion-005",
+"cat": "conversacion",
+"lvl": 1,
+"es": "Estoy en el trabajo",
+"pr": "ana f l-khedma",
+"ar": "أنا ف الخدمة",
+"nota": ""
+},
+{
+"id": "conversacion-006",
+"cat": "conversacion",
+"lvl": 1,
+"es": "No tengo tiempo",
+"pr": "ma 3ndish l-weqt",
+"ar": "ما عنديش الوقت",
+"nota": ""
+},
+{
+"id": "conversacion-007",
+"cat": "conversacion",
+"lvl": 2,
+"es": "Voy a llegar tarde",
+"pr": "ghadi nt3ettel",
+"ar": "غادي نتعطل",
+"nota": ""
+},
+{
+"id": "conversacion-008",
+"cat": "conversacion",
+"lvl": 2,
+"es": "¿A qué hora quedamos?",
+"pr": "fuqash ntlaqaw?",
+"ar": "فوقاش نتلاقاو؟",
+"nota": ""
+},
+{
+"id": "conversacion-009",
+"cat": "conversacion",
+"lvl": 2,
+"es": "Quedamos a las ocho",
+"pr": "ntlaqaw f t-tmenya",
+"ar": "نتلاقاو ف التمنية",
+"nota": ""
+},
+{
+"id": "conversacion-010",
+"cat": "conversacion",
+"lvl": 2,
+"es": "¿Dónde quedamos?",
+"pr": "fin ntlaqaw?",
+"ar": "فين نتلاقاو؟",
+"nota": ""
+},
+{
+"id": "conversacion-011",
+"cat": "conversacion",
+"lvl": 1,
+"es": "Quiero ir a la playa",
+"pr": "bghit nmshi l l-b7er",
+"ar": "بغيت نمشي للبحر",
+"nota": ""
+},
+{
+"id": "conversacion-012",
+"cat": "conversacion",
+"lvl": 2,
+"es": "Tengo que trabajar mañana",
+"pr": "khassni nkhdem ghedda",
+"ar": "خاصني نخدم غدا",
+"nota": ""
+},
+{
+"id": "conversacion-013",
+"cat": "conversacion",
+"lvl": 2,
+"es": "Estoy aquí de vacaciones",
+"pr": "ana hna f l-3otla",
+"ar": "أنا هنا ف العطلة",
+"nota": ""
+},
+{
+"id": "conversacion-014",
+"cat": "conversacion",
+"lvl": 2,
+"es": "¿Dónde puedo comprar...?",
+"pr": "fin nqder nshri...?",
+"ar": "فين نقدر نشري...؟",
+"nota": ""
+},
+{
+"id": "conversacion-015",
+"cat": "conversacion",
+"lvl": 2,
+"es": "¿Hay wifi?",
+"pr": "wash kayn l-wifi?",
+"ar": "واش كاين الويفي؟",
+"nota": ""
+},
+{
+"id": "conversacion-016",
+"cat": "conversacion",
+"lvl": 2,
+"es": "¿Cuál es la contraseña?",
+"pr": "shnu l-kod?",
+"ar": "شنو الكود؟",
+"nota": ""
+},
+{
+"id": "conversacion-017",
+"cat": "conversacion",
+"lvl": 2,
+"es": "Se me ha apagado el móvil",
+"pr": "tfa liya t-tilifun",
+"ar": "طفا ليا التيليفون",
+"nota": ""
+},
+{
+"id": "conversacion-018",
+"cat": "conversacion",
+"lvl": 2,
+"es": "¿Puedo cargar el móvil?",
+"pr": "wash nqder nsharji t-tilifun?",
+"ar": "واش نقدر نشارجي التيليفون؟",
+"nota": ""
+},
+{
+"id": "conversacion-019",
+"cat": "conversacion",
+"lvl": 2,
+"es": "Mi número es...",
+"pr": "n-nimiro dyali huwa...",
+"ar": "النيمرو ديالي هو...",
+"nota": "nimiro, del español \"número\""
+},
+{
+"id": "conversacion-020",
+"cat": "conversacion",
+"lvl": 2,
+"es": "Dame tu número",
+"pr": "3tini n-nimiro dyalek",
+"ar": "عطيني النيمرو ديالك",
+"nota": ""
+},
+{
+"id": "conversacion-021",
+"cat": "conversacion",
+"lvl": 2,
+"es": "No fumo",
+"pr": "ma kankmish",
+"ar": "ما كنكميش",
+"nota": ""
+},
+{
+"id": "conversacion-022",
+"cat": "conversacion",
+"lvl": 2,
+"es": "Hablemos en darija",
+"pr": "yallah nhedru b d-darija",
+"ar": "يالاه نهضرو بالدارجة",
+"nota": ""
+},
+{
+"id": "conversacion-023",
+"cat": "conversacion",
+"lvl": 3,
+"es": "Corrígeme si me equivoco",
+"pr": "sa77e7 liya ila ghlet",
+"ar": "صحح ليا إلا غلطت",
+"nota": ""
+},
+{
+"id": "conversacion-024",
+"cat": "conversacion",
+"lvl": 2,
+"es": "Lo he pasado muy bien",
+"pr": "dwwezt wa7ed l-weqt zwin",
+"ar": "دوزت واحد الوقت زوين",
+"nota": ""
+},
+{
+"id": "conversacion-025",
+"cat": "conversacion",
+"lvl": 1,
+"es": "Gracias por todo",
+"pr": "shukran 3la kulshi",
+"ar": "شكرا على كلشي",
+"nota": ""
+},
+{
+"id": "conversacion-026",
+"cat": "conversacion",
+"lvl": 2,
+"es": "¿Qué hay de nuevo?",
+"pr": "ash khbarek?",
+"ar": "اش خبارك؟",
+"nota": "Literalmente \"¿cuáles son tus noticias?\""
+},
+{
+"id": "conversacion-027",
+"cat": "conversacion",
+"lvl": 2,
+"es": "¿Todo bien en casa?",
+"pr": "d-dar kulshi labas?",
+"ar": "الدار كلشي لاباس؟",
+"nota": "Para preguntar por la familia"
+},
+{
+"id": "conversacion-028",
+"cat": "conversacion",
+"lvl": 2,
+"es": "Vamos a dar una vuelta",
+"pr": "yallah ntsaraw",
+"ar": "يالاه نتساراو",
+"nota": ""
+},
+{
+"id": "viaje-001",
+"cat": "viaje",
+"lvl": 1,
+"es": "Pasaporte",
+"pr": "l-pasepor",
+"ar": "الباسبور",
+"nota": ""
+},
+{
+"id": "viaje-002",
+"cat": "viaje",
+"lvl": 1,
+"es": "Maleta",
+"pr": "l-baliza",
+"ar": "الباليزا",
+"nota": "Del español \"valija\""
+},
+{
+"id": "viaje-003",
+"cat": "viaje",
+"lvl": 2,
+"es": "Aduana",
+"pr": "d-diwana",
+"ar": "الديوانة",
+"nota": ""
+},
+{
+"id": "viaje-004",
+"cat": "viaje",
+"lvl": 2,
+"es": "Barco / ferri",
+"pr": "l-babbur",
+"ar": "البابور",
+"nota": ""
+},
+{
+"id": "viaje-005",
+"cat": "viaje",
+"lvl": 2,
+"es": "Puerto",
+"pr": "l-mersa",
+"ar": "المرسى",
+"nota": ""
+},
+{
+"id": "viaje-006",
+"cat": "viaje",
+"lvl": 1,
+"es": "Avión",
+"pr": "t-tiyyara",
+"ar": "الطيارة",
+"nota": ""
+},
+{
+"id": "viaje-007",
+"cat": "viaje",
+"lvl": 2,
+"es": "Viaje",
+"pr": "s-sfer",
+"ar": "السفر",
+"nota": ""
+},
+{
+"id": "viaje-008",
+"cat": "viaje",
+"lvl": 2,
+"es": "Voy de viaje",
+"pr": "ghadi nsafer",
+"ar": "غادي نسافر",
+"nota": ""
+},
+{
+"id": "viaje-009",
+"cat": "viaje",
+"lvl": 2,
+"es": "¿Tenéis alguna habitación libre?",
+"pr": "wash 3ndkom shi bit khawi?",
+"ar": "واش عندكم شي بيت خاوي؟",
+"nota": ""
+},
+{
+"id": "viaje-010",
+"cat": "viaje",
+"lvl": 2,
+"es": "¿A qué hora sale el tren?",
+"pr": "fuqash kaykhrej t-tran?",
+"ar": "فوقاش كيخرج التران؟",
+"nota": ""
+},
+{
+"id": "viaje-011",
+"cat": "viaje",
+"lvl": 1,
+"es": "¿Está lejos?",
+"pr": "wash b3id?",
+"ar": "واش بعيد؟",
+"nota": ""
+},
+{
+"id": "viaje-012",
+"cat": "viaje",
+"lvl": 2,
+"es": "Turista",
+"pr": "turist",
+"ar": "توريست",
+"nota": ""
+},
+{
+"id": "viaje-013",
+"cat": "viaje",
+"lvl": 2,
+"es": "Mapa",
+"pr": "l-kharita",
+"ar": "الخريطة",
+"nota": ""
+},
+{
+"id": "viaje-014",
+"cat": "viaje",
+"lvl": 2,
+"es": "Gasolina",
+"pr": "l-lisans",
+"ar": "ليصانص",
+"nota": "Del francés essence"
+},
+{
+"id": "viaje-015",
+"cat": "viaje",
+"lvl": 2,
+"es": "¿Dónde puedo cambiar dinero?",
+"pr": "fin nqder nserref l-flus?",
+"ar": "فين نقدر نصرف الفلوس؟",
+"nota": ""
+},
+{
+"id": "viaje-016",
+"cat": "viaje",
+"lvl": 2,
+"es": "Me quedo una semana",
+"pr": "ghadi ngles wa7ed s-simana",
+"ar": "غادي نڭلس واحد السيمانة",
+"nota": "gles también es \"quedarse\""
+},
+{
+"id": "viaje-017",
+"cat": "viaje",
+"lvl": 2,
+"es": "Montaña",
+"pr": "j-jbel",
+"ar": "الجبل",
+"nota": ""
+},
+{
+"id": "viaje-018",
+"cat": "viaje",
+"lvl": 2,
+"es": "Río",
+"pr": "l-wad",
+"ar": "الواد",
+"nota": ""
+},
+{
+"id": "viaje-019",
+"cat": "viaje",
+"lvl": 2,
+"es": "Pueblo / aldea",
+"pr": "d-dwar",
+"ar": "الدوار",
+"nota": ""
+},
+{
+"id": "viaje-020",
+"cat": "viaje",
+"lvl": 2,
+"es": "El campo",
+"pr": "l-3rubiya",
+"ar": "العروبية",
+"nota": ""
+},
+{
+"id": "viaje-021",
+"cat": "viaje",
+"lvl": 1,
+"es": "Tánger",
+"pr": "tanja",
+"ar": "طنجة",
+"nota": ""
+},
+{
+"id": "viaje-022",
+"cat": "viaje",
+"lvl": 1,
+"es": "Casablanca",
+"pr": "d-dar l-bida",
+"ar": "الدار البيضا",
+"nota": ""
+},
+{
+"id": "viaje-023",
+"cat": "viaje",
+"lvl": 1,
+"es": "Marrakech",
+"pr": "mrrakesh",
+"ar": "مراكش",
+"nota": ""
+},
+{
+"id": "viaje-024",
+"cat": "viaje",
+"lvl": 1,
+"es": "Fez",
+"pr": "fas",
+"ar": "فاس",
+"nota": ""
+},
+{
+"id": "viaje-025",
+"cat": "viaje",
+"lvl": 1,
+"es": "Rabat",
+"pr": "r-rbat",
+"ar": "الرباط",
+"nota": ""
+},
+{
+"id": "viaje-026",
+"cat": "viaje",
+"lvl": 2,
+"es": "Tetuán",
+"pr": "ttwan",
+"ar": "تطوان",
+"nota": ""
+},
+{
+"id": "viaje-027",
+"cat": "viaje",
+"lvl": 2,
+"es": "Visado",
+"pr": "l-viza",
+"ar": "الفيزا",
+"nota": ""
+},
+{
+"id": "viaje-028",
+"cat": "viaje",
+"lvl": 2,
+"es": "Papeles (documentos)",
+"pr": "l-wraq",
+"ar": "الوراق",
+"nota": ""
+},
+{
+"id": "ocio-001",
+"cat": "ocio",
+"lvl": 1,
+"es": "Fútbol",
+"pr": "l-kura",
+"ar": "الكورة",
+"nota": ""
+},
+{
+"id": "ocio-002",
+"cat": "ocio",
+"lvl": 1,
+"es": "Partido",
+"pr": "l-match",
+"ar": "الماتش",
+"nota": ""
+},
+{
+"id": "ocio-003",
+"cat": "ocio",
+"lvl": 1,
+"es": "Gol",
+"pr": "l-but",
+"ar": "البوت",
+"nota": ""
+},
+{
+"id": "ocio-004",
+"cat": "ocio",
+"lvl": 2,
+"es": "Equipo",
+"pr": "l-fariq",
+"ar": "الفريق",
+"nota": ""
+},
+{
+"id": "ocio-005",
+"cat": "ocio",
+"lvl": 2,
+"es": "¿Quién ha ganado?",
+"pr": "shkun rbe7?",
+"ar": "شكون ربح؟",
+"nota": ""
+},
+{
+"id": "ocio-006",
+"cat": "ocio",
+"lvl": 2,
+"es": "Hemos ganado",
+"pr": "rb7na",
+"ar": "ربحنا",
+"nota": ""
+},
+{
+"id": "ocio-007",
+"cat": "ocio",
+"lvl": 2,
+"es": "Hemos perdido",
+"pr": "khsrna",
+"ar": "خسرنا",
+"nota": ""
+},
+{
+"id": "ocio-008",
+"cat": "ocio",
+"lvl": 3,
+"es": "El Mundial",
+"pr": "l-mundyal",
+"ar": "المونديال",
+"nota": "Marruecos lo organiza en 2030 con España y Portugal"
+},
+{
+"id": "ocio-009",
+"cat": "ocio",
+"lvl": 1,
+"es": "Música",
+"pr": "l-musiqa",
+"ar": "الموسيقى",
+"nota": ""
+},
+{
+"id": "ocio-010",
+"cat": "ocio",
+"lvl": 1,
+"es": "Película",
+"pr": "l-film",
+"ar": "الفيلم",
+"nota": ""
+},
+{
+"id": "ocio-011",
+"cat": "ocio",
+"lvl": 2,
+"es": "Cine",
+"pr": "s-sinima",
+"ar": "السينما",
+"nota": ""
+},
+{
+"id": "ocio-012",
+"cat": "ocio",
+"lvl": 2,
+"es": "Bailar",
+"pr": "shte7 / nshte7",
+"ar": "شطح / نشطح",
+"nota": ""
+},
+{
+"id": "ocio-013",
+"cat": "ocio",
+"lvl": 2,
+"es": "Cantar",
+"pr": "ghenna / nghenni",
+"ar": "غنى / نغني",
+"nota": ""
+},
+{
+"id": "ocio-014",
+"cat": "ocio",
+"lvl": 2,
+"es": "Pasear",
+"pr": "tsara / ntsara",
+"ar": "تسارى / نتسارى",
+"nota": ""
+},
+{
+"id": "ocio-015",
+"cat": "ocio",
+"lvl": 2,
+"es": "Fiesta",
+"pr": "l-7efla",
+"ar": "الحفلة",
+"nota": ""
+},
+{
+"id": "ocio-016",
+"cat": "ocio",
+"lvl": 2,
+"es": "Boda",
+"pr": "l-3ers",
+"ar": "العرس",
+"nota": ""
+},
+{
+"id": "ocio-017",
+"cat": "ocio",
+"lvl": 2,
+"es": "Gimnasio",
+"pr": "s-sal",
+"ar": "الصال",
+"nota": "Del francés salle"
+},
+{
+"id": "ocio-018",
+"cat": "ocio",
+"lvl": 2,
+"es": "Hacer deporte",
+"pr": "ndir r-riyada",
+"ar": "ندير الرياضة",
+"nota": ""
+},
+{
+"id": "ocio-019",
+"cat": "ocio",
+"lvl": 2,
+"es": "Juego",
+"pr": "l-l3ba",
+"ar": "اللعبة",
+"nota": ""
+},
+{
+"id": "ocio-020",
+"cat": "ocio",
+"lvl": 3,
+"es": "Genial (coloquial)",
+"pr": "wa3er",
+"ar": "واعر",
+"nota": ""
+},
+{
+"id": "ocio-021",
+"cat": "ocio",
+"lvl": 3,
+"es": "Perfecto, de lujo (coloquial)",
+"pr": "nadi",
+"ar": "ناضي",
+"nota": ""
+},
+{
+"id": "ocio-022",
+"cat": "ocio",
+"lvl": 2,
+"es": "Tío, colega",
+"pr": "khay",
+"ar": "خاي",
+"nota": ""
+},
+{
+"id": "animales-001",
+"cat": "animales",
+"lvl": 1,
+"es": "Perro",
+"pr": "l-kelb",
+"ar": "الكلب",
+"nota": ""
+},
+{
+"id": "animales-002",
+"cat": "animales",
+"lvl": 1,
+"es": "Gato",
+"pr": "l-mmesh",
+"ar": "المش",
+"nota": ""
+},
+{
+"id": "animales-003",
+"cat": "animales",
+"lvl": 2,
+"es": "Caballo",
+"pr": "l-3ewd",
+"ar": "العود",
+"nota": ""
+},
+{
+"id": "animales-004",
+"cat": "animales",
+"lvl": 2,
+"es": "Burro",
+"pr": "l-7mar",
+"ar": "الحمار",
+"nota": ""
+},
+{
+"id": "animales-005",
+"cat": "animales",
+"lvl": 2,
+"es": "Camello",
+"pr": "j-jmel",
+"ar": "الجمل",
+"nota": ""
+},
+{
+"id": "animales-006",
+"cat": "animales",
+"lvl": 2,
+"es": "Vaca",
+"pr": "l-begra",
+"ar": "البڭرة",
+"nota": ""
+},
+{
+"id": "animales-007",
+"cat": "animales",
+"lvl": 2,
+"es": "Cordero",
+"pr": "l-7awli",
+"ar": "الحولي",
+"nota": "El de la Fiesta del Cordero"
+},
+{
+"id": "animales-008",
+"cat": "animales",
+"lvl": 2,
+"es": "Gallina",
+"pr": "d-djaja",
+"ar": "الدجاجة",
+"nota": ""
+},
+{
+"id": "animales-009",
+"cat": "animales",
+"lvl": 2,
+"es": "Pájaro",
+"pr": "t-tir",
+"ar": "الطير",
+"nota": ""
+},
+{
+"id": "animales-010",
+"cat": "animales",
+"lvl": 2,
+"es": "Ratón",
+"pr": "l-far",
+"ar": "الفار",
+"nota": ""
+},
+{
+"id": "animales-011",
+"cat": "animales",
+"lvl": 2,
+"es": "Mosca",
+"pr": "d-debbana",
+"ar": "الدبانة",
+"nota": ""
+},
+{
+"id": "animales-012",
+"cat": "animales",
+"lvl": 3,
+"es": "Mosquito",
+"pr": "n-namus",
+"ar": "الناموس",
+"nota": "De ahí viene namusiya, la cama (por la mosquitera)"
+},
+{
+"id": "ropa-001",
+"cat": "ropa",
+"lvl": 1,
+"es": "Camisa",
+"pr": "l-qamija",
+"ar": "القميجة",
+"nota": "Del español \"camisa\""
+},
+{
+"id": "ropa-002",
+"cat": "ropa",
+"lvl": 1,
+"es": "Pantalón",
+"pr": "s-serwal",
+"ar": "السروال",
+"nota": ""
+},
+{
+"id": "ropa-003",
+"cat": "ropa",
+"lvl": 2,
+"es": "Chilaba",
+"pr": "j-jellaba",
+"ar": "الجلابة",
+"nota": ""
+},
+{
+"id": "ropa-004",
+"cat": "ropa",
+"lvl": 2,
+"es": "Babuchas",
+"pr": "l-belgha",
+"ar": "البلغة",
+"nota": ""
+},
+{
+"id": "ropa-005",
+"cat": "ropa",
+"lvl": 2,
+"es": "Gorra",
+"pr": "l-kaskita",
+"ar": "الكاسكيطة",
+"nota": ""
+},
+{
+"id": "ropa-006",
+"cat": "ropa",
+"lvl": 2,
+"es": "Calcetines",
+"pr": "t-tqasher",
+"ar": "التقاشر",
+"nota": ""
+},
+{
+"id": "ropa-007",
+"cat": "ropa",
+"lvl": 2,
+"es": "Gafas",
+"pr": "n-ndader",
+"ar": "النضاضر",
+"nota": ""
+},
+{
+"id": "ropa-008",
+"cat": "ropa",
+"lvl": 2,
+"es": "Reloj (de pulsera)",
+"pr": "l-magana",
+"ar": "الماڭانة",
+"nota": ""
+},
+{
+"id": "ropa-009",
+"cat": "ropa",
+"lvl": 2,
+"es": "Bolso",
+"pr": "s-sak",
+"ar": "الساك",
+"nota": ""
+},
+{
+"id": "ropa-010",
+"cat": "ropa",
+"lvl": 2,
+"es": "Ponerse (ropa)",
+"pr": "lbes / nlbes",
+"ar": "لبس / نلبس",
+"nota": ""
+},
+{
+"id": "ropa-011",
+"cat": "ropa",
+"lvl": 2,
+"es": "Quitar / quitarse",
+"pr": "7iyyed / n7iyyed",
+"ar": "حيد / نحيد",
+"nota": ""
+},
+{
+"id": "cultura-001",
+"cat": "cultura",
+"lvl": 2,
+"es": "Ramadán",
+"pr": "remdan",
+"ar": "رمضان",
+"nota": ""
+},
+{
+"id": "cultura-002",
+"cat": "cultura",
+"lvl": 2,
+"es": "Fiesta del Cordero",
+"pr": "l-3id l-kbir",
+"ar": "العيد الكبير",
+"nota": ""
+},
+{
+"id": "cultura-003",
+"cat": "cultura",
+"lvl": 2,
+"es": "Fiesta del fin del Ramadán",
+"pr": "l-3id s-sghir",
+"ar": "العيد الصغير",
+"nota": ""
+},
+{
+"id": "cultura-004",
+"cat": "cultura",
+"lvl": 2,
+"es": "Oración",
+"pr": "s-sla",
+"ar": "الصلا",
+"nota": ""
+},
+{
+"id": "cultura-005",
+"cat": "cultura",
+"lvl": 2,
+"es": "Rezar",
+"pr": "salla / nsalli",
+"ar": "صلى / نصلي",
+"nota": ""
+},
+{
+"id": "cultura-006",
+"cat": "cultura",
+"lvl": 2,
+"es": "Hammam",
+"pr": "l-7emmam",
+"ar": "الحمام",
+"nota": ""
+},
+{
+"id": "cultura-007",
+"cat": "cultura",
+"lvl": 2,
+"es": "Riad",
+"pr": "r-ryad",
+"ar": "الرياض",
+"nota": ""
+},
+{
+"id": "cultura-008",
+"cat": "cultura",
+"lvl": 2,
+"es": "Henna",
+"pr": "l-7enna",
+"ar": "الحنة",
+"nota": ""
+},
+{
+"id": "cultura-009",
+"cat": "cultura",
+"lvl": 2,
+"es": "En el nombre de Dios (antes de empezar algo)",
+"pr": "bismillah",
+"ar": "بسم الله",
+"nota": "Antes de comer, de salir, de arrancar el coche..."
+},
+{
+"id": "cultura-010",
+"cat": "cultura",
+"lvl": 2,
+"es": "Dios mío",
+"pr": "ya rebbi",
+"ar": "يا ربي",
+"nota": ""
+},
+{
+"id": "cultura-011",
+"cat": "cultura",
+"lvl": 2,
+"es": "Bendición",
+"pr": "l-baraka",
+"ar": "البركة",
+"nota": ""
+},
+{
+"id": "cultura-012",
+"cat": "cultura",
+"lvl": 3,
+"es": "El destino, lo que está escrito",
+"pr": "l-mektub",
+"ar": "المكتوب",
+"nota": ""
+},
+{
+"id": "cultura-013",
+"cat": "cultura",
+"lvl": 3,
+"es": "Amazigh (bereber)",
+"pr": "l-amazigh",
+"ar": "الأمازيغ",
+"nota": ""
+},
+{
+"id": "actualidad-027",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Presidente",
+"pr": "r-ra2is",
+"ar": "الرئيس",
+"nota": ""
+},
+{
+"id": "actualidad-028",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Partido político",
+"pr": "l-7izb",
+"ar": "الحزب",
+"nota": ""
+},
+{
+"id": "actualidad-029",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Votar",
+"pr": "sowwet / nsowwet",
+"ar": "صوت / نصوت",
+"nota": ""
+},
+{
+"id": "actualidad-030",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Acuerdo",
+"pr": "l-ittifaq",
+"ar": "الاتفاق",
+"nota": ""
+},
+{
+"id": "actualidad-031",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Crisis",
+"pr": "l-azma",
+"ar": "الأزمة",
+"nota": ""
+},
+{
+"id": "actualidad-032",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Ataque",
+"pr": "l-hujum",
+"ar": "الهجوم",
+"nota": ""
+},
+{
+"id": "actualidad-033",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Terrorismo",
+"pr": "l-irhab",
+"ar": "الإرهاب",
+"nota": ""
+},
+{
+"id": "actualidad-034",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Inmigrante",
+"pr": "l-muhajir",
+"ar": "المهاجر",
+"nota": ""
+},
+{
+"id": "actualidad-035",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Embajada",
+"pr": "s-sifara",
+"ar": "السفارة",
+"nota": ""
+},
+{
+"id": "actualidad-036",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Consulado",
+"pr": "l-qonsuliya",
+"ar": "القنصلية",
+"nota": ""
+},
+{
+"id": "actualidad-037",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Huelga",
+"pr": "l-idrab",
+"ar": "الإضراب",
+"nota": ""
+},
+{
+"id": "actualidad-038",
+"cat": "actualidad",
+"lvl": 3,
+"es": "Unión Europea",
+"pr": "l-itti7ad l-urubbi",
+"ar": "الاتحاد الأوروبي",
+"nota": ""
+},
+{
+"id": "actualidad-039",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Estados Unidos",
+"pr": "mirikan",
+"ar": "ميريكان",
+"nota": ""
+},
+{
+"id": "actualidad-040",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Francia",
+"pr": "fransa",
+"ar": "فرنسا",
+"nota": ""
+},
+{
+"id": "actualidad-041",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Túnez",
+"pr": "tunes",
+"ar": "تونس",
+"nota": ""
+},
+{
+"id": "actualidad-042",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Mauritania",
+"pr": "muritanya",
+"ar": "موريتانيا",
+"nota": ""
+},
+{
+"id": "actualidad-043",
+"cat": "actualidad",
+"lvl": 2,
+"es": "Rusia",
+"pr": "rusya",
+"ar": "روسيا",
+"nota": ""
+},
+{
+"id": "actualidad-044",
+"cat": "actualidad",
+"lvl": 2,
+"es": "China",
+"pr": "s-sin",
+"ar": "الصين",
+"nota": ""
+},
+{
+"id": "clima-009",
+"cat": "clima",
+"lvl": 1,
+"es": "Hace buen tiempo",
+"pr": "j-jow zwin",
+"ar": "الجو زوين",
+"nota": ""
+}
+]
+}
