@@ -2,7 +2,7 @@
 // Con buena cobertura siempre carga la última versión; en un túnel o sin conexión,
 // si la red no responde en 2,5 s, abre la copia guardada en el iPhone.
 // Cuando cambies cualquier archivo, sube VERSION y sube también este sw.js.
-const VERSION = 'darija-v7';
+const VERSION = 'darija-v8';
 const CACHE = 'darija-' + VERSION;
 const CORE = ['./', 'index.html', 'fsrs.js', 'darija.json', 'dialogos.json', 'manifest.webmanifest',
   'unbounded.woff2', 'manrope.woff2', 'apple-touch-icon.png', 'icon-192.png', 'icon-512.png'];

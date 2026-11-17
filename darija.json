@@ -104,6 +104,10 @@
 {
 "id": "actualidad",
 "name": "Actualidad"
+},
+{
+"id": "expresiones",
+"name": "Expresiones de calle"
 }
 ],
 "items": [
@@ -7873,6 +7877,456 @@
 "pr": "j-jow zwin",
 "ar": "الجو زوين",
 "nota": ""
+},
+{
+"id": "expresiones-001",
+"cat": "expresiones",
+"lvl": 1,
+"es": "Venga, rápido",
+"pr": "dghya dghya",
+"ar": "دغيا دغيا",
+"nota": "Para meter prisa a alguien. Una sola vez, dghya, también vale"
+},
+{
+"id": "expresiones-002",
+"cat": "expresiones",
+"lvl": 1,
+"es": "Me da vergüenza",
+"pr": "kan7shem",
+"ar": "كنحشم",
+"nota": "De 7shuma. Ma t7shemsh = no te cortes"
+},
+{
+"id": "expresiones-003",
+"cat": "expresiones",
+"lvl": 1,
+"es": "Bueno, pues... (muletilla)",
+"pr": "iwa",
+"ar": "إيوا",
+"nota": "Arranca casi cualquier frase: iwa, fin ghadi? (bueno, ¿adónde vas?)"
+},
+{
+"id": "expresiones-004",
+"cat": "expresiones",
+"lvl": 1,
+"es": "O sea / es decir",
+"pr": "ya3ni",
+"ar": "يعني",
+"nota": "Muletilla constante para ganar tiempo al hablar"
+},
+{
+"id": "expresiones-005",
+"cat": "expresiones",
+"lvl": 1,
+"es": "¡Madre mía!",
+"pr": "a yemma!",
+"ar": "آ يما!",
+"nota": "Sorpresa, susto o queja. Lit. ¡ay, madre!"
+},
+{
+"id": "expresiones-006",
+"cat": "expresiones",
+"lvl": 2,
+"es": "¡Qué guay! / ¡genial!",
+"pr": "nadi!",
+"ar": "ناضي!",
+"nota": "Argot joven. También se dice de una persona: hada nadi"
+},
+{
+"id": "expresiones-007",
+"cat": "expresiones",
+"lvl": 1,
+"es": "Ni idea",
+"pr": "ma 3ndi fikra",
+"ar": "ما عندي فكرة",
+"nota": ""
+},
+{
+"id": "expresiones-008",
+"cat": "expresiones",
+"lvl": 1,
+"es": "Para nada / nunca",
+"pr": "abadan",
+"ar": "أبدا",
+"nota": "Rotundo. La, abadan = no, en absoluto"
+},
+{
+"id": "expresiones-009",
+"cat": "expresiones",
+"lvl": 2,
+"es": "¡No me digas!",
+"pr": "ma tgulsh!",
+"ar": "ما تقولش!",
+"nota": "Sorpresa real o fingida"
+},
+{
+"id": "expresiones-010",
+"cat": "expresiones",
+"lvl": 1,
+"es": "No me importa",
+"pr": "ma kayhemmnish",
+"ar": "ما كيهمنيش",
+"nota": ""
+},
+{
+"id": "expresiones-011",
+"cat": "expresiones",
+"lvl": 1,
+"es": "Regular / ni bien ni mal",
+"pr": "ghir hakak",
+"ar": "غير هاكاك",
+"nota": "Respuesta típica a labas? cuando no todo va bien"
+},
+{
+"id": "expresiones-012",
+"cat": "expresiones",
+"lvl": 1,
+"es": "Sin prisa",
+"pr": "bla zerba",
+"ar": "بلا زربة",
+"nota": "De zerba, prisa (ana zerban = tengo prisa)"
+},
+{
+"id": "expresiones-013",
+"cat": "expresiones",
+"lvl": 1,
+"es": "No te agobies",
+"pr": "hanni rasek",
+"ar": "هني راسك",
+"nota": "Lit. tranquiliza tu cabeza. Muy de calle"
+},
+{
+"id": "expresiones-014",
+"cat": "expresiones",
+"lvl": 1,
+"es": "Sin duda",
+"pr": "bla shak",
+"ar": "بلا شك",
+"nota": ""
+},
+{
+"id": "expresiones-015",
+"cat": "expresiones",
+"lvl": 1,
+"es": "¡Enhorabuena!",
+"pr": "mbruk!",
+"ar": "مبروك!",
+"nota": "Se contesta lla ybarek fik"
+},
+{
+"id": "expresiones-016",
+"cat": "expresiones",
+"lvl": 1,
+"es": "Respuesta a mbruk",
+"pr": "lla ybarek fik",
+"ar": "الله يبارك فيك",
+"nota": ""
+},
+{
+"id": "expresiones-017",
+"cat": "expresiones",
+"lvl": 2,
+"es": "Ya veo / ya entiendo",
+"pr": "fhemtek",
+"ar": "فهمتك",
+"nota": "Lit. te he entendido. Para seguir la conversación"
+},
+{
+"id": "expresiones-018",
+"cat": "expresiones",
+"lvl": 2,
+"es": "Eso es lo que hay",
+"pr": "hadshi lli kayn",
+"ar": "هادشي اللي كاين",
+"nota": "Para cerrar una discusión o un regateo"
+},
+{
+"id": "expresiones-019",
+"cat": "expresiones",
+"lvl": 2,
+"es": "¡Qué exagerado!",
+"pr": "bezzaf 3lik!",
+"ar": "بزاف عليك!",
+"nota": "Dudosa como frase hecha: bezzaf = demasiado; se entiende como 'te pasas'"
+},
+{
+"id": "expresiones-020",
+"cat": "expresiones",
+"lvl": 1,
+"es": "Un minuto, ahora voy",
+"pr": "wa7ed d-dqiqa, daba nji",
+"ar": "واحد الدقيقة، دابا نجي",
+"nota": ""
+},
+{
+"id": "expresiones-021",
+"cat": "expresiones",
+"lvl": 2,
+"es": "Dios mediante, sin problema",
+"pr": "inshallah ma kayn mushkil",
+"ar": "إن شاء الله ما كاين مشكل",
+"nota": ""
+},
+{
+"id": "expresiones-022",
+"cat": "expresiones",
+"lvl": 2,
+"es": "Me da pereza",
+"pr": "fiya l-ferzaz",
+"ar": "فيا الفرزاز",
+"nota": "Dudosa: forma oída en el norte; en otras zonas kaykhssni l-khater o ma 3ndish l-jehd"
+},
+{
+"id": "clima-010",
+"cat": "clima",
+"lvl": 1,
+"es": "¿Qué tiempo hace?",
+"pr": "kidayr l-7al?",
+"ar": "كيداير الحال؟",
+"nota": "l-7al = el tiempo, igual que en l-7al skhun"
+},
+{
+"id": "clima-011",
+"cat": "clima",
+"lvl": 1,
+"es": "Está nublado",
+"pr": "l-7al mghiyyem",
+"ar": "الحال مغيم",
+"nota": ""
+},
+{
+"id": "clima-012",
+"cat": "clima",
+"lvl": 1,
+"es": "Hace viento",
+"pr": "kayn r-ri7",
+"ar": "كاين الريح",
+"nota": ""
+},
+{
+"id": "clima-013",
+"cat": "clima",
+"lvl": 1,
+"es": "Nube",
+"pr": "s-s7aba",
+"ar": "السحابة",
+"nota": ""
+},
+{
+"id": "clima-014",
+"cat": "clima",
+"lvl": 1,
+"es": "Paraguas",
+"pr": "l-mdolla",
+"ar": "المظلة",
+"nota": ""
+},
+{
+"id": "clima-015",
+"cat": "clima",
+"lvl": 2,
+"es": "Mañana va a llover",
+"pr": "ghedda ghadi tti7 sh-shta",
+"ar": "غدا غادي تطيح الشتا",
+"nota": "Lit. va a caer la lluvia"
+},
+{
+"id": "clima-016",
+"cat": "clima",
+"lvl": 2,
+"es": "Me he mojado",
+"pr": "tfezzegt",
+"ar": "تفزڭت",
+"nota": "Para cuando llegas empapado"
+},
+{
+"id": "clima-017",
+"cat": "clima",
+"lvl": 1,
+"es": "Estoy sudando",
+"pr": "ana kan3req",
+"ar": "أنا كنعرق",
+"nota": ""
+},
+{
+"id": "clima-018",
+"cat": "clima",
+"lvl": 1,
+"es": "Hace mucho calor",
+"pr": "l-7al skhun bezzaf",
+"ar": "الحال سخون بزاف",
+"nota": ""
+},
+{
+"id": "clima-019",
+"cat": "clima",
+"lvl": 2,
+"es": "Tormenta",
+"pr": "l-3asifa",
+"ar": "العاصفة",
+"nota": "Dudosa en habla diaria: también se oye r-r3ed (truenos)"
+},
+{
+"id": "clima-020",
+"cat": "clima",
+"lvl": 1,
+"es": "Hace fresco",
+"pr": "l-7al bared shwiya",
+"ar": "الحال بارد شوية",
+"nota": ""
+},
+{
+"id": "clima-021",
+"cat": "clima",
+"lvl": 1,
+"es": "Ha salido el sol",
+"pr": "khrjat sh-shems",
+"ar": "خرجات الشمس",
+"nota": ""
+},
+{
+"id": "clima-022",
+"cat": "clima",
+"lvl": 1,
+"es": "Trueno",
+"pr": "r-r3ed",
+"ar": "الرعد",
+"nota": ""
+},
+{
+"id": "clima-023",
+"cat": "clima",
+"lvl": 2,
+"es": "Hoy hace bueno, vamos fuera",
+"pr": "l-yum l-7al zwin, yallah nkhorju",
+"ar": "اليوم الحال زوين، يالاه نخرجو",
+"nota": ""
+},
+{
+"id": "cuerpo-027",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Me duele aquí",
+"pr": "kaydrrni hna",
+"ar": "كيضرني هنا",
+"nota": "Señalando. Sirve para todo"
+},
+{
+"id": "cuerpo-028",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Me duele la garganta",
+"pr": "kaydrrni l-7elq",
+"ar": "كيضرني الحلق",
+"nota": ""
+},
+{
+"id": "cuerpo-029",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Me duele la muela",
+"pr": "kaydrrni d-dersa",
+"ar": "كيضرني الضرسة",
+"nota": "d-dersa = muela; s-snna = diente"
+},
+{
+"id": "cuerpo-030",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Tengo tos",
+"pr": "fiya l-k7a",
+"ar": "فيا الكحة",
+"nota": ""
+},
+{
+"id": "cuerpo-031",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Estoy mareado",
+"pr": "rasi kaydur",
+"ar": "راسي كيدور",
+"nota": "Lit. la cabeza me da vueltas"
+},
+{
+"id": "cuerpo-032",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Soy alérgico a...",
+"pr": "3ndi l-7assasiya m3a...",
+"ar": "عندي الحساسية مع...",
+"nota": ""
+},
+{
+"id": "cuerpo-033",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Cita (médica)",
+"pr": "r-rundivu",
+"ar": "الرونديفو",
+"nota": "Del francés rendez-vous"
+},
+{
+"id": "cuerpo-034",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Pastilla",
+"pr": "l-7abba",
+"ar": "الحبة",
+"nota": ""
+},
+{
+"id": "cuerpo-035",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Receta del médico",
+"pr": "l-ordonans",
+"ar": "لوردونانس",
+"nota": "Del francés ordonnance"
+},
+{
+"id": "cuerpo-036",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Urgencias",
+"pr": "l-mosta3jalat",
+"ar": "المستعجلات",
+"nota": ""
+},
+{
+"id": "cuerpo-037",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Ya estoy mejor",
+"pr": "daba ana 7sen",
+"ar": "دابا أنا حسن",
+"nota": ""
+},
+{
+"id": "cuerpo-038",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Me he caído",
+"pr": "t7t",
+"ar": "طحت",
+"nota": ""
+},
+{
+"id": "cuerpo-039",
+"cat": "cuerpo",
+"lvl": 1,
+"es": "Sangre",
+"pr": "d-dem",
+"ar": "الدم",
+"nota": ""
+},
+{
+"id": "cuerpo-040",
+"cat": "cuerpo",
+"lvl": 2,
+"es": "Desde hace tres días",
+"pr": "hadi tlata d l-iyyam",
+"ar": "هادي تلاتة د الأيام",
+"nota": "hadi + tiempo = desde hace"
 }
 ]
 }

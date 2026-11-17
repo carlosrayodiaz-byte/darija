@@ -801,6 +801,138 @@
 "ar": "شوية بشوية. شكرا على كلشي!"
 }
 ]
+},
+{
+"id": "d16",
+"title": "En el médico",
+"place": "En la consulta",
+"other": "Médico",
+"lvl": 2,
+"lines": [
+{
+"w": "o",
+"es": "Hola, pasa. ¿Qué te pasa?",
+"pr": "salamu 3alikum, dkhol. ash bik?",
+"ar": "السلام عليكم، دخل. آش بيك؟"
+},
+{
+"w": "t",
+"es": "Me duele la garganta y tengo tos.",
+"pr": "kaydrrni l-7elq u fiya l-k7a.",
+"ar": "كيضرني الحلق وفيا الكحة."
+},
+{
+"w": "o",
+"es": "¿Desde cuándo?",
+"pr": "mn fuqash?",
+"ar": "من فوقاش؟"
+},
+{
+"w": "t",
+"es": "Desde hace tres días.",
+"pr": "hadi tlata d l-iyyam.",
+"ar": "هادي تلاتة د الأيام."
+},
+{
+"w": "o",
+"es": "¿Tienes fiebre?",
+"pr": "wash fik s-skhana?",
+"ar": "واش فيك السخانة؟"
+},
+{
+"w": "t",
+"es": "Un poco. Y estoy mareado.",
+"pr": "shwiya. u rasi kaydur.",
+"ar": "شوية. وراسي كيدور."
+},
+{
+"w": "o",
+"es": "¿Eres alérgico a algún medicamento?",
+"pr": "wash 3ndek l-7assasiya m3a shi dwa?",
+"ar": "واش عندك الحساسية مع شي دوا؟"
+},
+{
+"w": "t",
+"es": "No, a nada.",
+"pr": "la, m3a walu.",
+"ar": "لا، مع والو."
+},
+{
+"w": "o",
+"es": "Te escribo la receta. Una pastilla tres veces al día.",
+"pr": "ghadi nkteb lik l-ordonans. 7abba tlata d l-merrat f n-nhar.",
+"ar": "غادي نكتب ليك لوردونانس. حبة تلاتة د المرات ف النهار."
+},
+{
+"w": "t",
+"es": "Vale. Gracias, doctor.",
+"pr": "wakha. shukran a t-tbib.",
+"ar": "واخا. شكرا آ الطبيب."
+},
+{
+"w": "o",
+"es": "De nada. ¡Que te mejores!",
+"pr": "bla jmil. lla yshafik!",
+"ar": "بلا جميل. الله يشافيك!"
+}
+]
+},
+{
+"id": "d17",
+"title": "Un día de lluvia",
+"place": "Por WhatsApp",
+"other": "Amigo",
+"lvl": 2,
+"lines": [
+{
+"w": "o",
+"es": "¿Qué hay? ¿Seguimos con lo de la playa?",
+"pr": "ash khbarek? mazal ghadi nmshiw l l-b7er?",
+"ar": "آش خبارك؟ مازال غادي نمشيو للبحر؟"
+},
+{
+"w": "t",
+"es": "¿Has visto qué tiempo hace? Está nublado.",
+"pr": "shefti kidayr l-7al? l-7al mghiyyem.",
+"ar": "شفتي كيداير الحال؟ الحال مغيم."
+},
+{
+"w": "o",
+"es": "Dicen que mañana va a llover.",
+"pr": "kaygulu ghedda ghadi tti7 sh-shta.",
+"ar": "كيقولو غدا غادي تطيح الشتا."
+},
+{
+"w": "t",
+"es": "¡Madre mía! Entonces nada de playa.",
+"pr": "a yemma! iwa bla b7er.",
+"ar": "آ يما! إيوا بلا بحر."
+},
+{
+"w": "o",
+"es": "No te agobies, vamos a un café.",
+"pr": "hanni rasek, yallah l shi qahwa.",
+"ar": "هني راسك، يالاه لشي قهوة."
+},
+{
+"w": "t",
+"es": "Vale. ¿A qué hora quedamos?",
+"pr": "wakha. fuqash ntlaqaw?",
+"ar": "واخا. فوقاش نتلاقاو؟"
+},
+{
+"w": "o",
+"es": "A las cinco, sin prisa.",
+"pr": "f l-khamsa, bla zerba.",
+"ar": "ف الخمسة، بلا زربة."
+},
+{
+"w": "t",
+"es": "Perfecto. ¡Y trae paraguas!",
+"pr": "mzyan. u jib l-mdolla!",
+"ar": "مزيان. وجيب المظلة!"
+}
+]
 }
 ]
 }
