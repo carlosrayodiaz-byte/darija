@@ -334,6 +334,46 @@ html[data-dir=down]::view-transition-new(root){animation-name:vtFadeIn}
 .chip.zero{background:rgba(142,142,152,.14);color:#8E8E98}
 .conf{clip-path:polygon(50% 0%,61% 22%,85% 15%,78% 39%,100% 50%,78% 61%,85% 85%,61% 78%,50% 100%,39% 78%,15% 85%,22% 61%,0% 50%,22% 39%,15% 15%,39% 22%);border-radius:0}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+/* ===== Familia WEBS_APPS v1 · 17 nov 2026 · bloque común, igual en las tres apps ===== */
+:root{
+  --bg:#0B0B0D;--s1:#141417;--s2:#1B1B20;--s3:#24242A;
+  --line:rgba(255,255,255,.08);--line2:rgba(255,255,255,.12);
+  --glass:rgba(22,22,26,.72);
+  --tx:#F4F4F5;--tx2:#A1A1AA;--tx3:#8E8E98;
+  --ok:#3DD68C;--warn:#FFB84D;--bad:#FF5D73;
+  --f-num:'Unbounded',system-ui,sans-serif;--f-tx:'Manrope',system-ui,sans-serif;
+  --sp-1:4px;--sp-2:8px;--sp-3:12px;--sp-4:16px;--sp-5:20px;--sp-6:24px;--sp-8:32px;--gutter:16px;
+  --r-xs:8px;--r-sm:12px;--r-md:16px;--r-lg:22px;--r-xl:28px;
+  --sh-float:0 16px 40px rgba(0,0,0,.5);
+  --ease:cubic-bezier(.2,.8,.2,1);--spring:cubic-bezier(.3,1.4,.5,1);
+  --d-1:150ms;--d-2:300ms;--d-3:450ms;--press:.97;
+}
+.eyebrow{font-family:var(--f-tx);font-size:13px;font-weight:700;line-height:1.3;letter-spacing:0;text-transform:none;color:var(--tx2)}
+/* ===== Familia · Darija ===== */
+:root{--surface:var(--s1);--surface2:var(--s2);--text:var(--tx);--muted:var(--tx3);--dim:var(--tx3);--acc-ink:#fff}
+/* D1 · base común, contraste y títulos */
+.sheet .panel{background:var(--s1)}
+h2{font-size:28px;letter-spacing:-.02em}
+#home h2{font-size:24px}  /* en Hoy comparte fila con la racha y Ajustes */
+#home h2{white-space:nowrap}
+@media (max-width:389px){#home h2{font-size:21px}}  /* 375: «Salam, Carlos» no cabía en una línea junto a la racha */
+.tab{font-size:11px}
+.tab svg{width:22px;height:22px;stroke-linecap:round;stroke-linejoin:round}
+.fab{width:60px;height:60px;border-radius:20px;margin-top:-28px}
+.fab.live::before{border-radius:20px}
+/* D2 · hero en calma */
+.hero .glow,.hero .star{animation:none}
+.hero,.btn{box-shadow:none}
+/* D3 · lo seleccionado en blanco; etiquetas en minúscula */
+.seg .knob{background:var(--tx);box-shadow:none}
+.seg button.on{color:#0B0B0D}
+#list-chips .chip.accent{background:var(--tx);color:#0B0B0D}
+.tip .t,.bub .who{font-size:13px;letter-spacing:0;text-transform:none}
+/* D5 · Progreso antes de la primera sesión */
+.empty0{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.empty0 .eico{width:44px;height:44px;border-radius:14px;background:var(--s2);display:grid;place-items:center;color:var(--accent-2)}
+.empty0 b{font-size:15px;font-weight:800}
+.empty0 p{font-size:13.5px;line-height:1.45;color:var(--tx3);font-weight:600;margin-top:4px}
 </style>
 </head>
 <body>
@@ -360,11 +400,11 @@ html[data-dir=down]::view-transition-new(root){animation-name:vtFadeIn}
   <section class="view" id="v-study"><div class="study" id="study"></div></section>
 
   <nav class="tabbar" id="tabbar">
-    <button class="tab on" data-v="home"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Hoy</button>
-    <button class="tab" data-v="ex"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg>Ejercicios</button>
+    <button class="tab on" data-v="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>Hoy</button>
+    <button class="tab" data-v="ex"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>Ejercicios</button>
     <button class="fab" id="fab" aria-label="Estudiar"><svg viewBox="0 0 24 24"><polygon points="12.00,1.00 15.10,4.52 19.78,4.22 19.48,8.90 23.00,12.00 19.48,15.10 19.78,19.78 15.10,19.48 12.00,23.00 8.90,19.48 4.22,19.78 4.52,15.10 1.00,12.00 4.52,8.90 4.22,4.22 8.90,4.52" fill="#fff" stroke="#fff" stroke-width="1" stroke-linejoin="round"/><circle cx="12" cy="12" r="3.4" fill="#F5B53D"/></svg><span class="cnt" id="fab-n" hidden></span></button>
     <button class="tab" data-v="list"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>Listado</button>
-    <button class="tab" data-v="prog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Progreso</button>
+    <button class="tab" data-v="prog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>Progreso</button>
   </nav>
 </div>
 
@@ -1088,6 +1128,7 @@ function weekStats(offset){
   for(let k=0;k<=wd;k++){ const d=new Date(t); d.setDate(t.getDate()-wd+k-7*offset); const x=S.days[dayKey(d)]; if(x&&x.rev){ r.rev+=x.rev; r.ok+=x.ok||0; r.nw+=x.nw||0; r.days++; } }
   r.pct = r.rev ? Math.round(r.ok/r.rev*100) : 0; r.span=wd+1; return r;
 }
+document.addEventListener('click',e=>{ if(e.target.closest('#b-first')) $('#fab').click(); });
 function renderProg(){
   const st={new:0,learn:0,dom:0}; const per={};
   ITEMS.forEach(it=>{ const s=status(it.id); st[s]++; const p=per[it.cat]||(per[it.cat]={n:0,learn:0,dom:0}); p.n++; if(s!=='new') p[s]++; });
@@ -1118,7 +1159,7 @@ function renderProg(){
     <div class="stat"><div class="n" style="color:var(--saffron)" data-cu="${st.learn}">${st.learn}</div><div class="t">Aprendiendo</div></div>
     <div class="stat"><div class="n" data-cu="${st.new}">${st.new}</div><div class="t">Por ver</div></div>
   </div>
-  <div class="card">
+  ${total?`  <div class="card">
     <div class="row"><span style="font-weight:800;font-size:14px">Esta semana</span><span class="sub" style="font-size:12px">vs. la anterior hasta hoy</span></div>
     <div class="wk">
       <div><b data-cu="${w.rev}">${w.rev}</b><span>${w.rev===1?'repaso':'repasos'}</span>${delta(w.rev,pw.rev)}</div>
@@ -1126,9 +1167,9 @@ function renderProg(){
       <div><b data-cu="${w.nw}">${w.nw}</b><span>${w.nw===1?'frase nueva':'frases nuevas'}</span>${delta(w.nw,pw.nw)}</div>
       <div><b>${w.pct}%</b><span>acertadas</span>${pw.rev&&w.rev?`<em style="color:${w.pct>=pw.pct?'var(--mint)':'var(--red)'}">${w.pct>=pw.pct?'+':''}${w.pct-pw.pct} pts</em>`:''}</div>
     </div>
-  </div>
+  </div>`:`<div class="card empty0"><div class="eico"><svg width="22" height="22" viewBox="0 0 24 24"><polygon points="12,1 15.1,4.52 19.78,4.22 19.48,8.9 23,12 19.48,15.1 19.78,19.78 15.1,19.48 12,23 8.9,19.48 4.22,19.78 4.52,15.1 1,12 4.52,8.9 4.22,4.22 8.9,4.52" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></div><div><b>Aquí verás cada semana</b><p>Tus repasos, los días que estudias y cuánto aciertas, comparados con la semana anterior.</p></div><button class="btn" id="b-first">Empezar la primera sesión</button></div>`}
   <div class="card">
-    <div class="row"><span style="font-weight:800;font-size:14px">Actividad</span><span class="chip saffron">${sk} ${sk===1?'día seguido':'días seguidos'}</span></div>
+    <div class="row"><span style="font-weight:800;font-size:14px">Actividad</span><span class="chip ${sk?'saffron':'zero'}">${sk} ${sk===1?'día seguido':'días seguidos'}</span></div>
     <div class="hmonths" style="grid-template-columns:repeat(${WEEKS},1fr)">${months}</div>
     <div class="heat" id="heat" style="grid-template-columns:repeat(${WEEKS},1fr)">${cells}</div>
     <div class="row" style="margin-top:10px"><span class="sub" style="font-size:12px">Mejor racha: ${best} ${best===1?'día':'días'}</span>
